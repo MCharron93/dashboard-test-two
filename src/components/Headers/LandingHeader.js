@@ -6,22 +6,22 @@ import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 const LandingHeader = () => {
   return (
     <>
-      <div className="header bg-gradient-info pb-8 pt-5 pt-md-8">
+      <div className="header bg-gradient-primary pb-8 pt-5 pt-md-8">
         <Container fluid>
           <div className="header-body">
             {/* Card stats */}
             <Row>
               <Col lg="6" xl="3">
                 <Card className="card-stats mb-4 mb-xl-0">
-                  <CardBody>
-                    <Row>
-                      <div className="col">
                         <CardTitle
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
                           Changes
                         </CardTitle>
+                  {/* <CardBody>
+                    <Row>
+                      <div className="col">
                         <span className="h2 font-weight-bold mb-0">
                           350,897
                         </span>
@@ -38,7 +38,7 @@ const LandingHeader = () => {
                       </span>{" "}
                       <span className="text-nowrap">Since last month</span>
                     </p>
-                  </CardBody>
+                  </CardBody> */}
                 </Card>
               </Col>
               <Col lg="6" xl="3">

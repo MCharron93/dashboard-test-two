@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from 'components/Headers/Header.js'
+import LandingHeader from 'components/Headers/LandingHeader.js'
 
 import {
     Button,
@@ -21,8 +21,8 @@ import {
 const Landing = () => {
     return(
         <>
-        {/* NOTE this header is a custom component pulled in, a new component can be made from the templated ones */}
-        <Header />
+        {/* NOTE this header is a custom component pulled in and can be altered easily */}
+        <LandingHeader/>
         <Container className="mt--7" fluid>
         <Row>
           <div className="col">
