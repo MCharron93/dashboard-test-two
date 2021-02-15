@@ -84,7 +84,7 @@ var routes = [
   },
   {
     path: "/humanresources",
-    name: "HumanResources",
+    name: "Human Resources",
     icon: "ni ni-tie-bow text-cyan",
     component: HumanResources,
     layout: "/resources",

@@ -74,7 +74,7 @@ $purple:  #cea3ff !default;
 $pink:    #ffb6c1 !default;
 $red:     #ff393d !default;
 $orange:  #fb6340 !default;
-$yellow:  rgb(113, 113, 98) !default;
+$yellow:  #ffff63 !default;
 $green:   #35a04b !default;
 $teal:    #3cf2ca !default;
 $cyan:    #7bdff2 !default;
@@ -100,7 +100,7 @@ $colors: map-merge((
 
 $default:       #519ef7 !default;
 $primary:       #fe64a3 !default;
-$secondary:     #ffff63 !default;
+$secondary:     #ade84e !default;
 $success:       $green !default;
 $info:          $teal !default;
 $warning:       $orange !default;
@@ -696,7 +696,7 @@ $dropdown-box-shadow:            0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px 
 
 $nav-link-padding-y:                .25rem !default;
 $nav-link-padding-x:                .75rem !default;
-$nav-link-color:                    $gray-700 !default;
+$nav-link-color:                    $white !default;
 $nav-link-hover-color:              theme-color("primary") !default;
 $nav-link-disabled-color:           $gray-600 !default;
 
@@ -755,9 +755,9 @@ $navbar-light-bg:                   transparent !default;
 $navbar-light-hover-bg:             rgba(0, 0, 0, .1) !default;
 $navbar-light-active-bg:            rgba(0, 0, 0, .1) !default;
 $navbar-light-border-color:         $gray-100 !default;
-$navbar-light-color:                rgba($black, .5) !default;
-$navbar-light-hover-color:          rgba($black, .7) !default;
-$navbar-light-active-color:         rgba($black, .9) !default;
+$navbar-light-color:                $white !default;
+$navbar-light-hover-color:          $secondary !default;
+$navbar-light-active-color:         $success !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-border-color: transparent !default;
 
