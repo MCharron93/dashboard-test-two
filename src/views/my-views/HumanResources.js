@@ -1,39 +1,134 @@
 import React from 'react';
-import Tab from 'variables/tabs.js'
+import classnames from "classnames";
+// import Tab from 'variables/tabs.js'
 
-import { 
-    // Card,
-    Container,
-    Row,
-    // Card
-} from "reactstrap";
+import {
+    Card,
+    CardBody,
+    NavItem,
+    NavLink,
+    Nav,
+    TabContent,
+    TabPane
+  } from "reactstrap";
 
 
 class HumanResources extends React.Component {
     state = {
-        tabs: [
-        {
-            name: "Settings",
-        },
-        {
-            name: "Documents"
-        },
-        {
-            name: "Tables"
-        },
-    ]}
+        tabs: 1
+      };
+      toggleNavs = (e, state, index) => {
+        e.preventDefault();
+        this.setState({
+          [state]: index
+        });
+      };
 render() {
     return (
         <React.Fragment>
-        <Container>
-            <Row className="d-flex justify-content-center">
-                {this.state.tabs.map(tab =>{
-                    return(
-                        <Tab key={tab.index} name={tab.name} />
-                    )
+        <div className="nav-wrapper">
+          <Nav
+            className="nav-fill flex-column flex-md-row mx-3"
+            id="tabs-icons-text"
+            pills
+            role="tablist"
+          >
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 1}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 1
                 })}
-            </Row>
-        </Container>
+                onClick={e => this.toggleNavs(e, "tabs", 1)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-cloud-upload-96 mr-2" />
+                Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 2}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 2
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 2)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-bell-55 mr-2" />
+                Profile
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 3}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 3
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 3)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-calendar-grid-58 mr-2" />
+                Messages
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 4}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 4
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 4)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-cloud-upload-96 mr-2" />
+                Resources
+              </NavLink>
+            </NavItem>
+          </Nav>
+        </div>
+        <Card className="shadow">
+          <CardBody>
+            <TabContent activeTab={"tabs" + this.state.tabs}>
+              <TabPane tabId="tabs1">
+                <p className="description">
+                  Some HR info can go into here. 
+                </p>
+                <p className="description">
+                  Raw denim you probably haven't heard of them jean shorts
+                  Austin. Nesciunt tofu stumptown aliqua, retro synth master
+                  cleanse.
+                </p>
+              </TabPane>
+              <TabPane tabId="tabs2">
+                <p className="description">
+                  Cosby sweater eu banh mi, qui irure terry richardson ex
+                  squid. Aliquip placeat salvia cillum iphone. Seitan aliquip
+                  quis cardigan american apparel, butcher voluptate nisi qui.
+                </p>
+              </TabPane>
+              <TabPane tabId="tabs3">
+                <p className="description">
+                  Raw data
+                </p>
+              </TabPane>
+              <TabPane tabId="tabs4">
+                <p className="description">
+                  Some HR info can go into here. 
+                </p>
+                <p className="description">
+                  Raw denim you probably haven't heard of them jean shorts
+                  Austin. Nesciunt tofu stumptown aliqua, retro synth master
+                  cleanse.
+                </p>
+              </TabPane>
+            </TabContent>
+          </CardBody>
+        </Card>
         </React.Fragment>
     )
     }
