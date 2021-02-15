@@ -1,23 +1,29 @@
 import React from "react";
 
+import Header from 'components/Headers/Header.js'
+
 import {
-    // Button,
+    Button,
     Card,
     CardHeader,
     CardBody,
+    Container,
     // FormGroup,
     // Form,
     // Input,
     // InputGroupAddon,
     // InputGroupText,
     // InputGroup,
-    // Row,
+    Row,
     Col,
   } from "reactstrap";
 
 const Landing = () => {
     return(
         <>
+        <Header>
+        <Container className="bg-primary">
+            <Row className="m-5">
             <Col>
                 <Card>
                     <CardHeader>
@@ -36,6 +42,45 @@ const Landing = () => {
                     </CardBody>
                 </Card>
             </Col>
+            <Col>
+                <Card>
+                    <CardHeader>
+                        <div>
+                            <h4>
+                                Hello Nerds!
+                            </h4>
+                       </div> 
+                    </CardHeader>
+                    <CardBody>
+                        <div>
+                            <p>
+                                This is just a test for creating a card.
+                            </p>
+                        </div>
+                    </CardBody>
+                </Card>
+            </Col><Col>
+                <Card>
+                    <CardHeader>
+                        <div>
+                            <h4>
+                                Hello Nerds!
+                            </h4>
+                       </div> 
+                    </CardHeader>
+                    <CardBody>
+                        <div>
+                            <p>
+                                This is just a test for creating a card.
+                            </p>
+                        </div>
+                    </CardBody>
+                    <Button className="text-indigo">Click me</Button>
+                </Card>
+            </Col>
+            </Row>
+        </Container>
+        </Header>
         </>
     )
 }
