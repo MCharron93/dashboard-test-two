@@ -1,17 +1,39 @@
 import React from 'react';
 
-import { Container } from "reactstrap";
+import { 
+    Container,
+    Row,
+    Card
+} from "reactstrap";
 
 
-const HumanResources = () => {
+class HumanResources extends Component {
+    state = [
+        {
+            name: "Settings",
+        },
+        {
+            name: "Documents"
+        },
+        {
+            name: "Tables"
+        },
+    ]
+render() {
     return (
-        <>
+        <React.Fragment>
         <Container>
-            <h2>Hello</h2>
+            <Row>
+                {this.state.tabs.map(tab =>{
+                    return(
+                        
+                    )
+                })}
+            </Row>
         </Container>
-        </>
-
+        </React.Fragment>
     )
+    }
 }
 
 export default HumanResources;
