@@ -39,7 +39,7 @@ const AdminNavbar = () => {
             <img
               alt="..."
               src={
-                require("../../assets/img/brand/argon-react.png").default
+                require("../../assets/img/brand/happy-hippo-logo.png").default
               }
             />
           </NavbarBrand>
