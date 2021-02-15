@@ -55,7 +55,7 @@ const Resources = (props) => {
         routes={routes}
         logo={{
           innerLink: "/admin/index",
-          imgSrc: require("../assets/img/brand/happy-hippo-logo-no-text.png").default,
+          imgSrc: require("../assets/img/brand/happy-hippo-logo.png").default,
           imgAlt: "...",
         }}
       />
