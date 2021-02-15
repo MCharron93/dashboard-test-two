@@ -81,5 +81,12 @@ var routes = [
     component: Landing,
     layout: "/home",
   },
+  {
+    path: "/hr",
+    name: "Resources",
+    icon: "ni ni-tie-bow text-cyan",
+    component: Landing,
+    layout: "/home",
+  },
 ];
 export default routes;
