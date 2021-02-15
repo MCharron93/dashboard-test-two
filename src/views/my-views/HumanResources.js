@@ -1,14 +1,17 @@
 import React from 'react';
+import Tab from 'variables/tabs.js'
 
 import { 
+    // Card,
     Container,
     Row,
-    Card
+    // Card
 } from "reactstrap";
 
 
-class HumanResources extends Component {
-    state = [
+class HumanResources extends React.Component {
+    state = {
+        tabs: [
         {
             name: "Settings",
         },
@@ -18,15 +21,15 @@ class HumanResources extends Component {
         {
             name: "Tables"
         },
-    ]
+    ]}
 render() {
     return (
         <React.Fragment>
         <Container>
-            <Row>
+            <Row className="d-flex justify-content-center">
                 {this.state.tabs.map(tab =>{
                     return(
-                        
+                        <Tab key={tab.index} name={tab.name} />
                     )
                 })}
             </Row>
