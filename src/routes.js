@@ -23,7 +23,7 @@ import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 import Landing from "views/my-views/Landing.js";
-import HR from "views/my-views/HR.js";
+import HumanResources from "views/my-views/HumanResources.js";
 
 var routes = [
   {
@@ -83,10 +83,10 @@ var routes = [
     layout: "/home",
   },
   {
-    path: "/hr",
-    name: "HR",
+    path: "/humanresources",
+    name: "HumanResources",
     icon: "ni ni-tie-bow text-cyan",
-    component: HR,
+    component: HumanResources,
     layout: "/resources",
   },
 ];
