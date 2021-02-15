@@ -1,12 +1,12 @@
 import React from 'react';
 
-import ResourcesHeader from 'components/Headers/ResourcesHeader.js'
+import Navs from 'components/Headers/ResourcesHeader.js'
 
 import {
-    Button,
-    Card,
-    CardHeader,
-    CardBody,
+    // Button,
+    // Card,
+    // CardHeader,
+    // CardBody,
     Container,
     // FormGroup,
     // Form,
@@ -14,10 +14,17 @@ import {
     // InputGroupAddon,
     // InputGroupText,
     // InputGroup,
-    Row,
+    // Row,
     // Col,
   } from "reactstrap";
 
-  const Hr = () => {
-
+  const HR = () => {
+    <>
+        <Navs />
+        <Container>
+            Hello
+        </Container>
+    </>
   }
+
+  export default HR;

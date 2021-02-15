@@ -22,7 +22,8 @@ import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
-import Landing from "views/my-views/Landing";
+import Landing from "views/my-views/Landing.js";
+import HR from "views/my-views/HR.js";
 
 var routes = [
   {
@@ -83,10 +84,10 @@ var routes = [
   },
   {
     path: "/hr",
-    name: "Resources",
+    name: "HR",
     icon: "ni ni-tie-bow text-cyan",
-    component: Landing,
-    layout: "/home",
+    component: HR,
+    layout: "/resources",
   },
 ];
 export default routes;
