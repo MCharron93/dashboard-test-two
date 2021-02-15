@@ -15,12 +15,13 @@ import {
     // InputGroupText,
     // InputGroup,
     Row,
-    Col,
+    // Col,
   } from "reactstrap";
 
 const Landing = () => {
     return(
         <>
+        {/* NOTE this header is a custom component pulled in, a new component can be made from the templated ones */}
         <Header />
         <Container className="mt--7" fluid>
         <Row>
@@ -62,6 +63,7 @@ const Landing = () => {
           </div>
         </Row>
         <Row>
+            {/* NOTE margin classes work the same due to boostrap for React */}
         <div className="col my-4">
             <Card className="shadow border-0">
             <CardHeader>
@@ -78,54 +80,13 @@ const Landing = () => {
                             </p>
                         </div>
                     </CardBody>
+                    {/* NOTE using bootstrap, many commands are the same for styling and orientation */}
+                    <div className="justify-content-center d-flex">
+                    <Button className="btn-sml">Click me</Button>
+                    </div>
             </Card>
           </div>
         </Row>
-      </Container>
-        <Container className="bg-primary">
-            <Row className="m-5">
-            <Col>
-                <Card>
-                   
-                </Card>
-            </Col>
-            <Col>
-                <Card>
-                    <CardHeader>
-                        <div>
-                            <h4>
-                                Hello Nerds!
-                            </h4>
-                       </div> 
-                    </CardHeader>
-                    <CardBody>
-                        <div>
-                            <p>
-                                This is just a test for creating a card.
-                            </p>
-                        </div>
-                    </CardBody>
-                </Card>
-            </Col><Col>
-                <Card>
-                    <CardHeader>
-                        <div>
-                            <h4>
-                                Hello Nerds!
-                            </h4>
-                       </div> 
-                    </CardHeader>
-                    <CardBody>
-                        <div>
-                            <p>
-                                This is just a test for creating a card.
-                            </p>
-                        </div>
-                    </CardBody>
-                    <Button className="text-indigo">Click me</Button>
-                </Card>
-            </Col>
-            </Row>
         </Container>
         </>
     )
