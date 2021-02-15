@@ -19,7 +19,7 @@ import Index from "views/Index.js";
 import Profile from "views/examples/Profile.js";
 import Maps from "views/examples/Maps.js";
 // import Register from "views/examples/Register.js";
-import Login from "views/examples/Login.js";
+// import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 import Landing from "views/my-views/Landing.js";
@@ -61,13 +61,13 @@ var routes = [
     component: Tables,
     layout: "/admin",
   },
-  {
-    path: "/login",
-    name: "Login",
-    icon: "ni ni-key-25",
-    component: Login,
-    layout: "/auth",
-  },
+  // {
+  //   path: "/login",
+  //   name: "Login",
+  //   icon: "ni ni-key-25",
+  //   component: Login,
+  //   layout: "/auth",
+  // },
   // {
   //   path: "/register",
   //   name: "Register",
