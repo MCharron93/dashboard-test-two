@@ -22,6 +22,7 @@ import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
+import Landing from "views/my-views/Landing";
 
 var routes = [
   {
@@ -77,7 +78,7 @@ var routes = [
     path: "/landing",
     name: "Landing",
     icon: "ni ni-shop text-indigo",
-    component: Register,
+    component: Landing,
     layout: "/home",
   },
 ];

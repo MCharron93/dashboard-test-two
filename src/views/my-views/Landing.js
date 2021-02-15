@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-    Button,
+    // Button,
     Card,
     CardHeader,
     CardBody,
@@ -11,14 +11,13 @@ import {
     // InputGroupAddon,
     // InputGroupText,
     // InputGroup,
-    Row,
+    // Row,
     Col,
   } from "reactstrap";
 
 const Landing = () => {
     return(
         <>
-        <Row>
             <Col>
                 <Card>
                     <CardHeader>
@@ -37,7 +36,6 @@ const Landing = () => {
                     </CardBody>
                 </Card>
             </Col>
-            </Row>
         </>
     )
 }
