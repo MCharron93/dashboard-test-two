@@ -69,9 +69,16 @@ var routes = [
   {
     path: "/register",
     name: "Register",
-    icon: "ni ni-circle-08 text-pink",
+    icon: "ni ni-circle-08 text-success",
     component: Register,
     layout: "/auth",
+  },
+  {
+    path: "/landing",
+    name: "Landing",
+    icon: "ni ni-shop text-indigo",
+    component: Register,
+    layout: "/home",
   },
 ];
 export default routes;
