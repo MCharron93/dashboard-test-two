@@ -54,7 +54,7 @@ const Resources = (props) => {
         {...props}
         routes={routes}
         logo={{
-          innerLink: "/home/landing",
+          innerLink: "/home/dashboard",
           imgSrc: require("../assets/img/brand/happy-hippo-logo.png").default,
           imgAlt: "...",
         }}
@@ -67,7 +67,7 @@ const Resources = (props) => {
         /> */}
         <Switch>
           {getRoutes(routes)}
-          <Redirect from="*" to="/home/landing" />
+          <Redirect from="*" to="/home/dashboard" />
         </Switch>
         <Container fluid>
           <AdminFooter />

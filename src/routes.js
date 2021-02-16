@@ -62,8 +62,8 @@ var routes = [
   //   layout: "/admin",
   // },
   {
-    path: "/landing",
-    name: "Landing",
+    path: "/dashboard",
+    name: "Dashboard",
     icon: "ni ni-shop",
     component: Landing,
     layout: "/home",
