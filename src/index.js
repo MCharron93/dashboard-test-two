@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect, } from "react-router-dom";
 
 import "assets/plugins/nucleo/css/nucleo.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -35,7 +35,6 @@ ReactDOM.render(
       <Route path="/auth" render={(props) => <AuthLayout {...props} />} />
       <Route path="/home" render={(props) => <HomeLayout {...props} />} />
       <Route path="/resources" render={(props) => <ResourcesLayout {...props} />} />
-      {/* <Route path="/resources" render={(props) => <ResourcesLayout {...props} />} /> */}
       <Redirect from="/" to="/admin/index" />
     </Switch>
   </BrowserRouter>,

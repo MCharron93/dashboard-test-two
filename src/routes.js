@@ -61,20 +61,6 @@ var routes = [
     component: Tables,
     layout: "/admin",
   },
-  // {
-  //   path: "/login",
-  //   name: "Login",
-  //   icon: "ni ni-key-25",
-  //   component: Login,
-  //   layout: "/auth",
-  // },
-  // {
-  //   path: "/register",
-  //   name: "Register",
-  //   icon: "ni ni-circle-08",
-  //   component: Register,
-  //   layout: "/auth",
-  // },
   {
     path: "/landing",
     name: "Landing",
@@ -89,5 +75,13 @@ var routes = [
     component: HumanResources,
     layout: "/resources",
   },
+  // {
+    // NOTE working on itegrating a clickable formatted link for the custom IT ticket request form from Asana
+    // path: "",
+    // name: "IT Ticket Request",
+    // icon: "ni ni-settings",
+    // component: ,
+    // layout: "",
+  // }
 ];
 export default routes;
