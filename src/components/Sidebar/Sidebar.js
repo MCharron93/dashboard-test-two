@@ -232,10 +232,23 @@ const Sidebar = (props) => {
             </InputGroup>
           </Form>
           {/* Navigation */}
-          <Nav navbar>{createLinks(routes)}</Nav>
-          <div>
+          <Nav navbar>{createLinks(routes)}
+          {/* NOTE inserting Navlink that routes to IT ticket request via Asana forms in separate window */}
+          <NavLink
+            href="https://form.asana.com/?k=qxP8ysQvIY6l5IDI4h9LUg&d=1195144362945755"
+            rel="noreferrer"
+            target="_blank"
+            // tag={NavLinkRRD}
+            // onClick={closeCollapse}
+            // activeClassName="active"
+          >
+            <i className="ni ni-settings"></i>
+            IT Ticket Request
+          </NavLink>
+          </Nav>
+          {/* <div>
             <h6>IT Link here</h6>
-          </div>
+          </div> */}
           {/* Divider */}
           <div className="border-white border my-3">
           </div>
