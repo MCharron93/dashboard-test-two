@@ -21,9 +21,10 @@
 // import Register from "views/examples/Register.js";
 // import Login from "views/examples/Login.js";
 // import Tables from "views/examples/Tables.js";
-// import Icons from "views/examples/Icons.js";
+import Icons from "views/examples/Icons.js";
 import Landing from "views/my-views/Landing.js";
 import HumanResources from "views/my-views/HumanResources.js";
+import Tools from "views/my-views/Tools.js"
 
 var routes = [
   // {
@@ -33,13 +34,13 @@ var routes = [
   //   component: Index,
   //   layout: "/admin",
   // },
-  // {
-  //   path: "/icons",
-  //   name: "Icons",
-  //   icon: "ni ni-planet",
-  //   component: Icons,
-  //   layout: "/admin",
-  // },
+  {
+    path: "/icons",
+    name: "Icons",
+    icon: "ni ni-planet",
+    component: Icons,
+    layout: "/admin",
+  },
   // {
   //   path: "/maps",
   //   name: "Maps",
@@ -71,17 +72,16 @@ var routes = [
   {
     path: "/humanresources",
     name: "Human Resources",
-    icon: "ni ni-tie-bow",
+    icon: "ni ni-satisfied",
     component: HumanResources,
     layout: "/resources",
   },
-  // {
-    // NOTE working on itegrating a clickable formatted link for the custom IT ticket request form from Asana
-    // path: "",
-    // name: "IT Ticket Request",
-    // icon: "ni ni-settings",
-    // component: ,
-    // layout: "",
-  // }
+  {
+    path: "/tools",
+    name: "Tools by Dept",
+    icon: "ni ni-bullet-list-67",
+    component: Tools,
+    layout: "/resources",
+  },
 ];
 export default routes;
