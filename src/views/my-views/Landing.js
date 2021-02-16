@@ -30,7 +30,7 @@ const Landing = () => {
             <CardHeader>
                         <div>
                             <h4>
-                                Hello Nerds!
+                                Blog Title!
                             </h4>
                        </div> 
                     </CardHeader>
@@ -54,9 +54,7 @@ const Landing = () => {
                     </CardHeader>
                     <CardBody>
                         <div>
-                            <p>
-                                This is just a test for creating a card.
-                            </p>
+                            {/* <a target="_blank" rel="noreferrer">Here would be a quick snippet of the article that would like to more info </a> */}
                         </div>
                     </CardBody>
             </Card>
@@ -69,7 +67,7 @@ const Landing = () => {
             <CardHeader>
                         <div>
                             <h4>
-                                Hello Nerds!
+                                Cool New Article!
                             </h4>
                        </div> 
                     </CardHeader>
