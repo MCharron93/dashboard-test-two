@@ -54,7 +54,8 @@ const Landing = () => {
                     </CardHeader>
                     <CardBody>
                         <div>
-                            {/* <a target="_blank" rel="noreferrer">Here would be a quick snippet of the article that would like to more info </a> */}
+                            {/* NOTE an a tag that pushes to separate window for the IT tickets */}
+                            <a href="https://form.asana.com/?k=qxP8ysQvIY6l5IDI4h9LUg&d=1195144362945755" target="_blank" rel="noreferrer">Here would be a quick snippet of the article that would like to more info </a>
                         </div>
                     </CardBody>
             </Card>
@@ -80,7 +81,7 @@ const Landing = () => {
                     </CardBody>
                     {/* NOTE using bootstrap, many commands are the same for styling and orientation */}
                     <div className="justify-content-center d-flex">
-                    <Button className="btn-sml">Click me</Button>
+                    <Button className="">Click me</Button>
                     </div>
             </Card>
           </div>

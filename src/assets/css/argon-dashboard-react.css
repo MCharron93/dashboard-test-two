@@ -13033,7 +13033,8 @@ textarea[resize="horizontal"] {
       .navbar-vertical .navbar-collapse:before {
         content: '';
         display: block;
-        margin: 1rem -1rem; } }
+        /* margin: 1rem -1rem; */
+       } }
   .navbar-vertical .navbar-nav {
     margin-left: -1rem;
     margin-right: -1rem; }
