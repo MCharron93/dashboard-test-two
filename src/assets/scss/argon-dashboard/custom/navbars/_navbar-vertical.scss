@@ -48,7 +48,8 @@
             &:before {
                 content: '';
                 display: block;
-                margin: $navbar-padding-y (-$navbar-padding-x);
+                margin: 0px;
+                border-top: 2px white solid;
             }
         }
     }

@@ -1,114 +1,127 @@
 import React from "react";
+import classnames from "classnames";
 
 // reactstrap components
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
+import { 
+    NavItem,
+    NavLink,
+    Nav,
+     } from "reactstrap";
 
-const LandingHeader = () => {
-  return (
-    <>
-      <div className="header bg-gradient-secondary pb-8 pt-5 pt-md-8">
-        <Container fluid>
-          <div className="header-body">
-            {/* Card stats */}
-            <Row>
-              <Col lg="6" xl="3">
-                <Card className="card-stats mb-4 mb-xl-0">
-                    <CardBody>
-                        <CardTitle
-                          tag="h5"
-                          className="text-uppercase text-muted mb-0"
-                        >
-                          Google Analytics
-                        </CardTitle>
-                        <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-success mr-2">
-                        <i className="ni ni-bold-up" /> 3.48%
-                      </span>{" "}
-                      <span className="text-nowrap">Since last week</span>
-                    </p>  
-                        </CardBody>
-                </Card>
-              </Col>
-              <Col lg="6" xl="3">
-              <Card className="card-stats mb-4 mb-xl-0">
-                    <CardBody>
-                        <CardTitle
-                          tag="h5"
-                          className="text-uppercase text-muted mb-0"
-                        >
-                          Google Analytics
-                        </CardTitle>
-                        <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-danger mr-2">
-                        <i className="ni ni-bold-down" /> 3.48%
-                      </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
-                    </p>  
-                        </CardBody>
-                </Card>
-              </Col>
-              <Col lg="6" xl="3">
-                <Card className="card-stats mb-4 mb-xl-0">
-                  <CardBody>
-                    <Row>
-                      <div className="col">
-                        <CardTitle
-                          tag="h5"
-                          className="text-uppercase text-muted mb-0"
-                        >
-                          Sales
-                        </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">49,65%</span>
-                      </div>
-                      <Col className="col-auto">
-                        <div className="icon icon-shape bg-info text-white rounded-circle shadow">
-                          <i className="ni ni-money-coins" />
-                        </div>
-                      </Col>
-                    </Row>
-                    <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-success mr-2">
-                        <i className="fas fa-arrow-up" /> 12%
-                      </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
-                    </p>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col lg="6" xl="3">
-                <Card className="card-stats mb-4 mb-xl-0">
-                  <CardBody>
-                    <Row>
-                      <div className="col">
-                        <CardTitle
-                          tag="h5"
-                          className="text-uppercase text-muted mb-0"
-                        >
-                          New Users
-                        </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">56 Active</span>
-                      </div>
-                      <Col className="col-auto">
-                        <div className="icon icon-shape bg-purple text-white rounded-circle shadow">
-                          <i className="ni ni-active-40" />
-                        </div>
-                      </Col>
-                    </Row>
-                    <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-success mr-2">
-                        <i className="fas fa-arrow-up" /> 25%
-                      </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
-                    </p>
-                  </CardBody>
-                </Card>
-              </Col>
-            </Row>
-          </div>
-        </Container>
-      </div>
-    </>
-  );
+class ToolsHeader extends React.Component {
+    state = {
+        tabs: 1
+      };
+    //   NOTE prevents the page from reloading while toggling through tabs as the state changes
+      toggleNavs = (e, state, index) => {
+        e.preventDefault();
+        this.setState({
+          [state]: index
+        });
+      };
+render() {
+    return (
+      <>
+        <div className="header bg-gradient-secondary pb-8 pt-5 pt-md-8">
+        <div className="nav-wrapper">
+          <Nav
+            className="nav-fill flex-column flex-md-row mx-4"
+            id="tabs-icons-text"
+            pills
+            role="tablist"
+          >
+            <NavItem>
+              <NavLink
+            //   NOTE example of this.state.tabs equalling the new tabs index property
+                aria-selected={this.state.tabs === 1}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 1
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 1)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-cloud-upload-96 mr-2" />
+                Design
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 2}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 2
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 2)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-bell-55 mr-2" />
+                Sales
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 3}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 3
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 3)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-calendar-grid-58 mr-2" />
+                Development
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 4}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 4
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 4)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-cloud-upload-96 mr-2" />
+                Fulfillment
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 5}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 5
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 5)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-cloud-upload-96 mr-2" />
+                Shipping
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                aria-selected={this.state.tabs === 6}
+                className={classnames("mb-sm-3 mb-md-0", {
+                  active: this.state.tabs === 6
+                })}
+                onClick={e => this.toggleNavs(e, "tabs", 6)}
+                href="#pablo"
+                role="tab"
+              >
+                <i className="ni ni-cloud-upload-96 mr-2" />
+                Analytics
+              </NavLink>
+            </NavItem>
+          </Nav>
+        {/* </div> */}
+        </div>
+        </div>
+      </>
+    );
+}
 };
 
-export default LandingHeader;
+export default ToolsHeader;

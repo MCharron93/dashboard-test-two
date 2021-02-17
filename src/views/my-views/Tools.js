@@ -11,6 +11,7 @@ import {
     TabContent,
     TabPane
   } from "reactstrap";
+import ToolsHeader from 'components/Headers/ToolsHeader';
 
 
 class Tools extends React.Component {
@@ -27,9 +28,10 @@ class Tools extends React.Component {
       };
 render() {
     return (
-      <React.Fragment>
-          <div className="header bg-gradient-default pb-4 pt-5 pt-md-">
-        <div className="nav-wrapper">
+        <React.Fragment>
+      {/* <div className="header bg-gradient-secondary pb-4 pt-5 pt-md-4"> */}
+      <ToolsHeader></ToolsHeader>
+        {/* <div className="nav-wrapper">
           <Nav
             className="nav-fill flex-column flex-md-row mx-4"
             id="tabs-icons-text"
@@ -37,9 +39,9 @@ render() {
             role="tablist"
           >
             <NavItem>
-              <NavLink
-            //   NOTE example of this.state.tabs equalling the new tabs index property
-                aria-selected={this.state.tabs === 1}
+              <NavLink */}
+            {/* //   NOTE example of this.state.tabs equalling the new tabs index property */}
+                {/* aria-selected={this.state.tabs === 1}
                 className={classnames("mb-sm-3 mb-md-0", {
                   active: this.state.tabs === 1
                 })}
@@ -121,9 +123,9 @@ render() {
                 Analytics
               </NavLink>
             </NavItem>
-          </Nav>
-        </div>
-        </div>
+          </Nav> */}
+        {/* </div> */}
+        {/* </div> */}
         <Card className="shadow mx-4 rounded">
           <CardBody>
               {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
