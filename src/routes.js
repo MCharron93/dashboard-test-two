@@ -72,16 +72,23 @@ var routes = [
   {
     path: "/humanresources",
     name: "Human Resources",
-    icon: "ni ni-satisfied",
+    icon: "ni ni-chat-round",
     component: HumanResources,
     layout: "/resources",
   },
   {
     path: "/tools",
     name: "Tools by Dept",
-    icon: "ni ni-bullet-list-67",
+    icon: "ni ni-briefcase-24",
     component: Tools,
     layout: "/resources",
+  },
+  {
+    path: "/customerservice",
+    name: "Customer Service",
+    icon: "ni ni-satisfied",
+    component: Tools,
+    layout: "/admin",
   },
 ];
 export default routes;
