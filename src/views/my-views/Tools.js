@@ -1,14 +1,14 @@
 import React from 'react';
-import ToolsHeader from 'components/Headers/ToolsHeader';
+// import ToolsHeader from 'components/Headers/ToolsHeader';
 import classnames from "classnames";
 // import Tab from 'variables/tabs.js'
 
 import {
     Card,
     CardBody,
-    // NavItem,
-    // NavLink,
-    // Nav,
+    NavItem,
+    NavLink,
+    Nav,
     TabContent,
     TabPane
   } from "reactstrap";
@@ -29,19 +29,17 @@ class Tools extends React.Component {
 render() {
     return (
         <React.Fragment>
-      {/* <div className="header bg-gradient-secondary pb-4 pt-5 pt-md-4"> */}
-      <ToolsHeader></ToolsHeader>
-        {/* <div className="nav-wrapper">
+      <div className="header container-fluid bg-gradient-secondary pb-8 pt-4 pt-md-8">
+        <div className="nav-wrapper">
           <Nav
             className="nav-fill flex-column flex-md-row mx-4"
             id="tabs-icons-text"
             pills
             role="tablist"
-          >
+            >
             <NavItem>
-              <NavLink */}
-            {/* //   NOTE example of this.state.tabs equalling the new tabs index property */}
-                {/* aria-selected={this.state.tabs === 1}
+              <NavLink
+                aria-selected={this.state.tabs === 1}
                 className={classnames("mb-sm-3 mb-md-0", {
                   active: this.state.tabs === 1
                 })}
@@ -123,9 +121,9 @@ render() {
                 Analytics
               </NavLink>
             </NavItem>
-          </Nav> */}
-        {/* </div> */}
-        {/* </div> */}
+          </Nav> 
+        </div>
+        </div>
         <div className="container-fluid mt--7">
 
         <Card className="shadow mx-4 rounded">
