@@ -1,17 +1,17 @@
 import React from 'react';
+import ToolsHeader from 'components/Headers/ToolsHeader';
 import classnames from "classnames";
 // import Tab from 'variables/tabs.js'
 
 import {
     Card,
     CardBody,
-    NavItem,
-    NavLink,
-    Nav,
+    // NavItem,
+    // NavLink,
+    // Nav,
     TabContent,
     TabPane
   } from "reactstrap";
-import ToolsHeader from 'components/Headers/ToolsHeader';
 
 
 class Tools extends React.Component {
@@ -126,6 +126,8 @@ render() {
           </Nav> */}
         {/* </div> */}
         {/* </div> */}
+        <div className="container-fluid mt--7">
+
         <Card className="shadow mx-4 rounded">
           <CardBody>
               {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
@@ -182,6 +184,7 @@ render() {
             </TabContent>
           </CardBody>
         </Card>
+        </div>
         </React.Fragment>
     )
     }

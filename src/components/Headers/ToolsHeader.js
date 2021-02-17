@@ -22,8 +22,8 @@ class ToolsHeader extends React.Component {
 render() {
     return (
       <>
-        <div className="header bg-gradient-secondary pb-8 pt-5 pt-md-8">
-        <div className="nav-wrapper">
+        <div className="header bg-gradient-secondary pb-8 pt-md-8">
+        <div className="nav-wrapper container-fluid">
           <Nav
             className="nav-fill flex-column flex-md-row mx-4"
             id="tabs-icons-text"
