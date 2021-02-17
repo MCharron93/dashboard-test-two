@@ -1,5 +1,4 @@
 import React from 'react';
-// import ToolsHeader from 'components/Headers/ToolsHeader';
 import classnames from "classnames";
 // import Tab from 'variables/tabs.js'
 
@@ -129,12 +128,42 @@ render() {
         <Card className="shadow mx-4 rounded">
           <CardBody>
               {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
+              {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
             <TabContent activeTab={"tabs" + this.state.tabs}>
               <TabPane tabId="tabs1">
-              <div className="row justify-content-between text-center px-2">
-              <div className="col-3"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer"><img src="scr/assets/img/Gmail-logo.png" alt=""/></a></div>
-              <div className="col-3"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
-              <div className="col-3"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
+              <div className="row justify-content-around text-center px-2">
+              <div className="col-3">
+                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
+                  <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="gmail"/>
+                <div className="pt-2">
+                    Gmail
+                </div>
+                </a>
+              </div>
+              <div className="col-3">
+                <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
+                  <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/>
+                <div className="pt-2">
+                    Instagram
+                </div>
+                </a>
+              </div>
+              <div className="col-3">
+                <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
+                  <img className="w-25" src="https://i.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" alt="gmail"/>
+                <div className="pt-2">
+                    Photoshop
+                </div>
+                </a>
+              </div>
+              <div className="col-3">
+                <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
+                  <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="gmail"/>
+                <div className="pt-2">
+                    Illustrator
+                </div>
+                </a>
+              </div>
                 </div>
               </TabPane>
               <TabPane tabId="tabs2">
@@ -148,8 +177,8 @@ render() {
               <TabPane tabId="tabs3">
                 <div className="row justify-content-between">
               <div className="col-4"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
-              <div className="col-4"><a>Link goes here</a></div>
-              <div className="col-4"><a>Link goes here</a></div>
+              {/* <div className="col-4"><a>Link goes here</a></div>
+              <div className="col-4"><a>Link goes here</a></div> */}
                 </div>
               </TabPane>
               <TabPane tabId="tabs4">
