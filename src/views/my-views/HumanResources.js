@@ -29,7 +29,7 @@ class HumanResources extends React.Component {
 render() {
     return (
         <React.Fragment>
-      <div className="header container-fluid bg-gradient-secondary pb-8 pt-4 pt-md-8">
+      <div className="header container-fluid bg-gradient-default pb-8 pt-4 pt-md-8">
         <div className="nav-wrapper">
           <Nav
             className="nav-fill flex-column flex-md-row mx-4"
@@ -131,12 +131,11 @@ render() {
               {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
             <TabContent activeTab={"tabs" + this.state.tabs}>
               <TabPane tabId="tabs1">
-                <p className="description">
-                  This would be desigm tools injected here. Can include logos and other applications used by the team for completing thier jobs. 
-                </p>
-                <p className="description">
-                  Some icons and other clickable links will launch applications and other windows for everyone to use for any design needs
-                </p>
+              <div className="row justify-content-between text-center px-2">
+              <div className="col-3"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer"><img src="scr/assets/img/Gmail-logo.png" alt=""/></a></div>
+              <div className="col-3"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
+              <div className="col-3"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
+                </div>
               </TabPane>
               <TabPane tabId="tabs2">
                 <p className="description">
@@ -147,12 +146,11 @@ render() {
                 </p>
               </TabPane>
               <TabPane tabId="tabs3">
-              <p className="description">
-                This would be Development tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-                </p>
-                <p>
-                Some icons and other clickable links will launch applications and other windows for everyone to use for any Development needs
-                </p>
+                <div className="row justify-content-between">
+              <div className="col-4"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
+              <div className="col-4"><a>Link goes here</a></div>
+              <div className="col-4"><a>Link goes here</a></div>
+                </div>
               </TabPane>
               <TabPane tabId="tabs4">
               <p className="description">
