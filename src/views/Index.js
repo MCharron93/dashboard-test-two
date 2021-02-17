@@ -72,12 +72,12 @@ const Index = (props) => {
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h6 className="text-uppercase text-light ls-1 mb-1">
+                    {/* <h6 className="text-uppercase text-light ls-1 mb-1">
                       Overview
-                    </h6>
-                    <h2 className="text-white mb-0">Sales value</h2>
+                    </h6> */}
+                    <h2 className="text-white mb-0">Knowledge Base</h2>
                   </div>
-                  <div className="col">
+                  {/* <div className="col">
                     <Nav className="justify-content-end" pills>
                       <NavItem>
                         <NavLink
@@ -105,17 +105,29 @@ const Index = (props) => {
                         </NavLink>
                       </NavItem>
                     </Nav>
-                  </div>
+                  </div> */}
                 </Row>
               </CardHeader>
               <CardBody>
-                {/* Chart */}
-                <div className="chart">
-                  <Line
-                    data={chartExample1[chartExample1Data]}
-                    options={chartExample1.options}
-                    getDatasetAtEvent={(e) => console.log(e)}
-                  />
+                <div class="row">
+                  <Col>
+                    <ul>
+                      <li className="py-2">Hello</li>
+                      <li className="py-2">Hello</li>
+                      <li className="py-2">Hello</li>
+                      <li className="py-2">Hello</li>
+                      <li className="py-2">Hello</li>
+                    </ul>
+                  </Col>
+                  <Col>
+                    <ul>
+                    <li className="py-2">Hello</li>
+                    <li className="py-2">Hello</li>
+                    <li className="py-2">Hello</li>
+                    <li className="py-2">Hello</li>
+                    <li className="py-2">Hello</li>
+                    </ul>
+                  </Col>
                 </div>
               </CardBody>
             </Card>
