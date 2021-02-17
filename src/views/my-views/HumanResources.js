@@ -131,8 +131,8 @@ render() {
               {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
             <TabContent activeTab={"tabs" + this.state.tabs}>
               <TabPane tabId="tabs1">
-              <div className="row justify-content-around text-center px-2">
-              <p>This tab would contain a download for new employees. Could also include information regarding hippo basics and company culture.</p>
+              <div className="row px-2">
+              <p className="text-underline">This tab would contain a download for new employees. Could also include information regarding hippo basics and company culture.</p>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum, beatae nihil maxime officiis delectus cupiditate, porro eos quas eaque id veniam necessitatibus, libero laudantium! Reiciendis omnis unde earum officiis.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, cumque magnam, dolore harum consequuntur blanditiis assumenda natus veritatis fugiat quod modi accusantium ullam, perferendis aliquam tempora voluptates error laboriosam non?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit eaque culpa molestias eius amet fuga maiores explicabo perferendis, numquam veritatis iure sapiente hic nesciunt, atque dolores eum est debitis.
