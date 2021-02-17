@@ -17,20 +17,20 @@
 */
 import React, { useState } from "react";
 // node.js library that concatenates classes (strings)
-import classnames from "classnames";
+// import classnames from "classnames";
 // javascipt plugin for creating charts
 import Chart from "chart.js";
 // react plugin used to create charts
-import { Line, Bar } from "react-chartjs-2";
+// import { Line, Bar } from "react-chartjs-2";
 // reactstrap components
 import {
   Button,
   Card,
   CardHeader,
   CardBody,
-  NavItem,
-  NavLink,
-  Nav,
+  // NavItem,
+  // NavLink,
+  // Nav,
   Progress,
   Table,
   Container,
@@ -42,8 +42,8 @@ import {
 import {
   chartOptions,
   parseOptions,
-  chartExample1,
-  chartExample2,
+  // chartExample1,
+  // chartExample2,
 } from "variables/charts.js";
 
 import Header from "components/Headers/Header.js";
@@ -68,7 +68,7 @@ const Index = (props) => {
       <Container className="mt--7" fluid>
         <Row>
           <Col className="mb-5 mb-xl-0" xl="8">
-            <Card className="bg-gradient-default shadow">
+            <Card className="bg-gradient-purple shadow">
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
                   <div className="col">
@@ -112,20 +112,22 @@ const Index = (props) => {
                 <div class="row">
                   <Col>
                     <ul>
-                      <li className="py-2">Hello</li>
-                      <li className="py-2">Hello</li>
-                      <li className="py-2">Hello</li>
-                      <li className="py-2">Hello</li>
-                      <li className="py-2">Hello</li>
+                      <a href="https://docs.google.com/document/d/1cAnxIQ-4NEsdbszNbPGMS70N3fPZ9HSYlTinQVWYHfo/edit?ts=602af9d0" rel="noreferrer" target="_blank">
+                      <li className="py-2">HHH Guide</li>
+                      </a>
+                      <li className="py-2">Payment Methods</li>
+                      <li className="py-2">Payment Options</li>
+                      <li className="py-2">Shipping</li>
+                      <li className="py-2">Ban System</li>
                     </ul>
                   </Col>
                   <Col>
                     <ul>
-                    <li className="py-2">Hello</li>
-                    <li className="py-2">Hello</li>
-                    <li className="py-2">Hello</li>
-                    <li className="py-2">Hello</li>
-                    <li className="py-2">Hello</li>
+                    <li className="py-2">Debt Collection Sheet</li>
+                    <li className="py-2">Discounts</li>
+                    <li className="py-2">Rewards Points</li>
+                    <li className="py-2">Order Issues/Damages</li>
+                    <li className="py-2">General Kratom Knowledge</li>
                     </ul>
                   </Col>
                 </div>
@@ -147,10 +149,7 @@ const Index = (props) => {
               <CardBody>
                 {/* Chart */}
                 <div className="chart">
-                  <Bar
-                    data={chartExample2.data}
-                    options={chartExample2.options}
-                  />
+                  <h4>Order timer for 2 day shipping could go here</h4>
                 </div>
               </CardBody>
             </Card>
