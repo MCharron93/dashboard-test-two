@@ -25,6 +25,7 @@ import Icons from "views/examples/Icons.js";
 import Landing from "views/my-views/Landing.js";
 import HumanResources from "views/my-views/HumanResources.js";
 import Tools from "views/my-views/Tools.js"
+import Index from "views/Index";
 
 var routes = [
   // {
@@ -41,27 +42,6 @@ var routes = [
     component: Icons,
     layout: "/admin",
   },
-  // {
-  //   path: "/maps",
-  //   name: "Maps",
-  //   icon: "ni ni-pin-3",
-  //   component: Maps,
-  //   layout: "/admin",
-  // },
-  // {
-  //   path: "/user-profile",
-  //   name: "User Profile",
-  //   icon: "ni ni-single-02",
-  //   component: Profile,
-  //   layout: "/admin",
-  // },
-  // {
-  //   path: "/tables",
-  //   name: "Tables",
-  //   icon: "ni ni-bullet-list-67",
-  //   component: Tables,
-  //   layout: "/admin",
-  // },
   {
     path: "/dashboard",
     name: "Dashboard",
@@ -87,7 +67,7 @@ var routes = [
     path: "/customerservice",
     name: "Customer Service",
     icon: "ni ni-satisfied",
-    component: Tools,
+    component: Index,
     layout: "/admin",
   },
 ];

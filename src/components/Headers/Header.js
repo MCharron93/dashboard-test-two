@@ -37,7 +37,7 @@ const Header = () => {
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
-                          Traffic
+                          Current Users
                         </CardTitle>
                         <span className="h2 font-weight-bold mb-0">
                           350,897
@@ -67,7 +67,7 @@ const Header = () => {
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
-                          New users
+                          Inbound Complaints
                         </CardTitle>
                         <span className="h2 font-weight-bold mb-0">2,356</span>
                       </div>
@@ -100,7 +100,7 @@ const Header = () => {
                         <span className="h2 font-weight-bold mb-0">924</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-yellow text-white rounded-circle shadow">
+                        <div className="icon icon-shape bg-success text-white rounded-circle shadow">
                           <i className="fas fa-users" />
                         </div>
                       </Col>
@@ -128,7 +128,7 @@ const Header = () => {
                         <span className="h2 font-weight-bold mb-0">49,65%</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-info text-white rounded-circle shadow">
+                        <div className="icon icon-shape bg-default text-white rounded-circle shadow">
                           <i className="fas fa-percent" />
                         </div>
                       </Col>

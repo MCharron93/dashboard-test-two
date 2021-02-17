@@ -29,7 +29,7 @@ class Tools extends React.Component {
 render() {
   return (
       <React.Fragment>
-    <div className="header container-fluid bg-gradient-default pb-8 pt-4 pt-md-8">
+    <div className="header container-fluid bg-gradient-danger pb-8 pt-4 pt-md-8">
       <div className="nav-wrapper">
         <Nav
           className="nav-fill flex-column flex-md-row mx-4"
