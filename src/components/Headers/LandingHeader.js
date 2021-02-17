@@ -12,7 +12,7 @@ const LandingHeader = () => {
             {/* Card stats */}
             <Row>
               <Col lg="6" xl="3">
-                <Card className="card-stats mb-4 mb-xl-0">
+                <Card className="card-stats shadow mb-4 mb-xl-0">
                     <CardBody>
                         <CardTitle
                           tag="h5"
@@ -30,7 +30,7 @@ const LandingHeader = () => {
                 </Card>
               </Col>
               <Col lg="6" xl="3">
-              <Card className="card-stats mb-4 mb-xl-0">
+              <Card className="card-stats shadow mb-4 mb-xl-0">
                     <CardBody>
                         <CardTitle
                           tag="h5"
@@ -48,7 +48,7 @@ const LandingHeader = () => {
                 </Card>
               </Col>
               <Col lg="6" xl="3">
-                <Card className="card-stats mb-4 mb-xl-0">
+                <Card className="card-stats shadow mb-4 mb-xl-0">
                   <CardBody>
                     <Row>
                       <div className="col">
@@ -76,7 +76,7 @@ const LandingHeader = () => {
                 </Card>
               </Col>
               <Col lg="6" xl="3">
-                <Card className="card-stats mb-4 mb-xl-0">
+                <Card className="card-stats shadow mb-4 mb-xl-0">
                   <CardBody>
                     <Row>
                       <div className="col">

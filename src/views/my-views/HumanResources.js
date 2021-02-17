@@ -36,7 +36,7 @@ render() {
             pills
             role="tablist"
             >
-            <NavItem>
+            <NavItem className="shadow">
               <NavLink
                 aria-selected={this.state.tabs === 1}
                 className={classnames("mb-sm-3 mb-md-0", {
