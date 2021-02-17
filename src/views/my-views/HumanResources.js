@@ -47,7 +47,7 @@ render() {
                 role="tab"
               >
                 <i className="ni ni-cloud-upload-96 mr-2" />
-                Design
+                New Hippo's Guide
               </NavLink>
             </NavItem>
             <NavItem>
@@ -61,7 +61,7 @@ render() {
                 role="tab"
               >
                 <i className="ni ni-bell-55 mr-2" />
-                Sales
+                Benefits
               </NavLink>
             </NavItem>
             <NavItem>
@@ -75,7 +75,7 @@ render() {
                 role="tab"
               >
                 <i className="ni ni-calendar-grid-58 mr-2" />
-                Development
+                Time-Off Request
               </NavLink>
             </NavItem>
             <NavItem>
@@ -89,7 +89,7 @@ render() {
                 role="tab"
               >
                 <i className="ni ni-cloud-upload-96 mr-2" />
-                Fulfillment
+                Observed Holidays
               </NavLink>
             </NavItem>
             <NavItem>
@@ -103,7 +103,7 @@ render() {
                 role="tab"
               >
                 <i className="ni ni-cloud-upload-96 mr-2" />
-                Shipping
+                Reimbursement
               </NavLink>
             </NavItem>
             <NavItem>
@@ -117,7 +117,7 @@ render() {
                 role="tab"
               >
                 <i className="ni ni-cloud-upload-96 mr-2" />
-                Analytics
+                Company Story
               </NavLink>
             </NavItem>
           </Nav> 
@@ -132,38 +132,19 @@ render() {
             <TabContent activeTab={"tabs" + this.state.tabs}>
               <TabPane tabId="tabs1">
               <div className="row justify-content-around text-center px-2">
-              <div className="col-3">
-                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
-                  <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="gmail"/>
-                <div className="pt-2">
-                    Gmail
-                </div>
-                </a>
-              </div>
-              <div className="col-3">
-                <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
-                  <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/>
-                <div className="pt-2">
-                    Instagram
-                </div>
-                </a>
-              </div>
-              <div className="col-3">
-                <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
-                  <img className="w-25" src="https://i.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" alt="gmail"/>
-                <div className="pt-2">
-                    Photoshop
-                </div>
-                </a>
-              </div>
-              <div className="col-3">
-                <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
-                  <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="gmail"/>
-                <div className="pt-2">
-                    Illustrator
-                </div>
-                </a>
-              </div>
+              <p>This tab would contain a download for new employees. Could also include information regarding hippo basics and company culture.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum, beatae nihil maxime officiis delectus cupiditate, porro eos quas eaque id veniam necessitatibus, libero laudantium! Reiciendis omnis unde earum officiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, cumque magnam, dolore harum consequuntur blanditiis assumenda natus veritatis fugiat quod modi accusantium ullam, perferendis aliquam tempora voluptates error laboriosam non?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit eaque culpa molestias eius amet fuga maiores explicabo perferendis, numquam veritatis iure sapiente hic nesciunt, atque dolores eum est debitis.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae illum aliquam deleniti accusantium sint vitae error! Expedita repellendus nesciunt enim excepturi maiores, temporibus, iste nobis numquam sequi quo doloribus.
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum consequatur facilis eligendi ratione voluptatum ex obcaecati, quasi officia voluptatem, assumenda quidem recusandae quam quod amet, quia sunt? Porro, deserunt.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae, nesciunt reiciendis alias dolor voluptate incidunt optio hic minima atque deserunt praesentium nihil corporis deleniti beatae maiores sequi ab non.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa perferendis cum? Modi, deserunt doloremque aspernatur molestiae voluptatum tenetur repudiandae aut facere nam labore veniam fuga provident nulla perferendis quos?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, magnam! Consequuntur incidunt dignissimos mollitia provident necessitatibus alias repellendus ipsam consequatur at. Obcaecati ducimus labore enim illum sapiente dolorem excepturi alias.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quo! Nesciunt numquam voluptatum incidunt sit molestias, neque, aliquid facere, debitis porro ipsum dignissimos atque libero exercitationem quas autem ea blanditiis!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime perspiciatis velit dolore, enim voluptatem earum odit sit porro ad eaque itaque mollitia repudiandae aspernatur, tempora labore officia necessitatibus laborum! Non?
+              </p>
                 </div>
               </TabPane>
               <TabPane tabId="tabs2">
