@@ -117,7 +117,7 @@ class PaymentModals extends React.Component {
                 &#8226; &nbsp;&nbsp;You will need to continue to Step 3 to “Complete Transfer to Happy Hippo”. Once you have done this you will wait to be Redirected to the Happy Hippo 
                   webpage(this is how it confirms your order).
                 </p>
-                <br/>
+                
                 <h5>Why does PMC block customers and what do we do?</h5>
                 <p>Usually insufficient funds or a bounced payment. Email Jennifer/Chandler and ask for details on the customer via support@pmccoins.com</p>
                 

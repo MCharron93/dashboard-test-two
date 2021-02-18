@@ -104,20 +104,6 @@ render() {
               role="tab"
             >
               <i className="ni ni-cloud-upload-96 mr-2" />
-              Shipping
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              aria-selected={this.state.tabs === 6}
-              className={classnames("mb-sm-3 mb-md-0", {
-                active: this.state.tabs === 6
-              })}
-              onClick={e => this.toggleNavs(e, "tabs", 6)}
-              href="#pablo"
-              role="tab"
-            >
-              <i className="ni ni-cloud-upload-96 mr-2" />
               Analytics
             </NavLink>
           </NavItem>
@@ -191,14 +177,6 @@ render() {
               </p>
             </TabPane>
             <TabPane tabId="tabs5">
-            <p className="description">
-              This would be Shipping tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-              </p>
-              <p>
-              Some icons and other clickable links will launch applications and other windows for everyone to use for any Shipping needs
-              </p>
-            </TabPane>
-            <TabPane tabId="tabs6">
                 <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
             <p className="description">
               This would be Analytics tools injected here. Can include logos and other applications used by the team for completing thier jobs.
