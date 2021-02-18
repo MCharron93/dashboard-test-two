@@ -58,15 +58,19 @@ class ShippingModals extends React.Component {
                  and FPO International Military Bases - refer to UPS guide.
                 </p>
                 <h4>
-                    Current shipping options    
+                    Current shipping options:    
                 </h4>
-                <p>
-                &#8226; &nbsp;&nbsp;UPS Next Day Air
-                <br/> 
-                &#8226; &nbsp;&nbsp;FedEx 2 Day 
-                <br/>
-                &#8226; &nbsp;&nbsp;USPS  
-                </p>
+                <ul>
+                  <li>
+                  UPS Next Day Air
+                  </li>
+                  <li>
+                  FedEx 2 Day
+                  </li>
+                  <li>
+                  USPS
+                  </li>
+                </ul>
                 <h4>
                 Why can’t I find my State/Country in the Checkout section?  
                   </h4>
