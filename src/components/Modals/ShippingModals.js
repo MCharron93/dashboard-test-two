@@ -133,21 +133,29 @@ class ShippingModals extends React.Component {
                 </p>
 
                 <h5>Checking Exceptions:</h5>
-                <p>Log into Quantum View. Go to Quantum view manage: From here to can view exceptions, change address and return to sender. UPS exceptions only need to 
-                  be addressed if there is an address issue.</p>
+                <p>&#8226; &nbsp;&nbsp;Log into Quantum View. 
+                  <br/>&#8226; &nbsp;&nbsp;Go to Quantum view manage: From here to can view exceptions, change address and return to 
+                  &nbsp;&nbsp;&nbsp;&nbsp;sender. 
+                  <br/>&#8226; &nbsp;&nbsp;UPS exceptions only need to 
+                  be addressed if there is an address issue.
+                  </p>
                 
                 <h5>Missing Packages</h5>
                 <p>&#8226; &nbsp;&nbsp;Lookup package details using Quantum View. 
                 <br/>
                 &#8226; &nbsp;&nbsp;If a UPS package is lost, you will file a claim and ship a replacement package.
                 <br/>
-                &#8226; &nbsp;&nbsp;If a package has been marked as “Delivered” - ask the customer if they have checked around the Front Door and lawn.
+                &#8226; &nbsp;&nbsp;If a package has been marked as “Delivered” - ask the customer if they have checked around the front 
+                &nbsp;&nbsp;&nbsp;&nbsp;door and lawn.
                 <br/>
-                &#8226; &nbsp;&nbsp;Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.
+                &#8226; &nbsp;&nbsp;Ask them if they have checked with other residents and neighbors who may have received the 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;package on their behalf.
                 <br/>
-                &#8226; &nbsp;&nbsp;If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.
+                &#8226; &nbsp;&nbsp;If they have done these things we can File a Claim and ship them a replacement package, have them 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;verify their shipping address to ensure it is going to the correct address.
                 <br/>
-                &#8226; &nbsp;&nbsp;In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.</p>
+                &#8226; &nbsp;&nbsp;In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;give us more information.</p>
               </div>
               <div className="modal-footer">
                 <Button
@@ -185,34 +193,29 @@ class ShippingModals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
-                <h5>How do you submit a claim through fedex?</h5>
+                <h5>How do you submit a claim through Fedex?</h5>
                 <p>
-                &#8226; &nbsp;&nbsp;We have to do it, not the customer
+                &#8226; &nbsp;&nbsp;Log into Happy Hippo FedEx account
                 <br/>
-                &#8226; &nbsp;&nbsp;fedex will ask for prices of each item in the package; if all the prices are different calculate an average 
-                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;price
+                &#8226; &nbsp;&nbsp;Go to support - File a Claim
                 <br/>
-                &#8226; &nbsp;&nbsp;They will want screenshots of the order as proof
+                &#8226; &nbsp;&nbsp;Fill in all field with correct informations
                 <br/>
-                &#8226; &nbsp;&nbsp;Give them personal phone number for contact. Contact Darcie if needed.
-                </p>
-
-                <h5>
-                Why is fedex not available as a shipping option? 
-                </h5>
-                <p>
-                Check if there are any Vape Pens in their order - fedex will not ship Vape Pens. 
-                <br/>Place a mock order on the Happy Hippo Website - If fedex is not an option their address is undeliverable generally due to the address being too rural.
+                &#8226; &nbsp;&nbsp;Print claim, Print emailed copy, write customer’s name and File them
                 </p>
 
                 <h5>Checking Exceptions:</h5>
-                <p>Log into Quantum View. Go to Quantum view manage: From here to can view exceptions, change address and return to sender. fedex exceptions only need to 
-                  be addressed if there is an address issue.</p>
+                <p>
+                &#8226; &nbsp;&nbsp;Log into Happy Hippo FedEx account
+                <br/>
+                &#8226; &nbsp;&nbsp;Go Tracking and select Advanced Shipment Tracking 
+                <br/>
+                &#8226; &nbsp;&nbsp;Go through each exception - email the customer to inform them of the issue and suggest they sign 
+                &nbsp;&nbsp;&nbsp;&nbsp;up for FedEx Delivery Manager. 
+                </p>
                 
                 <h5>Missing Packages</h5>
-                <p>&#8226; &nbsp;&nbsp;Lookup package details using Quantum View. 
-                <br/>
-                &#8226; &nbsp;&nbsp;If a fedex package is lost, you will file a claim and ship a replacement package.
+                <p>&#8226; &nbsp;&nbsp;If a FedEx package is lost, you will file a claim. 
                 <br/>
                 &#8226; &nbsp;&nbsp;If a package has been marked as “Delivered” - ask the customer if they have checked around the Front Door and lawn.
                 <br/>
@@ -258,43 +261,16 @@ class ShippingModals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
-                <h5>How do you submit a claim through usps?</h5>
-                <p>
-                &#8226; &nbsp;&nbsp;We have to do it, not the customer
-                <br/>
-                &#8226; &nbsp;&nbsp;usps will ask for prices of each item in the package; if all the prices are different calculate an average 
-                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;price
-                <br/>
-                &#8226; &nbsp;&nbsp;They will want screenshots of the order as proof
-                <br/>
-                &#8226; &nbsp;&nbsp;Give them personal phone number for contact. Contact Darcie if needed.
-                </p>
+                <p>We are currently only using USPS for PO Box Deliveries.</p>
 
                 <h5>
-                Why is usps not available as a shipping option? 
+                How do you submit a claim through USPS? 
                 </h5>
                 <p>
-                Check if there are any Vape Pens in their order - usps will not ship Vape Pens. 
-                <br/>Place a mock order on the Happy Hippo Website - If usps is not an option their address is undeliverable generally due to the address being too rural.
+                The customer is responsible for Filing a Claim with USPS. They must wait 7 days after shipping for Express and 15 days for Priority. 
                 </p>
 
-                <h5>Checking Exceptions:</h5>
-                <p>Log into Quantum View. Go to Quantum view manage: From here to can view exceptions, change address and return to sender. usps exceptions only need to 
-                  be addressed if there is an address issue.</p>
-                
-                <h5>Missing Packages</h5>
-                <p>&#8226; &nbsp;&nbsp;Lookup package details using Quantum View. 
-                <br/>
-                &#8226; &nbsp;&nbsp;If a usps package is lost, you will file a claim and ship a replacement package.
-                <br/>
-                &#8226; &nbsp;&nbsp;If a package has been marked as “Delivered” - ask the customer if they have checked around the Front Door and lawn.
-                <br/>
-                &#8226; &nbsp;&nbsp;Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.
-                <br/>
-                &#8226; &nbsp;&nbsp;If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.
-                <br/>
-                &#8226; &nbsp;&nbsp;In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.</p>
-              </div>
+                </div>
               <div className="modal-footer">
                 <Button
                   className="ml-auto"
