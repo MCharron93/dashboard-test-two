@@ -232,7 +232,7 @@ const Sidebar = (props) => {
             </InputGroup>
           </Form>
           {/* Navigation */}
-          <Nav navbar>{createLinks(routes)}
+          <Nav navbar className="mt-">{createLinks(routes)}
           {/* NOTE inserting Navlink that routes to IT ticket request via Asana forms in separate window */}
           <NavLink
             href="https://form.asana.com/?k=qxP8ysQvIY6l5IDI4h9LUg&d=1195144362945755"
@@ -247,7 +247,7 @@ const Sidebar = (props) => {
           </NavLink>
           </Nav>
           {/* Divider */}
-          <div className="border-primary border my-3">
+          <div className="border-primary border my-4">
           </div>
         </Collapse>
       </Container>
