@@ -16,7 +16,7 @@ import {
   Col
 } from "reactstrap";
 
-class ShipStationModal extends React.Component {
+class MissingPackageModal extends React.Component {
   state = {
     defaultModal: false
   };
@@ -29,16 +29,15 @@ class ShipStationModal extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Shipstation</li>
+            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Missing Packages</li>
             <Modal
               className="modal-dialog-centered"
-              size="lg"
               isOpen={this.state.defaultModal}
               toggle={() => this.toggleModal("defaultModal")}
             >
               <div className="modal-header">
                 <h2 className="modal-title" id="modal-title-default">
-                  Shipstation
+                  Missing Packages Excel Spreadsheet
                 </h2>
                 <button
                   aria-label="Close"
@@ -51,22 +50,10 @@ class ShipStationModal extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
-                <h4>Clearing Holds:</h4>
+                {/* NOTE will want like to lead to spreadsheet mentioned by Cust. Serv. */}
                 <p>
-                Use the customers email and enter it into WLO - if this is their first order using the payment method you will email the customer about our
-                 First eCheck Policy (which is where we hold the package until the payment “settles” in our system) and keep the customer in holds with a note
-                  on their order saying they are a First Order Hold and have been emailed. If this is not their first order and they do not have any unsettled 
-                  returns you can restore them. 
+                When a package is lost we File a Claim with the appropriate carrier and then log it on the missing packages excel spreadsheet
                 </p>
-                <h4>How to look up Batches for possible orders that never shipped:</h4>
-                <ul>
-                    <li>Go to the Shipments tab</li>
-                    <li>Enter the order number</li>
-                    <li>Click on Batch #</li>
-                    <li>Scroll over the status: if all of them say the SAME this along the lines of “waiting for pickup” it was not shipped</li>
-                    <li>If they all say different things - it most likely got shipped</li>
-                    <li>If you are unsure - try printing the label and it will tell you if it has already been printed.</li>
-                </ul>
               </div>
               <div className="modal-footer">
                 <Button
@@ -86,4 +73,4 @@ class ShipStationModal extends React.Component {
   }
 }
 
-export default ShipStationModal;
+export default MissingPackageModal;

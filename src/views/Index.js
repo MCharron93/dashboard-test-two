@@ -50,6 +50,7 @@ import Header from "components/Headers/Header.js";
 import PaymentModals from "components/Modals/PaymentModals";
 import ShippingModals from "components/Modals/ShippingModals";
 import ShipStationModal from "components/Modals/ShipStationModal";
+import MissingPackageModal from "components/Modals/MissingPackageModal";
 
 const Index = (props) => {
   const [
@@ -88,6 +89,7 @@ const Index = (props) => {
                   <PaymentModals></PaymentModals>
                   <ShippingModals></ShippingModals>
                   <ShipStationModal></ShipStationModal>
+                  <MissingPackageModal></MissingPackageModal>
                 </div>
               </CardBody>
             </Card>
