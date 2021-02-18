@@ -50,13 +50,28 @@ class ShippingModals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
+                  <h4>
+                      Where do we ship?
+                  </h4>
                 <p>
-                Just like Happy Hippo, Kratom is not just a “normal” leaf. Kratom is still considered as a “grey area” by  most banks, it can be difficult and expensive to find 
-                payment processors that will work with us. While our payment methods may seem “unconventional” at first, rest assured that they are actually very easy to navigate
-                - and if you ever have any questions….your Happy Hippo Helpers are always Happy to help you. 
+                This is the legality map showing where kratom is legal. If it’s legal in the US we can ship there - http://speciosa.org/home/kratom-legality-map/. Puerto Rico, APO
+                 and FPO International Military Bases - refer to UPS guide.
                 </p>
+                <h4>
+                    Current shipping options    
+                </h4>
                 <p>
-                  
+                &#8226; &nbsp;&nbsp;UPS Next Day Air 
+                &#8226; &nbsp;&nbsp;FedEx 2 Day 
+                &#8226; &nbsp;&nbsp;USPS  
+                </p>
+                <h4>
+                Why can’t I find my State/Country in the Checkout section?  
+                  </h4>
+                <p>
+                If you are unable to see your State - there is a chance that Kratom is not legal in your area yet. Here is a handy dandy&nbsp; 
+                <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noreferrer">Kratom legality map</a> to help you out. 
+                We do not ship internationally at this time.
                 </p>
               </div>
               <div className="modal-footer">
