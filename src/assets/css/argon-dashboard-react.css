@@ -5890,7 +5890,7 @@ button.bg-darker:focus {
   box-shadow: 0 0 0.5rem rgba(136, 152, 170, 0.075) !important; }
 
 .shadow{
-  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5) !important; } 
+  box-shadow: 2px 8px 30px rgba(150, 170, 180, 0.5) !important; } 
 
 .card-profile-image img {
   box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important; }
