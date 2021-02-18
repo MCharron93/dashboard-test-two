@@ -755,9 +755,9 @@ $navbar-light-bg:                   transparent !default;
 $navbar-light-hover-bg:             rgba(0, 0, 0, .1) !default;
 $navbar-light-active-bg:            rgba(0, 0, 0, .1) !default;
 $navbar-light-border-color:         $gray-100 !default;
-$navbar-light-color:                $primary !default;
-$navbar-light-hover-color:          $secondary !default;
-$navbar-light-active-color:         #9cd146 !default;
+$navbar-light-color:                $gray-700 !default;
+$navbar-light-hover-color:          $primary !default;
+$navbar-light-active-color:         $primary !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-border-color: transparent !default;
 

@@ -246,11 +246,8 @@ const Sidebar = (props) => {
             IT Ticket Request
           </NavLink>
           </Nav>
-          {/* <div>
-            <h6>IT Link here</h6>
-          </div> */}
           {/* Divider */}
-          <div className="border-white border my-3">
+          <div className="border-primary border my-3">
           </div>
         </Collapse>
       </Container>
