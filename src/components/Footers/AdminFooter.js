@@ -26,15 +26,15 @@ const Footer = () => {
     <footer className="footer">
       <Row className="align-items-center justify-content-xl-between">
         <Col xl="6">
-          <div className="copyright text-center text-xl-left text-muted">
-            © {new Date().getFullYear()}{" "}
+          <div className="copyright text-center text-xl-left text-muted pl-2">
+            {/* {new Date().toDateString()}{" "} */}
             <a
               className="font-weight-bold ml-1"
-              href="https://www.creative-tim.com?ref=adr-admin-footer"
+              href="https://www.happyhippoherbals.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Creative Tim
+              Happy Hippo Herbals
             </a>
           </div>
         </Col>
@@ -43,11 +43,11 @@ const Footer = () => {
           <Nav className="nav-footer justify-content-center justify-content-xl-end">
             <NavItem>
               <NavLink
-                href="https://www.creative-tim.com?ref=adr-admin-footer"
+                href="https://www.instagram.com/realhappyhippoherbals/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Creative Tim
+                <i class="fab fa-instagram fa-2x"></i>
               </NavLink>
             </NavItem>
 

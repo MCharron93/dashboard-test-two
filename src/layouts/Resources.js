@@ -3,8 +3,8 @@ import { useLocation, Route, Switch, Redirect } from "react-router-dom";
 // reactstrap components
 import { Container } from "reactstrap";
 // core components
-// import AdminNavbar from "components/Navbars/AdminNavbar.js";
-import AdminFooter from "components/Footers/AdminFooter.js";
+import AdminNavbar from "components/Navbars/AdminNavbar.js";
+// import AdminFooter from "components/Footers/AdminFooter.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
 
 import routes from "routes.js";
@@ -36,17 +36,17 @@ const Resources = (props) => {
   };
 // NOTE this function queries different paths via search bar in the top admin nav
 // NOTE removed overlay of navbar to look at different layout styles
-//   const getBrandText = (path) => {
-//     for (let i = 0; i < routes.length; i++) {
-//       if (
-//         props.location.pathname.indexOf(routes[i].layout + routes[i].path) !==
-//         -1
-//       ) {
-//         return routes[i].name;
-//       }
-//     }
-//     return "Brand";
-//   };
+  const getBrandText = (path) => {
+    for (let i = 0; i < routes.length; i++) {
+      if (
+        props.location.pathname.indexOf(routes[i].layout + routes[i].path) !==
+        -1
+      ) {
+        return routes[i].name;
+      }
+    }
+    return "Brand";
+  };
 
   return (
     <>
@@ -61,16 +61,16 @@ const Resources = (props) => {
       />
       <div className="main-content" ref={mainContent}>
           {/* NOTE removed adminNav to look at different style edits */}
-        {/* <AdminNavbar
+        <AdminNavbar
           {...props}
           brandText={getBrandText(props.location.pathname)}
-        /> */}
+        />
         <Switch>
           {getRoutes(routes)}
           <Redirect from="*" to="/home/dashboard" />
         </Switch>
         <Container fluid>
-          <AdminFooter />
+          {/* <AdminFooter /> */}
         </Container>
       </div>
     </>
