@@ -47,7 +47,7 @@ import {
 } from "variables/charts.js";
 
 import Header from "components/Headers/Header.js";
-import Modals from "components/Modals/CustomerServiceModal";
+import Modals from "components/Modals/PaymentModals";
 
 const Index = (props) => {
   const [activeNav, setActiveNav] = useState(1);
@@ -77,61 +77,12 @@ const Index = (props) => {
                       Overview
                     </h6> */}
                     <h2 className="text-white mb-0">Knowledge Base</h2>
-                    <div><Modals></Modals></div>
                   </div>
-                  {/* <div className="col">
-                    <Nav className="justify-content-end" pills>
-                      <NavItem>
-                        <NavLink
-                          className={classnames("py-2 px-3", {
-                            active: activeNav === 1,
-                          })}
-                          href="#pablo"
-                          onClick={(e) => toggleNavs(e, 1)}
-                        >
-                          <span className="d-none d-md-block">Month</span>
-                          <span className="d-md-none">M</span>
-                        </NavLink>
-                      </NavItem>
-                      <NavItem>
-                        <NavLink
-                          className={classnames("py-2 px-3", {
-                            active: activeNav === 2,
-                          })}
-                          data-toggle="tab"
-                          href="#pablo"
-                          onClick={(e) => toggleNavs(e, 2)}
-                        >
-                          <span className="d-none d-md-block">Week</span>
-                          <span className="d-md-none">W</span>
-                        </NavLink>
-                      </NavItem>
-                    </Nav>
-                  </div> */}
                 </Row>
               </CardHeader>
               <CardBody>
                 <div class="row">
-                  <Col>
-                    <ul>
-                      <a href="https://docs.google.com/document/d/1cAnxIQ-4NEsdbszNbPGMS70N3fPZ9HSYlTinQVWYHfo/edit?ts=602af9d0" rel="noreferrer" target="_blank">
-                      <li className="py-2">HHH Guide</li>
-                      </a>
-                      <li className="py-2">Payment Methods</li>
-                      <li className="py-2">Payment Options</li>
-                      <li className="py-2">Shipping</li>
-                      <li className="py-2">Ban System</li>
-                    </ul>
-                  </Col>
-                  <Col>
-                    <ul>
-                    <li className="py-2">Debt Collection Sheet</li>
-                    <li className="py-2">Discounts</li>
-                    <li className="py-2">Rewards Points</li>
-                    <li className="py-2">Order Issues/Damages</li>
-                    <li className="py-2">General Kratom Knowledge</li>
-                    </ul>
-                  </Col>
+                  <Modals></Modals>
                 </div>
               </CardBody>
             </Card>

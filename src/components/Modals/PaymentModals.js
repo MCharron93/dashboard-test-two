@@ -28,7 +28,6 @@ class Modals extends React.Component {
   render() {
     return (
       <>
-        <Row>
           <Col md="6">
             <li className="btn shadow-none text-white" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Payment Methods</li>
             <Modal
@@ -118,7 +117,6 @@ class Modals extends React.Component {
               </div>
             </Modal>
           </Col>
-        </Row>
       </>
     );
   }
