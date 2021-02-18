@@ -12,11 +12,11 @@ import {
 //   InputGroupText,
 //   InputGroup,
   Modal,
-  // Row,
+//   Row,
   Col
 } from "reactstrap";
 
-class PaymentModals extends React.Component {
+class ShippingModals extends React.Component {
   state = {
     defaultModal: false
   };
@@ -29,7 +29,7 @@ class PaymentModals extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Payment Methods</li>
+            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Shipping</li>
             <Modal
               className="modal-dialog-centered"
               isOpen={this.state.defaultModal}
@@ -37,7 +37,7 @@ class PaymentModals extends React.Component {
             >
               <div className="modal-header">
                 <h2 className="modal-title" id="modal-title-default">
-                  Payment Methods
+                  Shipping
                 </h2>
                 <button
                   aria-label="Close"
@@ -73,12 +73,12 @@ class PaymentModals extends React.Component {
             </Modal>
           </Col>
           <Col md="6">
-          <h5 className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("payOpt")}>&#8226; &nbsp;&nbsp;Payment Options</h5>
+          <h5 className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("FedEx")}>&#8226; &nbsp;&nbsp;FedEx</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"
-              isOpen={this.state.payOpt}
-              toggle={() => this.toggleModal("payOpt")}
+              isOpen={this.state.FedEx}
+              toggle={() => this.toggleModal("FedEx")}
             >
               <div className="modal-header">
                 <h2 className="modal-title" id="modal-title-default">
@@ -89,13 +89,13 @@ class PaymentModals extends React.Component {
                   className="close"
                   data-dismiss="modal"
                   type="button"
-                  onClick={() => this.toggleModal("payOpt")}
+                  onClick={() => this.toggleModal("FedEx")}
                 >
                   <span aria-hidden={true}>×</span>
                 </button>
               </div>
               <div className="modal-body">
-                <h4>We offer 6 payment options to our Hippo Family. Each option has its own unique benefits.</h4>
+                {/* <h4>We offer 6 payment options to our Hippo Family. Each option has its own unique benefits.</h4>
                 <br/>
                 <h3>PMC</h3>
                 <p>
@@ -133,7 +133,7 @@ class PaymentModals extends React.Component {
                 <p>PMC has an order maximum of $500.</p>
                 
                 <h5>What does “Pending Settlement” mean?</h5>
-                <p>If an order states “Pending Settlement” the client has transferred the funds and we are good to process the order if necessary - this just means they have not confirmed the transaction. </p>
+                <p>If an order states “Pending Settlement” the client has transferred the funds and we are good to process the order if necessary - this just means they have not confirmed the transaction. </p> */}
               </div>
               <div className="modal-footer">
                 <Button
@@ -141,7 +141,7 @@ class PaymentModals extends React.Component {
                   color="default"
                   data-dismiss="modal"
                   type="button"
-                  onClick={() => this.toggleModal("payOpt")}
+                  onClick={() => this.toggleModal("FedEx")}
                 >
                   Close
                 </Button>
@@ -153,63 +153,4 @@ class PaymentModals extends React.Component {
   }
 }
 
-export default PaymentModals;
-
-
-// NOTE notification modal that looks really pretty, but not sure if needed at this time in this page. Set off to side for future use
-// <Col md="4">
-//             <Button
-//               block
-//               className="mb-3"
-//               color="warning"
-//               type="button"
-//               onClick={() => this.toggleModal("notificationModal")}
-//             >
-//               Notification
-//             </Button>
-//             <Modal
-//               className="modal-dialog-centered modal-danger"
-//               contentClassName="bg-gradient-danger"
-//               isOpen={this.state.notificationModal}
-//               toggle={() => this.toggleModal("notificationModal")}
-//             >
-//               <div className="modal-header">
-//                 <h6 className="modal-title" id="modal-title-notification">
-//                   Your attention is required
-//                 </h6>
-//                 <button
-//                   aria-label="Close"
-//                   className="close"
-//                   data-dismiss="modal"
-//                   type="button"
-//                   onClick={() => this.toggleModal("notificationModal")}
-//                 >
-//                   <span aria-hidden={true}>×</span>
-//                 </button>
-//               </div>
-//               <div className="modal-body">
-//                 <div className="py-3 text-center">
-//                   <i className="ni ni-bell-55 ni-3x" />
-//                   <h4 className="heading mt-4">You should read this!</h4>
-//                   <p>
-//                     A small river named Duden flows by their place and
-//                     supplies it with the necessary regelialia.
-//                   </p>
-//                 </div>
-//               </div>
-//               <div className="modal-footer">
-//                 <Button className="btn-white" color="default" type="button">
-//                   Ok, Got it
-//                 </Button>
-//                 <Button
-//                   className="text-white ml-auto"
-//                   color="link"
-//                   data-dismiss="modal"
-//                   type="button"
-//                   onClick={() => this.toggleModal("notificationModal")}
-//                 >
-//                   Close
-//                 </Button>
-//               </div>
-//             </Modal>
-//           </Col>
+export default ShippingModals;

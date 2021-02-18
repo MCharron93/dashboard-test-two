@@ -48,10 +48,15 @@ import {
 
 import Header from "components/Headers/Header.js";
 import PaymentModals from "components/Modals/PaymentModals";
+import ShippingModals from "components/Modals/ShippingModals";
 
 const Index = (props) => {
-  const [activeNav, setActiveNav] = useState(1);
-  const [chartExample1Data, setChartExample1Data] = useState("data1");
+  const [
+    // activeNav, 
+    setActiveNav] = useState(1);
+  const [
+    // chartExample1Data, 
+    setChartExample1Data] = useState("data1");
 
   if (window.Chart) {
     parseOptions(Chart, chartOptions());
@@ -80,6 +85,7 @@ const Index = (props) => {
               <CardBody>
                 <div class="row">
                   <PaymentModals></PaymentModals>
+                  <ShippingModals></ShippingModals>
                 </div>
               </CardBody>
             </Card>
