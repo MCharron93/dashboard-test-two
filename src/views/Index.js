@@ -47,6 +47,7 @@ import {
 } from "variables/charts.js";
 
 import Header from "components/Headers/Header.js";
+import Modals from "components/Modals/CustomerServiceModal";
 
 const Index = (props) => {
   const [activeNav, setActiveNav] = useState(1);
@@ -76,6 +77,7 @@ const Index = (props) => {
                       Overview
                     </h6> */}
                     <h2 className="text-white mb-0">Knowledge Base</h2>
+                    <div><Modals></Modals></div>
                   </div>
                   {/* <div className="col">
                     <Nav className="justify-content-end" pills>
@@ -347,3 +349,4 @@ const Index = (props) => {
 };
 
 export default Index;
+
