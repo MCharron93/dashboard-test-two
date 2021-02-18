@@ -232,7 +232,7 @@ $love-color: $red !default;
 // Body
 
 
-$body-bg: #f8f9fe !default;
+$body-bg: #dfe0e57d !default;
 $body-color: $gray-700 !default;
 
 
@@ -755,9 +755,9 @@ $navbar-light-bg:                   transparent !default;
 $navbar-light-hover-bg:             rgba(0, 0, 0, .1) !default;
 $navbar-light-active-bg:            rgba(0, 0, 0, .1) !default;
 $navbar-light-border-color:         $gray-100 !default;
-$navbar-light-color:                $white !default;
-$navbar-light-hover-color:          #b5ea60 !default;
-$navbar-light-active-color:         $secondary !default;
+$navbar-light-color:                $primary !default;
+$navbar-light-hover-color:          $secondary !default;
+$navbar-light-active-color:         #9cd146 !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-border-color: transparent !default;
 
@@ -769,7 +769,7 @@ $navbar-search-light-focus-color:    rgba(0, 0, 0, .9) !default;
 
 
 // Vertical navbar
-$navbar-vertical-box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15) !important;
+$navbar-vertical-box-shadow: 0 0 25px rgba(0, 0, 0, .3) !default;
 $navbar-vertical-width: 250px !default;
 $navbar-vertical-padding-x: 1.5rem !default;
 $navbar-vertical-nav-link-padding-x:  1.5rem !default;
@@ -992,15 +992,15 @@ $datepicker-highlighted-bg: $datepicker-active-background !default;
 // Footer
 
 
-$footer-padding-y:              2.5rem;
-$footer-padding-x:              0;
+$footer-padding-y:              1rem;
+$footer-padding-x:              0.5rem;
 
 
 $footer-link-font-size: .85rem !default;
 $footer-bg: theme-color("neutral") !default;
 $footer-color: $gray-600 !default;
 $footer-link-color: $gray-600 !default;
-$footer-link-hover-color: $gray-700 !default;
+$footer-link-hover-color: $default !default;
 $footer-heading-color: $gray-600 !default;
 $footer-heading-font-size: $font-size-sm !default;
 

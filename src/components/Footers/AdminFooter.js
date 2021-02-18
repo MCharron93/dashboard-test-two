@@ -26,7 +26,7 @@ const Footer = () => {
     <footer className="footer">
       <Row className="align-items-center justify-content-xl-between">
         <Col xl="6">
-          <div className="copyright text-center text-xl-left text-muted pl-2">
+          <div className="copyright text-center text-xl-left text-muted">
             {/* {new Date().toDateString()}{" "} */}
             <a
               className="font-weight-bold ml-1"
@@ -53,21 +53,21 @@ const Footer = () => {
 
             <NavItem>
               <NavLink
-                href="https://www.creative-tim.com/presentation?ref=adr-admin-footer"
+                href="https://www.happyhippoherbals.com/blog/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                About Us
+                <i class="fas fa-edit fa-2x"></i>
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink
-                href="http://blog.creative-tim.com?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
+                // href=""
+                // rel="noopener noreferrer"
+                // target="_blank"
               >
-                Blog
+                <i class="fab fa-facebook fa-2x"></i>
               </NavLink>
             </NavItem>
 
@@ -77,7 +77,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                MIT License
+                <i class="fab fa-twitter fa-2x"></i>
               </NavLink>
             </NavItem>
           </Nav>
