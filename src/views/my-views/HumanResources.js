@@ -12,6 +12,8 @@ import {
     TabPane
   } from "reactstrap";
 
+  
+
 
 class HumanResources extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -125,7 +127,7 @@ render() {
         </div>
         <div className="container-fluid mt--7">
 
-        <Card className="shadow mx-4 rounded">
+        <Card className="shadow rounded my-4">
           <CardBody>
               {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
               {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
