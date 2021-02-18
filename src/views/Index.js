@@ -47,7 +47,7 @@ import {
 } from "variables/charts.js";
 
 import Header from "components/Headers/Header.js";
-import Modals from "components/Modals/PaymentModals";
+import PaymentModals from "components/Modals/PaymentModals";
 
 const Index = (props) => {
   const [activeNav, setActiveNav] = useState(1);
@@ -73,16 +73,13 @@ const Index = (props) => {
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
                   <div className="col">
-                    {/* <h6 className="text-uppercase text-light ls-1 mb-1">
-                      Overview
-                    </h6> */}
                     <h2 className="text-white mb-0">Knowledge Base</h2>
                   </div>
                 </Row>
               </CardHeader>
               <CardBody>
                 <div class="row">
-                  <Modals></Modals>
+                  <PaymentModals></PaymentModals>
                 </div>
               </CardBody>
             </Card>
