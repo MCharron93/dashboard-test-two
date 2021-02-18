@@ -102,37 +102,47 @@ class PaymentModals extends React.Component {
                 PMC is a third-party Credit Card processor that accepts Visa/MC/Discover/AMEX. This payment method does NOT require a minimum purchase amount. Don’t be fooled by the 
                 “Coin” in the title or the request to purchase “gold”...this is just a third party Credit Card processor that we use. 
                 </p>
-                <h5>PMC steps:</h5>
-                <p>
-                &#8226; &nbsp;&nbsp;With PMC you will be redirected to the PMC website, where you will enter in your Credit Card information (it’s just easier if you ignore the fact that you are purchasing “gold”). 
-                Once you Agree to the Terms and Conditions and select “Next” you will be directed to Step 2
-                <br/>
-                &#8226; &nbsp;&nbsp;Step 2 will notify you that you have purchased PMC Gold and it is now in your eWallet. While you can hold this money in your eWallet, you will want to Transfer 
-                this to a Vendor… select “Spend PMC Gold with Happy Hippo”.
-                </p>
+                <h3>PMC steps:</h3>
+                <ul>
+                <li>
+                  With PMC you will be redirected to the PMC website, where you will enter in your Credit Card information (it’s just easier if you ignore the fact that you are purchasing “gold”). 
+                </li>
+                <li>
+                  Once you Agree to the Terms and Conditions and select “Next” you will be directed to Step 2
+                </li>
+                <li>
+                  Step 2 will notify you that you have purchased PMC Gold and it is now in your eWallet. While you can hold this money in your eWallet, you will want to Transfer 
+                  this to a Vendor
+                </li>
+                <li>
+                Select “Spend PMC Gold with Happy Hippo”.
+                </li>
+                </ul>
                 <h5>
                 YOU ARE NOT DONE JUST YET! 
                 </h5>
-                <p>
-                &#8226; &nbsp;&nbsp;You will need to continue to Step 3 to “Complete Transfer to Happy Hippo”. Once you have done this you will wait to be Redirected to the Happy Hippo 
+                <ul>
+                  <li>
+                  You will need to continue to Step 3 to “Complete Transfer to Happy Hippo”. Once you have done this you will wait to be Redirected to the Happy Hippo 
                   webpage(this is how it confirms your order).
-                </p>
+                  </li>
+                </ul>
                 
-                <h5>Why does PMC block customers and what do we do?</h5>
+                <h3>Why does PMC block customers and what do we do?</h3>
                 <p>Usually insufficient funds or a bounced payment. Email Jennifer/Chandler and ask for details on the customer via support@pmccoins.com</p>
                 
-                <h5>How do you issue a refund through PMC?</h5>
+                <h3>How do you issue a refund through PMC?</h3>
                 <p>Email Jennifer/Chandler with Customer name, order number, amount, etc. </p>
                 
-                <h5>How do you check PMC missing orders?</h5>
+                <h3>How do you check PMC missing orders?</h3>
                 <p>If customers do not complete Step 3 - the transfer to Happy Hippo their order will go into missing order. We must manually check PMC orders through OpenCart. Copy Order 
                   ID from PMC Dashboard and paste it into Order ID in OpenCart. If an order appears, modify the order status to “Processed” and click “Notify Customer”. If no order appears
                   go to the next order until you have checked them all.</p>
                 
-                <h5>Order Max?</h5>
+                <h3>Order Max?</h3>
                 <p>PMC has an order maximum of $500.</p>
                 
-                <h5>What does “Pending Settlement” mean?</h5>
+                <h3>What does “Pending Settlement” mean?</h3>
                 <p>If an order states “Pending Settlement” the client has transferred the funds and we are good to process the order if necessary - this just means they have not confirmed the transaction. </p>
               </div>
               <div className="modal-footer">
