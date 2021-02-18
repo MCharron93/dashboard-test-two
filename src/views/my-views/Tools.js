@@ -133,7 +133,7 @@ render() {
           <TabContent activeTab={"tabs" + this.state.tabs}>
             <TabPane tabId="tabs1">
             <div className="row justify-content-around text-center px-2">
-            <div className="col-3">
+            <div className="col-3 d-flex align-items-center">
               <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="gmail"/>
               <div className="pt-2">
@@ -141,7 +141,7 @@ render() {
               </div>
               </a>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex align-items-center">
               <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/>
               <div className="pt-2">
@@ -149,7 +149,7 @@ render() {
               </div>
               </a>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex align-items-center">
               <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://i.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" alt="gmail"/>
               <div className="pt-2">
@@ -157,7 +157,7 @@ render() {
               </div>
               </a>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex align-items-center">
               <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="gmail"/>
               <div className="pt-2">
