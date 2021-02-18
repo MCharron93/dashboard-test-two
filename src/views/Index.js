@@ -112,7 +112,7 @@ const Index = (props) => {
           </Col>
         </Row>
         <Row className="mt-5 my-4">
-          <Col className="mb-5 mb-xl-0" xl="8">
+          {/* <Col className="mb-5 mb-xl-0" xl="8">
             <Card className="shadow">
               <CardHeader className="border-0">
                 <Row className="align-items-center">
@@ -187,8 +187,8 @@ const Index = (props) => {
                 </tbody>
               </Table>
             </Card>
-          </Col>
-          <Col xl="4">
+          </Col> */}
+          {/* <Col xl="4">
             <Card className="shadow">
               <CardHeader className="border-0">
                 <Row className="align-items-center">
@@ -295,7 +295,7 @@ const Index = (props) => {
                 </tbody>
               </Table>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </>
