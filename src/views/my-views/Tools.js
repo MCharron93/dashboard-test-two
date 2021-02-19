@@ -40,7 +40,7 @@ render() {
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 1}
-              className={classnames("mb-sm-3 mb-md-0", {
+              className={classnames("btn mb-sm-3 mb-md-0", {
                 active: this.state.tabs === 1
               })}
               onClick={e => this.toggleNavs(e, "tabs", 1)}
@@ -54,7 +54,7 @@ render() {
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 2}
-              className={classnames("mb-sm-3 mb-md-0", {
+              className={classnames("btn mb-sm-3 mb-md-0", {
                 active: this.state.tabs === 2
               })}
               onClick={e => this.toggleNavs(e, "tabs", 2)}
@@ -68,7 +68,7 @@ render() {
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 3}
-              className={classnames("mb-sm-3 mb-md-0", {
+              className={classnames("btn mb-sm-3 mb-md-0", {
                 active: this.state.tabs === 3
               })}
               onClick={e => this.toggleNavs(e, "tabs", 3)}
@@ -82,7 +82,7 @@ render() {
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 4}
-              className={classnames("mb-sm-3 mb-md-0", {
+              className={classnames("btn mb-sm-3 mb-md-0", {
                 active: this.state.tabs === 4
               })}
               onClick={e => this.toggleNavs(e, "tabs", 4)}
@@ -96,7 +96,7 @@ render() {
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 5}
-              className={classnames("mb-sm-3 mb-md-0", {
+              className={classnames("btn mb-sm-3 mb-md-0", {
                 active: this.state.tabs === 5
               })}
               onClick={e => this.toggleNavs(e, "tabs", 5)}
