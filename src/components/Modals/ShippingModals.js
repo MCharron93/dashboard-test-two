@@ -116,50 +116,65 @@ class ShippingModals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
-                <h5>How do you submit a claim through UPS?</h5>
-                <p>
-                &#8226; &nbsp;&nbsp;We have to do it, not the customer
-                <br/>
-                &#8226; &nbsp;&nbsp;UPS will ask for prices of each item in the package; if all the prices are different calculate an average 
-                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;price
-                <br/>
-                &#8226; &nbsp;&nbsp;They will want screenshots of the order as proof
-                <br/>
-                &#8226; &nbsp;&nbsp;Give them personal phone number for contact. Contact Darcie if needed.
-                </p>
+                <h3>How do you submit a claim through UPS?</h3>
+                <ul>
+                  <li>
+                  We have to do it, not the customer
+                  </li>
+                  <li>
+                  UPS will ask for prices of each item in the package; if all the prices are different calculate an average price
+                  </li>
+                  <li>
+                  They will want screenshots of the order as proof
+                  </li>
+                  <li>
+                  Give them personal phone number for contact. Contact Darcie if needed.
+                  </li>
+                </ul>
 
-                <h5>
+                <h3>
                 Why is UPS not available as a shipping option? 
-                </h5>
+                </h3>
                 <p>
                 Check if there are any Vape Pens in their order - UPS will not ship Vape Pens. 
                 <br/>Place a mock order on the Happy Hippo Website - If UPS is not an option their address is undeliverable generally due to the address being too rural.
                 </p>
 
-                <h5>Checking Exceptions:</h5>
-                <p>&#8226; &nbsp;&nbsp;Log into Quantum View. 
-                  <br/>&#8226; &nbsp;&nbsp;Go to Quantum view manage: From here to can view exceptions, change address and return to 
-                  &nbsp;&nbsp;&nbsp;&nbsp;sender. 
-                  <br/>&#8226; &nbsp;&nbsp;UPS exceptions only need to 
+                <h3>Checking Exceptions:</h3>
+                <ul>
+                  <li>
+                  Log into Quantum View.
+                  </li>
+                  <li>
+                  Go to Quantum view manage: From here to can view exceptions, change address and return to sender.
+                  </li>
+                  <li>
+                  UPS exceptions only need to 
                   be addressed if there is an address issue.
-                  </p>
-                
-                <h5>Missing Packages</h5>
-                <p>&#8226; &nbsp;&nbsp;Lookup package details using Quantum View. 
-                <br/>
-                &#8226; &nbsp;&nbsp;If a UPS package is lost, you will file a claim and ship a replacement package.
-                <br/>
-                &#8226; &nbsp;&nbsp;If a package has been marked as “Delivered” - ask the customer if they have checked around the front 
-                &nbsp;&nbsp;&nbsp;&nbsp;door and lawn.
-                <br/>
-                &#8226; &nbsp;&nbsp;Ask them if they have checked with other residents and neighbors who may have received the 
-                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;package on their behalf.
-                <br/>
-                &#8226; &nbsp;&nbsp;If they have done these things we can File a Claim and ship them a replacement package, have them 
-                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;verify their shipping address to ensure it is going to the correct address.
-                <br/>
-                &#8226; &nbsp;&nbsp;In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or 
-                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;give us more information.</p>
+                  </li>
+                </ul>
+
+                <h3>Missing Packages</h3>
+                <ul>
+                  <li>
+                  Lookup package details using Quantum View.
+                  </li>
+                  <li>
+                  If a UPS package is lost, you will file a claim and ship a replacement package.
+                  </li>
+                  <li>
+                  If a package has been marked as “Delivered” - ask the customer if they have checked around the front door and lawn.
+                  </li>
+                  <li>
+                  Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.
+                  </li>
+                  <li>
+                  If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.
+                  </li>
+                  <li>
+                  In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.
+                  </li>
+                </ul>
               </div>
               <div className="modal-footer">
                 <Button
