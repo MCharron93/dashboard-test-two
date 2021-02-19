@@ -24,15 +24,15 @@ import Chart from "chart.js";
 // import { Line, Bar } from "react-chartjs-2";
 // reactstrap components
 import {
-  Button,
+  // Button,
   Card,
   CardHeader,
   CardBody,
   // NavItem,
   // NavLink,
   // Nav,
-  Progress,
-  Table,
+  // Progress,
+  // Table,
   Container,
   Row,
   Col,
@@ -51,6 +51,7 @@ import PaymentModals from "components/Modals/PaymentModals";
 import ShippingModals from "components/Modals/ShippingModals";
 import ShipStationModal from "components/Modals/ShipStationModal";
 import MissingPackageModal from "components/Modals/MissingPackageModal";
+import BanCollectionModal from "components/Modals/BanCollectionModal";
 
 const Index = (props) => {
   const [
@@ -90,6 +91,7 @@ const Index = (props) => {
                   <ShippingModals></ShippingModals>
                   <ShipStationModal></ShipStationModal>
                   <MissingPackageModal></MissingPackageModal>
+                  <BanCollectionModal></BanCollectionModal>
                 </div>
               </CardBody>
             </Card>
