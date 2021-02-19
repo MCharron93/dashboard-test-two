@@ -41,8 +41,8 @@
 
     @include media-breakpoint-up(md) {
         .navbar-collapse {
-            margin-left: -$navbar-padding-x;
-            margin-right: -$navbar-padding-x;
+            // margin-left: -$navbar-padding-x;
+            // margin-right: -$navbar-padding-x;
             padding-left: $navbar-padding-x;
             padding-right: $navbar-padding-x;
 
@@ -50,7 +50,6 @@
                 content: '';
                 display: block;
                 margin: 0px;
-                border-top: 2px #fe64a3 solid;
             }
         }
     }
@@ -222,8 +221,8 @@
                     // Navbar navigation
                     .navbar-nav {
                         flex-direction: column;
-                        margin-left: -$navbar-vertical-padding-x;
-                        margin-right: -$navbar-vertical-padding-x;
+                        // margin-left: -$navbar-vertical-padding-x;
+                        // margin-right: -$navbar-vertical-padding-x;
                     }
 
                     .navbar-nav .nav-link {

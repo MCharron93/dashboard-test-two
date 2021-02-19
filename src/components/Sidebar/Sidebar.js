@@ -247,8 +247,8 @@ const Sidebar = (props) => {
           </NavLink>
           </Nav>
           {/* Divider */}
-          <div className="border-primary border my-4">
-          </div>
+          {/* <div className="border-primary border my-4"> */}
+          {/* </div> */}
         </Collapse>
       </Container>
     </Navbar>
