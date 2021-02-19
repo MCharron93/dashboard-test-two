@@ -76,7 +76,7 @@ const Index = (props) => {
       <Header />
       {/* Page content */}
       <Container className="mt--7" fluid>
-        <Row>
+        <Row className="justify-content-center">
           <Col className="mb-5 mb-xl-0" xl="4">
             <Card className="bg-gradient-default shadow border-0">
               <CardHeader className="text-dark">
@@ -100,7 +100,7 @@ const Index = (props) => {
               </CardBody>
             </Card>
           </Col>
-          <Col xl="4">
+          <Col className="mb-5 mb-xl-0" xl="4">
             <Card className="shadow">
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
