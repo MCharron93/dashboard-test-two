@@ -61,19 +61,13 @@ class ShippingModals extends React.Component {
                     Current shipping options:    
                 </h4>
                 <ul>
-                  <li>
-                  UPS Next Day Air
-                  </li>
-                  <li>
-                  FedEx 2 Day
-                  </li>
-                  <li>
-                  USPS
-                  </li>
+                  <li>UPS Next Day Air</li>
+                  <li>FedEx 2 Day</li>
+                  <li>USPS</li>
                 </ul>
                 <h4>
                 Why can’t I find my State/Country in the Checkout section?  
-                  </h4>
+                </h4>
                 <p>
                 If you are unable to see your State - there is a chance that Kratom is not legal in your area yet. Here is a handy dandy&nbsp; 
                 <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noreferrer">Kratom legality map</a> to help you out. 
@@ -118,18 +112,10 @@ class ShippingModals extends React.Component {
               <div className="modal-body">
                 <h3>How do you submit a claim through UPS?</h3>
                 <ul>
-                  <li>
-                  We have to do it, not the customer
-                  </li>
-                  <li>
-                  UPS will ask for prices of each item in the package; if all the prices are different calculate an average price
-                  </li>
-                  <li>
-                  They will want screenshots of the order as proof
-                  </li>
-                  <li>
-                  Give them personal phone number for contact. Contact Darcie if needed.
-                  </li>
+                  <li>We have to do it, not the customer</li>
+                  <li>UPS will ask for prices of each item in the package; if all the prices are different calculate an average price</li>
+                  <li>They will want screenshots of the order as proof</li>
+                  <li>Give them personal phone number for contact. Contact Darcie if needed.</li>
                 </ul>
 
                 <h3>
@@ -142,38 +128,19 @@ class ShippingModals extends React.Component {
 
                 <h3>Checking Exceptions:</h3>
                 <ul>
-                  <li>
-                  Log into Quantum View.
-                  </li>
-                  <li>
-                  Go to Quantum view manage: From here to can view exceptions, change address and return to sender.
-                  </li>
-                  <li>
-                  UPS exceptions only need to 
-                  be addressed if there is an address issue.
-                  </li>
+                  <li>Log into Quantum View.</li>
+                  <li>Go to Quantum view manage: From here to can view exceptions, change address and return to sender.</li>
+                  <li>UPS exceptions only need to be addressed if there is an address issue.</li>
                 </ul>
 
                 <h3>Missing Packages</h3>
                 <ul>
-                  <li>
-                  Lookup package details using Quantum View.
-                  </li>
-                  <li>
-                  If a UPS package is lost, you will file a claim and ship a replacement package.
-                  </li>
-                  <li>
-                  If a package has been marked as “Delivered” - ask the customer if they have checked around the front door and lawn.
-                  </li>
-                  <li>
-                  Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.
-                  </li>
-                  <li>
-                  If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.
-                  </li>
-                  <li>
-                  In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.
-                  </li>
+                  <li>Lookup package details using Quantum View.</li>
+                  <li>If a UPS package is lost, you will file a claim and ship a replacement package.</li>
+                  <li>If a package has been marked as “Delivered” - ask the customer if they have checked around the front door and lawn.</li>
+                  <li>Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.</li>
+                  <li>If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.</li>
+                  <li>In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.</li>
                 </ul>
               </div>
               <div className="modal-footer">
@@ -213,36 +180,28 @@ class ShippingModals extends React.Component {
               </div>
               <div className="modal-body">
                 <h5>How do you submit a claim through Fedex?</h5>
-                <p>
-                &#8226; &nbsp;&nbsp;Log into Happy Hippo FedEx account
-                <br/>
-                &#8226; &nbsp;&nbsp;Go to support - File a Claim
-                <br/>
-                &#8226; &nbsp;&nbsp;Fill in all field with correct informations
-                <br/>
-                &#8226; &nbsp;&nbsp;Print claim, Print emailed copy, write customer’s name and File them
-                </p>
+                <ul>
+                  <li>Log into Happy Hippo FedEx account</li>
+                  <li>Go to support - File a Claim</li>
+                  <li>Fill in all field with correct informations</li>
+                  <li>Print claim, Print emailed copy, write customer’s name and File them</li>
+                </ul>
 
                 <h5>Checking Exceptions:</h5>
-                <p>
-                &#8226; &nbsp;&nbsp;Log into Happy Hippo FedEx account
-                <br/>
-                &#8226; &nbsp;&nbsp;Go Tracking and select Advanced Shipment Tracking 
-                <br/>
-                &#8226; &nbsp;&nbsp;Go through each exception - email the customer to inform them of the issue and suggest they sign 
-                &nbsp;&nbsp;&nbsp;&nbsp;up for FedEx Delivery Manager. 
-                </p>
+                <ul>
+                  <li>Log into Happy Hippo FedEx account</li>
+                  <li>Go Tracking and select Advanced Shipment Tracking</li>
+                  <li>Go through each exception - email the customer to inform them of the issue and suggest they sign up for FedEx Delivery Manager.</li>
+                </ul>
                 
                 <h5>Missing Packages</h5>
-                <p>&#8226; &nbsp;&nbsp;If a FedEx package is lost, you will file a claim. 
-                <br/>
-                &#8226; &nbsp;&nbsp;If a package has been marked as “Delivered” - ask the customer if they have checked around the Front Door and lawn.
-                <br/>
-                &#8226; &nbsp;&nbsp;Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.
-                <br/>
-                &#8226; &nbsp;&nbsp;If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.
-                <br/>
-                &#8226; &nbsp;&nbsp;In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.</p>
+                <ul>
+                  <li>If a FedEx package is lost, you will file a claim.</li>
+                  <li>If a package has been marked as “Delivered” - ask the customer if they have checked around the Front Door and lawn.</li>
+                  <li>Ask them if they have checked with other residents and neighbors who may have received the package on their behalf.</li>
+                  <li>If they have done these things we can File a Claim and ship them a replacement package, have them verify their shipping address to ensure it is going to the correct address.</li>
+                  <li>In certain cases we can reach out to Caroline, our FedEx Rep, and have her help locate packages or give us more information.</li>
+                </ul>
               </div>
               <div className="modal-footer">
                 <Button
