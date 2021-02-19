@@ -24,7 +24,7 @@ import Chart from "chart.js";
 // import { Line, Bar } from "react-chartjs-2";
 // reactstrap components
 import {
-  // Button,
+  Button,
   Card,
   CardHeader,
   CardBody,
@@ -32,7 +32,7 @@ import {
   // NavLink,
   // Nav,
   // Progress,
-  // Table,
+  Table,
   Container,
   Row,
   Col,
@@ -77,17 +77,21 @@ const Index = (props) => {
       {/* Page content */}
       <Container className="mt--7" fluid>
         <Row>
-          <Col className="mb-5 mb-xl-0" xl="8">
-            <Card className="bg-gradient-purple shadow">
-              <CardHeader className="bg-transparent">
+          <Col className="mb-5 mb-xl-0" xl="4">
+            <Card className="bg-gradient-default shadow border-0">
+              <CardHeader className="text-dark">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h2 className="text-white mb-0">Knowledge Base</h2>
+                  <h6 className="text-uppercase text-muted ls-1 mb-1">
+                      Knowledge Base
+                    </h6>
+                    <h2 className="mb-0">Payment Processing and Financials</h2>
                   </div>
                 </Row>
               </CardHeader>
               <CardBody>
                 <div class="row">
+                  {/* NOTE Consider breaking up knowledge base into sections, but make sure they are clear to read and make sense */}
                   <PaymentModals></PaymentModals>
                   <MissingPackageModal></MissingPackageModal>
                   <BanCollectionModal></BanCollectionModal>
@@ -102,7 +106,7 @@ const Index = (props) => {
                 <Row className="align-items-center">
                   <div className="col">
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
-                      Shipping
+                      Knowledge Base
                     </h6>
                     <h2 className="mb-0">Shipping Standard and Carriers</h2>
                   </div>
@@ -116,9 +120,32 @@ const Index = (props) => {
               </CardBody>
             </Card>
           </Col>
+          <Col className="mb-5 mb-xl-0" xl="4">
+            <Card className="bg-gradient-info shadow border-0">
+              <CardHeader className="text-dark">
+                <Row className="align-items-center">
+                  <div className="col">
+                  <h6 className="text-uppercase text-muted ls-1 mb-1">
+                      Knowledge Base
+                    </h6>
+                    <h2 className="mb-0">Error Handling</h2>
+                  </div>
+                </Row>
+              </CardHeader>
+              <CardBody>
+                <div class="row">
+                  {/* NOTE Consider breaking up knowledge base into sections, but make sure they are clear to read and make sense */}
+                  {/* <PaymentModals></PaymentModals>
+                  <MissingPackageModal></MissingPackageModal>
+                  <BanCollectionModal></BanCollectionModal>
+                  <DiscountsModal></DiscountsModal> */}
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
         </Row>
         <Row className="mt-5 my-4">
-          {/* <Col className="mb-5 mb-xl-0" xl="8">
+          <Col className="mb-5 mb-xl-0" xl="8">
             <Card className="shadow">
               <CardHeader className="border-0">
                 <Row className="align-items-center">
@@ -193,7 +220,7 @@ const Index = (props) => {
                 </tbody>
               </Table>
             </Card>
-          </Col> */}
+          </Col>
           {/* <Col xl="4">
             <Card className="shadow">
               <CardHeader className="border-0">

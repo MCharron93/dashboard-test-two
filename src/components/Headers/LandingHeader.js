@@ -6,7 +6,7 @@ import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 const LandingHeader = () => {
   return (
     <>
-      <div className="header bg-gradient-secondary pb-8 pt-5 pt-md-8">
+      <div className="header bg-gradient-pink pb-8 pt-5 pt-md-8">
         <Container fluid>
           <div className="header-body">
             {/* Card stats */}
