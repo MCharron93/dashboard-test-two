@@ -45,7 +45,7 @@ render() {
             pills
             role="tablist"
             >
-            <NavItem className="shadow">
+            <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 1}
                 className={classnames("mb-sm-3 mb-md-0", {
@@ -59,7 +59,7 @@ render() {
                 New Hippo's Guide
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 2}
                 className={classnames("mb-sm-3 mb-md-0", {
@@ -73,7 +73,7 @@ render() {
                 Benefits
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 3}
                 className={classnames("mb-sm-3 mb-md-0", {
@@ -87,7 +87,7 @@ render() {
                 Time-Off Request
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 4}
                 className={classnames("mb-sm-3 mb-md-0", {
@@ -101,7 +101,7 @@ render() {
                 Observed Holidays
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 5}
                 className={classnames("mb-sm-3 mb-md-0", {
@@ -115,7 +115,7 @@ render() {
                 Reimbursement
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 6}
                 className={classnames("mb-sm-3 mb-md-0", {
@@ -134,7 +134,7 @@ render() {
         </div>
         <div className="container-fluid mt--7">
 
-        <Card className="shadow rounded my-4">
+        <Card className="shadow rounded my-4 p-3">
           <CardBody>
               {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
               {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
