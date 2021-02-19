@@ -89,8 +89,6 @@ const Index = (props) => {
               <CardBody>
                 <div class="row">
                   <PaymentModals></PaymentModals>
-                  <ShippingModals></ShippingModals>
-                  <ShipStationModal></ShipStationModal>
                   <MissingPackageModal></MissingPackageModal>
                   <BanCollectionModal></BanCollectionModal>
                   <DiscountsModal></DiscountsModal>
@@ -104,17 +102,17 @@ const Index = (props) => {
                 <Row className="align-items-center">
                   <div className="col">
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
-                      Performance
+                      Shipping
                     </h6>
-                    <h2 className="mb-0">Total orders</h2>
+                    <h2 className="mb-0">Shipping Standard and Carriers</h2>
                   </div>
                 </Row>
               </CardHeader>
               <CardBody>
-                {/* Chart */}
-                <div className="chart">
-                  <h4>Order timer for 2 day shipping could go here</h4>
-                </div>
+               <div className="row text-dark">
+               <ShippingModals></ShippingModals>
+               <ShipStationModal></ShipStationModal>
+               </div>
               </CardBody>
             </Card>
           </Col>
