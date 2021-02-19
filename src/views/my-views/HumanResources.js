@@ -3,14 +3,21 @@ import classnames from "classnames";
 // import Tab from 'variables/tabs.js'
 
 import {
-    Card,
+    Card, 
     CardBody,
     NavItem,
     NavLink,
     Nav,
     TabContent,
-    TabPane
+    TabPane,
+    FormGroup,
+    Form,
+    Input,
+    Row,
+    Col,
+    Button
   } from "reactstrap";
+import Datepicker from 'variables/DatePicker';
 
   
 
@@ -150,19 +157,68 @@ render() {
                 </div>
               </TabPane>
               <TabPane tabId="tabs2">
-                <p className="description">
-                This would be sales tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-                </p>
-                <p>
-                Some icons and other clickable links will launch applications and other windows for everyone to use for any sales needs
-                </p>
+              <div className="row px-2">
+              <a href="https://www.appletonclinics.com/id-home">
+              <p className="display-3">This would lead into Appleton clinics</p></a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum consequatur facilis eligendi ratione voluptatum ex obcaecati, quasi officia voluptatem, assumenda quidem recusandae quam quod amet, quia sunt? Porro, deserunt.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae, nesciunt reiciendis alias dolor voluptate incidunt optio hic minima atque deserunt praesentium nihil corporis deleniti beatae maiores sequi ab non.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa perferendis cum? Modi, deserunt doloremque aspernatur molestiae voluptatum tenetur repudiandae aut facere nam labore veniam fuga provident nulla perferendis quos?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, magnam! Consequuntur incidunt dignissimos mollitia provident necessitatibus alias repellendus ipsam consequatur at. Obcaecati ducimus labore enim illum sapiente dolorem excepturi alias.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quo! Nesciunt numquam voluptatum incidunt sit molestias, neque, aliquid facere, debitis porro ipsum dignissimos atque libero exercitationem quas autem ea blanditiis!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime perspiciatis velit dolore, enim voluptatem earum odit sit porro ad eaque itaque mollitia repudiandae aspernatur, tempora labore officia necessitatibus laborum! Non?
+              </p>
+              <p className="text-underline">This tab would contain a section that outlines the company benefits.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum, beatae nihil maxime officiis delectus cupiditate, porro eos quas eaque id veniam necessitatibus, libero laudantium! Reiciendis omnis unde earum officiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, cumque magnam, dolore harum consequuntur blanditiis assumenda natus veritatis fugiat quod modi accusantium ullam, perferendis aliquam tempora voluptates error laboriosam non?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit eaque culpa molestias eius amet fuga maiores explicabo perferendis, numquam veritatis iure sapiente hic nesciunt, atque dolores eum est debitis.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae illum aliquam deleniti accusantium sint vitae error! Expedita repellendus nesciunt enim excepturi maiores, temporibus, iste nobis numquam sequi quo doloribus.
+              </p>
+                </div>
               </TabPane>
               <TabPane tabId="tabs3">
-                <div className="row justify-content-between">
-              <div className="col-4"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
-              {/* <div className="col-4"><a>Link goes here</a></div>
-              <div className="col-4"><a>Link goes here</a></div> */}
-                </div>
+            <h4>Time off requests must be placed through the sheet below. Please fill out all fields when submitting time-off</h4>
+        <Form>
+          <Row className="">
+            <Col md="6">
+              <FormGroup>
+                <Input
+                  id="exampleFormControlInput1"
+                  placeholder="Name"
+                  type="text"
+                  required
+                />
+              </FormGroup>
+            </Col>
+            <Col md="6">
+              <FormGroup>
+                <Input
+                  id="exampleFormControlInput1"
+                  placeholder="Job Title"
+                  type="text"
+                  required
+                />
+              </FormGroup>
+            </Col>
+            <Col md="6">
+              <FormGroup className="has-danger">
+                <Input
+                  className="is-invalid"
+                  placeholder="Enter how many hours of PTO you will be using"
+                  type="number"
+                />
+              </FormGroup>
+            </Col>
+            <Col md="6">
+              <FormGroup className="has-danger">
+                <Datepicker></Datepicker>
+              </FormGroup>
+            </Col>
+            <Col>
+            <Button className="btn btn-primary d-flex align-self-end">Submit Request</Button>
+            </Col>
+          </Row>
+        </Form>
+      
               </TabPane>
               <TabPane tabId="tabs4">
               <p className="description">

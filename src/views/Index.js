@@ -32,7 +32,7 @@ import {
   // NavLink,
   // Nav,
   // Progress,
-  Table,
+  // Table,
   Container,
   Row,
   Col,
@@ -40,8 +40,8 @@ import {
 
 // core components
 import {
-  chartOptions,
-  parseOptions,
+  // chartOptions,
+  // parseOptions,
   // chartExample1,
   // chartExample2,
 } from "variables/charts.js";
@@ -56,22 +56,23 @@ import DiscountsModal from "components/Modals/DiscountsModal";
 import ErrorModals from "components/Modals/ErrorHandlingModals";
 
 const Index = (props) => {
-  const [
-    // activeNav, 
-    setActiveNav] = useState(1);
-  const [
-    // chartExample1Data, 
-    setChartExample1Data] = useState("data1");
+  // const [
+  //   // activeNav, 
+  //   setActiveNav
+  // ] = useState(1);
+  // const [
+  //   // chartExample1Data, 
+  //   setChartExample1Data] = useState("data1");
 
-  if (window.Chart) {
-    parseOptions(Chart, chartOptions());
-  }
+  // if (window.Chart) {
+  //   parseOptions(Chart, chartOptions());
+  // }
 
-  const toggleNavs = (e, index) => {
-    e.preventDefault();
-    setActiveNav(index);
-    setChartExample1Data("data" + index);
-  };
+  // const toggleNavs = (e, index) => {
+  //   e.preventDefault();
+  //   setActiveNav(index);
+  //   setChartExample1Data("data" + index);
+  // };
   return (
     <>
       <Header />
