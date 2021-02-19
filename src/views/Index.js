@@ -52,6 +52,7 @@ import ShippingModals from "components/Modals/ShippingModals";
 import ShipStationModal from "components/Modals/ShipStationModal";
 import MissingPackageModal from "components/Modals/MissingPackageModal";
 import BanCollectionModal from "components/Modals/BanCollectionModal";
+import DiscountsModal from "components/Modals/DiscountsModal";
 
 const Index = (props) => {
   const [
@@ -92,6 +93,7 @@ const Index = (props) => {
                   <ShipStationModal></ShipStationModal>
                   <MissingPackageModal></MissingPackageModal>
                   <BanCollectionModal></BanCollectionModal>
+                  <DiscountsModal></DiscountsModal>
                 </div>
               </CardBody>
             </Card>
