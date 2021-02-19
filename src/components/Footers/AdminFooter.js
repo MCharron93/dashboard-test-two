@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="copyright text-center text-xl-left text-muted">
             {/* {new Date().toDateString()}{" "} */}
             <a
-              className="font-weight-bold ml-1"
+              className="font-weight-bold ml-1 btn border-0 shadow-none text-secondary"
               href="https://www.happyhippoherbals.com/"
               rel="noopener noreferrer"
               target="_blank"
@@ -43,6 +43,7 @@ const Footer = () => {
           <Nav className="nav-footer justify-content-center justify-content-xl-end">
             <NavItem>
               <NavLink
+                className="btn border-0 shadow-none"
                 href="https://www.instagram.com/realhappyhippoherbals/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -53,6 +54,7 @@ const Footer = () => {
 
             <NavItem>
               <NavLink
+                className="btn border-0 shadow-none"
                 href="https://www.happyhippoherbals.com/blog/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -66,6 +68,7 @@ const Footer = () => {
                 // href=""
                 // rel="noopener noreferrer"
                 // target="_blank"
+                className="btn border-0 shadow-none"
               >
                 <i class="fab fa-facebook fa-2x"></i>
               </NavLink>
@@ -73,6 +76,7 @@ const Footer = () => {
 
             <NavItem>
               <NavLink
+                className="btn border-0 shadow-none"
                 href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer"
                 rel="noopener noreferrer"
                 target="_blank"
