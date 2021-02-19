@@ -43,6 +43,7 @@
         .navbar-collapse {
             // margin-left: -$navbar-padding-x;
             // margin-right: -$navbar-padding-x;
+            margin-top: 1rem;
             padding-left: $navbar-padding-x;
             padding-right: $navbar-padding-x;
 
@@ -71,6 +72,7 @@
             font-size: $navbar-nav-link-font-size;
 
             &.active {
+                background-color: #fff7f7;
                 position: relative;
 
                 &:before {
@@ -79,7 +81,8 @@
                     left: 0;
                     top: $nav-link-padding-y;
                     bottom: $nav-link-padding-y;
-                    border-left: 2px solid $primary;
+                    margin-left: -0.25rem;
+                    border-left: 4px solid $primary !important;
                 }
             }
 
