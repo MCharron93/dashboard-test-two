@@ -53,6 +53,7 @@ import ShipStationModal from "components/Modals/ShipStationModal";
 import MissingPackageModal from "components/Modals/MissingPackageModal";
 import BanCollectionModal from "components/Modals/BanCollectionModal";
 import DiscountsModal from "components/Modals/DiscountsModal";
+import ErrorModals from "components/Modals/ErrorHandlingModals";
 
 const Index = (props) => {
   const [
@@ -93,7 +94,6 @@ const Index = (props) => {
                 <div class="row">
                   {/* NOTE Consider breaking up knowledge base into sections, but make sure they are clear to read and make sense */}
                   <PaymentModals></PaymentModals>
-                  <MissingPackageModal></MissingPackageModal>
                   <BanCollectionModal></BanCollectionModal>
                   <DiscountsModal></DiscountsModal>
                 </div>
@@ -116,6 +116,7 @@ const Index = (props) => {
                <div className="row text-dark">
                <ShippingModals></ShippingModals>
                <ShipStationModal></ShipStationModal>
+               <MissingPackageModal></MissingPackageModal>
                </div>
               </CardBody>
             </Card>
@@ -134,11 +135,7 @@ const Index = (props) => {
               </CardHeader>
               <CardBody>
                 <div class="row">
-                  {/* NOTE Consider breaking up knowledge base into sections, but make sure they are clear to read and make sense */}
-                  {/* <PaymentModals></PaymentModals>
-                  <MissingPackageModal></MissingPackageModal>
-                  <BanCollectionModal></BanCollectionModal>
-                  <DiscountsModal></DiscountsModal> */}
+                  <ErrorModals></ErrorModals>                  
                 </div>
               </CardBody>
             </Card>
