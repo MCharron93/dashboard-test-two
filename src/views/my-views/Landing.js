@@ -19,6 +19,7 @@ import {
     // InputGroup,
     Row,
     Col,
+    CardFooter,
   } from "reactstrap";
 
 const Landing = () => {
@@ -29,14 +30,14 @@ const Landing = () => {
         <Container className="mt--7" fluid>
         <Row>
           <div className="col">
-            <Card className="shadow border-none" id="custom-card-border-blog">
+            <Card className="shadow border-none p-3" id="custom-card-border-blog">
                 <CardHeader>
                     <div className="row">
                         <div className="col">
                         <h5 className="text-uppercase text-muted ls-1 mb-1">
                             Updated Blog Posts
                         </h5>
-                        <h4 className="display-4">
+                        <h4 className="display-4 text-secondary">
                             Using Bitcoin Payment
                         </h4>
                         </div>
@@ -71,7 +72,7 @@ const Landing = () => {
             </Card>
           </div>
           <div className="col">
-          <Card className="shadow border-none"  id="custom-card-border-sales">
+          <Card className="shadow border-none p-3"  id="custom-card-border-sales">
                 <CardHeader>
                     <div className="row">
                         <div className="col">
@@ -110,7 +111,7 @@ const Landing = () => {
         <Row>
             {/* NOTE margin classes work the same due to boostrap for React */}
         <div className="col my-4">
-            <Card className="shadow border-0" id="custom-card-border-story">
+            <Card className="shadow border-none p-3" id="custom-card-border-story">
                 <CardHeader>
                     <div className="row">
                         <div className="col">
@@ -130,13 +131,29 @@ const Landing = () => {
                 </CardHeader>
                     <CardBody>
                         <div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis asperiores nulla voluptas impedit praesentium officia aliquid atque voluptate iste ullam optio sed corrupti, debitis quas, nam iure omnis ut! Quisquam!
+                            Laudantium sed excepturi earum ea illo rem voluptas, sequi, ut provident possimus fuga nisi labore reprehenderit tempora laborum deleniti! Consequatur iusto illo assumenda at, officiis enim porro ipsa reprehenderit adipisci.
+                            Facere tenetur tempora natus totam eos quibusdam. Rerum quo cumque tenetur porro. Sed quo, quidem perspiciatis iusto ut exercitationem ab! Esse ipsa mollitia asperiores deleniti aliquam natus at nesciunt ex.
+                            Enim maxime vitae voluptates impedit alias natus iure veniam aut dolore sint? Nemo, consequatur sint. Ducimus ut sed obcaecati voluptatibus animi totam, minima, accusantium provident eius esse eos eum error.
+                            Praesentium aliquid ex minima rem fugit enim modi quisquam, totam tempore perspiciatis animi dolor consectetur? Ad nostrum expedita, voluptas similique inventore, officia odit molestias, praesentium quod veniam ut laudantium sit?</p>
+                            
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ducimus et alias fuga corrupti voluptas saepe libero dolorem delectus dolor veniam architecto, nesciunt esse fugiat ipsam, molestias quos illum dolorum.
+                            Aliquam libero labore incidunt vitae accusantium obcaecati quibusdam perferendis consequuntur harum iste non praesentium totam doloribus facilis ex odio velit tenetur, laboriosam consequatur eveniet dignissimos earum! Ratione dolorum nam voluptatem.</p>
+                            
                             <p>
-                                You have joined a new team of employees (many whom are friends and family!)
-                                that have changed the lives of countless people.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius sapiente distinctio rerum animi. Commodi atque possimus accusamus eaque porro optio in ea, praesentium eum adipisci iure autem quibusdam culpa.
+                                Excepturi exercitationem repellat corrupti esse nesciunt. Autem officiis voluptates asperiores harum, temporibus consectetur, consequatur voluptatibus odio, error dolor maiores dolorum! Magni laudantium, dolorem ad provident nam deserunt? Consectetur, libero tempore.
+                                Dolores, obcaecati nisi? Dolore ipsam sint, alias veritatis praesentium, quis consequatur, sequi quam odit debitis perspiciatis. Quas tempore corporis dolores optio. Inventore veniam libero eum perferendis esse dolore rem illo.
+                                Rerum suscipit tempora, ipsam deserunt impedit laborum accusamus error ducimus, saepe cumque ex temporibus sapiente eos recusandae consequuntur. Sit natus velit reiciendis voluptatum saepe fuga possimus, architecto recusandae voluptatem? Necessitatibus?
+                                Beatae, deleniti, cum, dignissimos tenetur eum necessitatibus consectetur doloribus quae cupiditate dolorum aliquam iure. Aperiam tenetur non quidem eum iusto, voluptatem quo voluptatum, inventore nesciunt quia tempora, temporibus a enim.
+                                Atque labore iste expedita quae autem fugit voluptas illo non accusantium. Autem amet sint molestiae vel itaque temporibus reprehenderit eligendi ea, rem quasi provident iusto, facere beatae, voluptatibus accusamus tempora.
+                                Repellendus, animi porro consequuntur fugit corporis reiciendis cupiditate mollitia incidunt dolore distinctio sequi adipisci ab veniam molestias illum est architecto fuga illo? Eum animi vel vitae esse aliquid soluta quia!
+                                Provident, sapiente. Nam nemo deserunt ratione tempora beatae animi amet exercitationem minima, voluptas eaque fugit maiores culpa dolor eveniet quidem est corrupti necessitatibus aliquid magni! Ratione nulla sapiente quibusdam assumenda?
                             </p>
-                            <p>
-                                We get thousands (and I mean -- thousands!) of emials from people who have said that 
-                                'Happy Hiipo has saved their lives.' This isn't an exaggeration.
+                            {/* <p>
+                                You have joined a new team of employees (many whom are friends and family!) that have changed the lives of countless people. 
+                                We get thousands (and I mean -- thousands!) of emials from people who have said that 'Happy Hippo has saved their lives.' 
+                                This isn't an exaggeration.
                             </p>
                             <p>
                                 While our main product, Kratom, doesn't work equally as well for everyone, for many, Kratom is a life changer. 
@@ -151,9 +168,19 @@ const Landing = () => {
                                     <li>Our shipping speeds are faster than Amazon</li>
                                     <li>Our customer service is fun and makes people happy!</li>
                                 </ul>
-                            </p>
+                                There's a lot of cheap, low-tier Kratom out there and it doesn't work, or worse -- it makes people feel like crap.
+                                I have personally used our Kratom for nearly a decade -- every. single. day. I'm a huge believer in Kratom and Happy Hippo. We are often
+                                the first place that consumers find super, high-end quality Kratom and they become customers for life. 
+                                You have joined a company that makes an enormous difference in the world, but is vehemently loathed by the pharmaceutical industry who seek to
+                                keep "patients" dependent to their expensive and addictive poison. 
+                            </p> */}
                         </div>
                     </CardBody>
+                    <CardFooter>
+                        <div className="row justify-content-end">
+                            <Button className="col-1 btn" color="primary">Email Chris</Button>
+                        </div>
+                    </CardFooter>
             </Card>
           </div>
         </Row>
