@@ -762,10 +762,10 @@ $navbar-light-active-color:         $primary !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-border-color: transparent !default;
 
-$navbar-search-light-border-color:  rgba(0, 0, 0, .6) !default;
-$navbar-search-light-color:          rgba(0, 0, 0, .6) !default;
-$navbar-search-light-focus-border-color: rgba(0, 0, 0, .9) !default;
-$navbar-search-light-focus-color:    rgba(0, 0, 0, .9) !default;
+$navbar-search-light-border-color:  #525f7f !default;
+$navbar-search-light-color:          #525f7f !default !default;
+$navbar-search-light-focus-border-color: #525f7f !default !default;
+$navbar-search-light-focus-color:    #525f7f !default;
 
 
 

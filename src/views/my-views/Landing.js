@@ -81,7 +81,7 @@ const Landing = () => {
                             Happy Hippo Weekly Sales
                         </h4>
                         </div>
-                        <Col className="col-auto">
+                        <Col className="col-auto d-flex align-items-center">
                         <div className="icon text-purple rounded-circle shadow-sm">
                           <LoyaltyIcon></LoyaltyIcon>
                         </div>
@@ -90,14 +90,17 @@ const Landing = () => {
                 </CardHeader>
                     <CardBody>
                         <div>
-                            <a href="https://www.happyhippoherbals.com/sales" target="_blank" rel="noreferrer">
-                                <ul className="custom-link">
-                                    <li className="display-4 py-3">Jolly Green Hippo(Green Sundanese)</li>
-                                    <li className="display-4 py-3">Happy Heart Hippo(Red Hulu)</li>
-                                    <li className="display-4 py-3">Hugs n' Kisses Hippo(Red Malay & White Sumatra)</li>
-
-                                </ul>  
-                            </a>
+                            <ul className="custom-link">
+                                <a href="https://www.happyhippoherbals.com/green-sundanese-kratom" target="_blank" rel="noreferrer">
+                                    <li className="display-4 py-3 custom-link">Jolly Green Hippo(Green Sundanese)</li>
+                                </a>
+                                <a href="https://www.happyhippoherbals.com/red-hulu-kratom" target="_blank" rel="noreferrer">
+                                    <li className="display-4 py-3 custom-link">Happy Heart Hippo(Red Hulu)</li>
+                                </a>
+                                <a href="https://www.happyhippoherbals.com/hugs-n-kisses-hippo" target="_blank" rel="noreferrer">
+                                    <li className="display-4 py-3 custom-link">Hugs n' Kisses Hippo(Red Malay & White Sumatra)</li>
+                                </a>
+                            </ul>  
                         </div>
                     </CardBody>
             </Card>
