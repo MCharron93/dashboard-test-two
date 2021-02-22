@@ -48,7 +48,7 @@ render() {
               role="tab"
             >
               <i className="ni ni-cloud-upload-96 mr-2" />
-              Design
+              Google Suite
             </NavLink>
           </NavItem>
           <NavItem>
@@ -62,7 +62,7 @@ render() {
               role="tab"
             >
               <i className="ni ni-bell-55 mr-2" />
-              Sales
+              Design
             </NavLink>
           </NavItem>
           <NavItem>
@@ -104,7 +104,21 @@ render() {
               role="tab"
             >
               <i className="ni ni-cloud-upload-96 mr-2" />
-              Analytics
+              Sales
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              aria-selected={this.state.tabs === 5}
+              className={classnames("btn mb-sm-3 mb-md-0", {
+                active: this.state.tabs === 5
+              })}
+              onClick={e => this.toggleNavs(e, "tabs", 5)}
+              href="#pablo"
+              role="tab"
+            >
+              <i className="ni ni-cloud-upload-96 mr-2" />
+              Research and Development
             </NavLink>
           </NavItem>
         </Nav> 
@@ -124,6 +138,42 @@ render() {
                 <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="gmail"/>
               <div className="pt-2">
                   Gmail
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/>
+              <div className="pt-2">
+                  
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://i.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" alt="gmail"/>
+              <div className="pt-2">
+                  
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="gmail"/>
+              <div className="pt-2">
+                  
+              </div>
+              </a>
+            </div>
+              </div>
+            </TabPane>
+            <TabPane tabId="tabs2">
+            <div className="row justify-content-around text-center px-2">
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://lh3.googleusercontent.com/proxy/qmW5fXUZb9dfeZMlwIUIKsZMlh9fBZMY2xpTSu9eHk72pcNdZ_dGKrs60wP3Op2CxNU6WRo6cYwgJEA0sgWQiyGSaL6N2AUuGhKkSWJKf9l7iz3wrOI" alt="stock images"/>
+              <div className="pt-2">
+                  Adobe Stock Images
               </div>
               </a>
             </div>
@@ -152,14 +202,6 @@ render() {
               </a>
             </div>
               </div>
-            </TabPane>
-            <TabPane tabId="tabs2">
-              <p className="description">
-              This would be sales tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-              </p>
-              <p>
-              Some icons and other clickable links will launch applications and other windows for everyone to use for any sales needs
-              </p>
             </TabPane>
             <TabPane tabId="tabs3">
               <div className="row justify-content-between">

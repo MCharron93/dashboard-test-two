@@ -29,7 +29,7 @@ class PaymentModals extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Payment Methods</li>
+            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Payment Methods</li>
             <Modal
               className="modal-dialog-centered"
               isOpen={this.state.defaultModal}
@@ -73,7 +73,7 @@ class PaymentModals extends React.Component {
             </Modal>
           </Col>
           <Col md="6">
-          <h5 className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("payOpt")}>&#8226; &nbsp;&nbsp;Payment Options</h5>
+          <h5 className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("payOpt")}>Payment Options</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"

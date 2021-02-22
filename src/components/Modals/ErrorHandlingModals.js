@@ -29,7 +29,7 @@ class ErrorModals extends React.Component {
     return (
       <>
           <Col md="12">
-            <li className="btn shadow-none text-white py-3" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226;&nbsp;&nbsp;What do we do when someone is really unhappy with their already opened product?</li>
+            <li className="text-left btn shadow-none text-white py-3" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>What do we do when someone is really unhappy with their already opened product?</li>
             <Modal
               className="modal-dialog-centered"
               size="lg"
@@ -85,7 +85,7 @@ class ErrorModals extends React.Component {
             </Modal>
           </Col>
           <Col md="12">
-          <h5 className="btn shadow-none text-white py-3" id="custom-btn" onClick={() => this.toggleModal("illness")}>&#8226; &nbsp;&nbsp;When someone gets sick off Kratom?</h5>
+          <h5 className="btn shadow-none text-white py-3" id="custom-btn" onClick={() => this.toggleModal("illness")}>When someone gets sick off Kratom?</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"
@@ -126,7 +126,7 @@ class ErrorModals extends React.Component {
             </Modal>
           </Col>
           <Col md="12">
-          <h5 className="btn shadow-none text-white py-3" id="custom-btn" onClick={() => this.toggleModal("damagedPack")}>&#8226; &nbsp;&nbsp;What do we do for damaged packages?</h5>
+          <h5 className="btn shadow-none text-white py-3" id="custom-btn" onClick={() => this.toggleModal("damagedPack")}>What do we do for damaged packages?</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"

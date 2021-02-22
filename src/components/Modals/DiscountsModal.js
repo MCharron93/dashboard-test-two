@@ -19,7 +19,7 @@ class DiscountsModal extends React.Component {
         return (
           <>
               <Col md="6">
-                <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>&#8226; &nbsp;&nbsp;Discounts</li>
+                <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Discounts</li>
                 <Modal
                   className="modal-dialog-centered"
                   size="lg"
@@ -77,7 +77,7 @@ class DiscountsModal extends React.Component {
                 </Modal>
               </Col>
               <Col md="6">
-              <h5 className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("rewards")}>&#8226; &nbsp;&nbsp;Rewards Points</h5>
+              <h5 className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("rewards")}>Rewards Points</h5>
                 <Modal
                   className="modal-dialog-centered"
                   size="sm"
