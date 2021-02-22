@@ -80,7 +80,7 @@ const Index = (props) => {
       <Container className="mt--7" fluid>
         <Row className="justify-content-center my-4">
           <Col className="mb-5 mb-xl-0" xl="4">
-            <Card className="bg-gradient-default shadow border-0">
+            <Card className="shadow border-0">
               <CardHeader className="text-dark">
                 <Row className="align-items-center">
                   <div className="col">
