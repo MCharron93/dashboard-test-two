@@ -3,6 +3,7 @@ import React from "react";
 import LandingHeader from 'components/Headers/LandingHeader.js'
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import LoyaltyIcon from '@material-ui/icons/Loyalty';
+import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 
 import {
     Button,
@@ -40,7 +41,7 @@ const Landing = () => {
                         </h4>
                         </div>
                         <Col className="col-auto d-flex align-items-center">
-                        <div className="icon text-secondary">
+                        <div className="icon icon-shape bg-secondary text-white rounded-circle">
                           <AttachMoneyIcon></AttachMoneyIcon>
                         </div>
                       </Col>
@@ -60,7 +61,7 @@ const Landing = () => {
                             <br/>
                             <br/>
                             <a href="https://www.happyhippoherbals.com/blog/using-bitcoin-payment-method-not-intimidating" target="_blank" rel="noreferrer">
-                            <Button color="primary">
+                            <Button color="secondary">
                                 Read More?
                             </Button>
                             </a>
@@ -82,7 +83,7 @@ const Landing = () => {
                         </h4>
                         </div>
                         <Col className="col-auto d-flex align-items-center">
-                        <div className="icon text-purple rounded-circle shadow-sm">
+                        <div className="icon icon-shape bg-purple text-white rounded-circle shadow-sm">
                           <LoyaltyIcon></LoyaltyIcon>
                         </div>
                       </Col>
@@ -90,7 +91,7 @@ const Landing = () => {
                 </CardHeader>
                     <CardBody>
                         <div>
-                            <ul className="custom-link">
+                            <ul>
                                 <a href="https://www.happyhippoherbals.com/green-sundanese-kratom" target="_blank" rel="noreferrer">
                                     <li className="display-4 py-3 custom-link">Jolly Green Hippo(Green Sundanese)</li>
                                 </a>
@@ -109,24 +110,50 @@ const Landing = () => {
         <Row>
             {/* NOTE margin classes work the same due to boostrap for React */}
         <div className="col my-4">
-            <Card className="shadow border-none">
-            <CardHeader>
-                        <div>
-                            <h4>
-                                Hippo Story
+            <Card className="shadow border-0" id="custom-card-border-story">
+                <CardHeader>
+                    <div className="row">
+                        <div className="col">
+                            <h5 className="text-uppercase text-muted ls-1 mb-1">
+                                From Our Founder
+                            </h5>
+                            <h4 className="display-4">
+                                Welcome to Your New Family
                             </h4>
-                       </div> 
-                    </CardHeader>
+                        </div>
+                        <Col className="col-auto d-flex align-items-center">
+                            <div className="icon icon-shape text-white bg-primary rounded-circle shadow-sm">
+                                <PeopleOutlineIcon></PeopleOutlineIcon>
+                            </div>
+                      </Col>
+                    </div> 
+                </CardHeader>
                     <CardBody>
                         <div>
                             <p>
+                                You have joined a new team of employees (many whom are friends and family!)
+                                that have changed the lives of countless people.
+                            </p>
+                            <p>
+                                We get thousands (and I mean -- thousands!) of emials from people who have said that 
+                                'Happy Hiipo has saved their lives.' This isn't an exaggeration.
+                            </p>
+                            <p>
+                                While our main product, Kratom, doesn't work equally as well for everyone, for many, Kratom is a life changer. 
+                                We aren't able to make claims about out products in writing, so please ask another staff member about Kratom. What it does,
+                                how it works, why people use it, and why it is a life-changer.  
+                            </p>
+                            <p>
+                                In 2013 when Happy Hippo was born, Kratom was a very obscure product. Since then, hundreds of different Kratom companies have joined
+                                the marketplace and the demand has grown. The advantages Happy Hippo has is --
+                                <ul>
+                                    <li>Our Kratom is actually really good</li>
+                                    <li>Our shipping speeds are faster than Amazon</li>
+                                    <li>Our customer service is fun and makes people happy!</li>
+                                </ul>
                             </p>
                         </div>
                     </CardBody>
-                    {/* NOTE using bootstrap, many commands are the same for styling and orientation */}
-                    <div className="justify-content-center d-flex">
-                    <Button className="">Click me</Button>
-                    </div>
             </Card>
           </div>
         </Row>

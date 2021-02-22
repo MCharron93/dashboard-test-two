@@ -26,7 +26,7 @@ const LandingHeader = () => {
                         <span className="h2 font-weight-bold mb-0">6.6K</span>
                       </div>
                       <Col className="col-auto">
-                      <div className="icon icon-shape bg-default text-white rounded-circle shadow">
+                      <div className="icon icon-shape bg-default text-white rounded-circle shadow-sm">
                           <i className="fas fa-chart-bar" />
                         </div>
                       </Col>
@@ -56,7 +56,7 @@ const LandingHeader = () => {
                         <span className="h2 font-weight-bold mb-0">38</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-warning text-white rounded-circle shadow">
+                        <div className="icon icon-shape bg-warning text-white rounded-circle shadow-sm">
                           <i className="fas fa-users" />
                         </div>
                       </Col>
@@ -86,7 +86,7 @@ const LandingHeader = () => {
                         <span className="h2 font-weight-bold mb-0">$240k</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-indigo text-white rounded-circle shadow">
+                        <div className="icon icon-shape bg-indigo text-white rounded-circle shadow-sm">
                           <i className="ni ni-money-coins" />
                         </div>
                       </Col>
@@ -116,7 +116,7 @@ const LandingHeader = () => {
                         <span className="h2 font-weight-bold mb-0">17.98%</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-danger text-white rounded-circle shadow">
+                        <div className="icon icon-shape bg-danger text-white rounded-circle shadow-sm">
                           <i className="ni ni-chart-pie-35" />
                         </div>
                       </Col>
