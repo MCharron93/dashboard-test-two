@@ -52,7 +52,7 @@ const Landing = () => {
                     
                         <div  className="d-flex"> 
                             <img className="rounded card-img col-6" src="https://lh3.googleusercontent.com/mX5yY5b-ogMiLXOkE0gxt-MA2juBkbYySJ4OqxWgZq4bovO0bqSxOnzq45fr-CmBc47SbWftbf-_1k4iUnTkLgEd_CJEmR9aLeEe5pr5U2i_9sWqhQkzb1ZiEtGbnoFMeyIEZgA" alt=""/>
-                            <p className="col-6 px-3">
+                            <p className="col-6 px-3 indent-text">
                             To all our fellow Hippo Customers - we deeply apologize for the issues and inconveniences you have 
                             experienced with our Credit Card Processors going down. To explain, banks do not enjoy working with 
                             Kratom companies - in fact they usually refuse. Therefore it is very hard to find a Credit Card Processor 
@@ -62,7 +62,7 @@ const Landing = () => {
                             <br/>
                             <br/>
                             <a href="https://www.happyhippoherbals.com/blog/using-bitcoin-payment-method-not-intimidating" target="_blank" rel="noreferrer">
-                            <Button color="secondary">
+                            <Button color="secondary" className="btn-secondary">
                                 Read More?
                             </Button>
                             </a>
