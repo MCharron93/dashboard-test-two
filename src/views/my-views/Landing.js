@@ -1,6 +1,8 @@
 import React from "react";
 
 import LandingHeader from 'components/Headers/LandingHeader.js'
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
+import LoyaltyIcon from '@material-ui/icons/Loyalty';
 
 import {
     Button,
@@ -15,7 +17,7 @@ import {
     // InputGroupText,
     // InputGroup,
     Row,
-    // Col,
+    Col,
   } from "reactstrap";
 
 const Landing = () => {
@@ -26,19 +28,26 @@ const Landing = () => {
         <Container className="mt--7" fluid>
         <Row>
           <div className="col">
-            <Card className="shadow border-0">
+            <Card className="shadow border-none" id="custom-card-border-blog">
                 <CardHeader>
-                    <div>
+                    <div className="row">
+                        <div className="col">
                         <h5 className="text-uppercase text-muted ls-1 mb-1">
                             Updated Blog Posts
                         </h5>
                         <h4 className="display-4">
                             Using Bitcoin Payment
                         </h4>
+                        </div>
+                        <Col className="col-auto d-flex align-items-center">
+                        <div className="icon text-secondary">
+                          <AttachMoneyIcon></AttachMoneyIcon>
+                        </div>
+                      </Col>
                     </div> 
                 </CardHeader>
                 <CardBody>
-                    <a href="https://www.happyhippoherbals.com/blog/using-bitcoin-payment-method-not-intimidating" target="_blank" rel="noreferrer">
+                    
                         <div  className="d-flex"> 
                             <img className="rounded card-img col-6" src="https://lh3.googleusercontent.com/mX5yY5b-ogMiLXOkE0gxt-MA2juBkbYySJ4OqxWgZq4bovO0bqSxOnzq45fr-CmBc47SbWftbf-_1k4iUnTkLgEd_CJEmR9aLeEe5pr5U2i_9sWqhQkzb1ZiEtGbnoFMeyIEZgA" alt=""/>
                             <p className="col-6 px-3">
@@ -50,29 +59,44 @@ const Landing = () => {
                             PMC and our Off-Site Payment Method....
                             <br/>
                             <br/>
-                            Read More?
+                            <a href="https://www.happyhippoherbals.com/blog/using-bitcoin-payment-method-not-intimidating" target="_blank" rel="noreferrer">
+                            <Button color="primary">
+                                Read More?
+                            </Button>
+                            </a>
                             </p>
                         </div>
-                    </a>
                 </CardBody>
             </Card>
           </div>
           <div className="col">
-          <Card className="shadow border-0">
-            <CardHeader>
-                        <div>
-                            <h5 className="text-uppercase text-muted ls-1 mb-1">
-                                Site Wide News
-                            </h5>
-                            <h4 className="display-4">
-                                Current Sales and Promos!
-                            </h4>
-                       </div> 
-                    </CardHeader>
+          <Card className="shadow border-none"  id="custom-card-border-sales">
+                <CardHeader>
+                    <div className="row">
+                        <div className="col">
+                        <h5 className="text-uppercase text-muted ls-1 mb-1">
+                            Site Wide News
+                        </h5>
+                        <h4 className="display-4">
+                            Happy Hippo Weekly Sales
+                        </h4>
+                        </div>
+                        <Col className="col-auto">
+                        <div className="icon text-purple rounded-circle shadow-sm">
+                          <LoyaltyIcon></LoyaltyIcon>
+                        </div>
+                      </Col>
+                    </div> 
+                </CardHeader>
                     <CardBody>
                         <div>
                             <a href="https://www.happyhippoherbals.com/sales" target="_blank" rel="noreferrer">
-                                
+                                <ul className="custom-link">
+                                    <li className="display-4 py-3">Jolly Green Hippo(Green Sundanese)</li>
+                                    <li className="display-4 py-3">Happy Heart Hippo(Red Hulu)</li>
+                                    <li className="display-4 py-3">Hugs n' Kisses Hippo(Red Malay & White Sumatra)</li>
+
+                                </ul>  
                             </a>
                         </div>
                     </CardBody>
@@ -82,18 +106,17 @@ const Landing = () => {
         <Row>
             {/* NOTE margin classes work the same due to boostrap for React */}
         <div className="col my-4">
-            <Card className="shadow border-0">
+            <Card className="shadow border-none">
             <CardHeader>
                         <div>
                             <h4>
-                                Cool New Article!
+                                Hippo Story
                             </h4>
                        </div> 
                     </CardHeader>
                     <CardBody>
                         <div>
                             <p>
-                                This is just a test for creating a card.
                             </p>
                         </div>
                     </CardBody>

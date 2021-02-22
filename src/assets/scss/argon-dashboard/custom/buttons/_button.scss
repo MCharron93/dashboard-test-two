@@ -8,6 +8,24 @@
    font-size: 1rem;
 }
 
+.custom-link{
+   &:hover {
+      @include box-shadow($btn-hover-box-shadow);
+      transform: translateY($link-hover-translate-y);
+      transition: $transition-base;
+      border: none;
+      box-shadow: none;
+   }
+}
+
+#custom-card-border-blog{
+   border-left: 5px solid green;
+}
+
+#custom-card-border-sales{
+   border-left: 5px solid #cea3ff;
+}
+
 .btn {
    position: relative;
    text-transform: $btn-text-transform;
