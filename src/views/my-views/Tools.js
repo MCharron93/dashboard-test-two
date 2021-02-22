@@ -91,7 +91,7 @@ render() {
               role="tab"
             >
               <i className="ni ni-calendar-grid-58 " />
-              Development
+              Customer Service
             </NavLink>
           </NavItem>
           <NavItem>
@@ -220,7 +220,7 @@ render() {
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="gmail"/>
+                <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="Gmail"/>
               <div className="pt-2">
                   Gmail
               </div>
@@ -228,7 +228,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://www.clio.com/wp-content/uploads/2018/07/Calendar-400x267.png" alt="instagram"/>
+                <img className="w-50" src="https://www.clio.com/wp-content/uploads/2018/07/Calendar-400x267.png" alt="Google Calendar"/>
               <div className="pt-2">
                   Calendar
               </div>
@@ -237,7 +237,7 @@ render() {
             
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png" alt="instagram"/>
+                <img className="w-50" src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png" alt="Google Drive"/>
               <div className="pt-2">
                   Drive
               </div>
@@ -245,7 +245,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://docs.google.com/document/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/05/Google-Docs-logo.png" alt="gmail"/>
+                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/05/Google-Docs-logo.png" alt="Documents"/>
               <div className="pt-2">
                   Docs
               </div>
@@ -253,7 +253,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="gmail"/>
+                <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="Sheets"/>
               <div className="pt-2">
                   Sheets
               </div>
@@ -261,7 +261,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/>
+                <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="Slides"/>
               <div className="pt-2">
                  Slides
               </div>
@@ -315,20 +315,27 @@ render() {
             </TabPane>
             <TabPane tabId="tabs4">
               <div className="row justify-content-between">
-            <div className="col-4">
-              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a>
+              <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.zendesk.com/login/#login" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://images.ctfassets.net/b7g9mrbfayuu/1lOzS4dImMk4mCqMy8sKea/69edfc70289b2dad9f0ca4b13dab4bad/logo-zendesk-300x300.png" alt="instagram"/>
+              <div className="pt-2">
+                 Zendesk
               </div>
-            {/* <div className="col-4"><a>Link goes here</a></div>
-            <div className="col-4"><a>Link goes here</a></div> */}
+              </a>
+            </div>
               </div>
             </TabPane>
             <TabPane tabId="tabs5">
-            <p className="description">
-              This would be fulfillment tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-              </p>
-              <p>
-              Some icons and other clickable links will launch applications and other windows for everyone to use for any fulfillment needs
-              </p>
+            <div className="row justify-content-around text-center px-2">
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://ship5.shipstation.com/orders/awaiting-shipment" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://res.cloudinary.com/hdxhd6yxt/image/upload/f_auto,h_200/f_auto/v1526373233/integrations/ShipStation-logo.png" alt="ShipStation"/>
+              <div className="pt-2">
+                 ShipStation
+              </div>
+              </a>
+            </div>
+            </div>
             </TabPane>
             <TabPane tabId="tabs6">
                 <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
