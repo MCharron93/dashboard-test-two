@@ -318,6 +318,14 @@ h1, h2, h3, h4, h5, h6,
   color: #525f7f; 
 }
 
+.h1-light, .h2-light, .h3-light, .h4-light, .h5-light, .h6-light {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+}
+
 h1, .h1 {
   font-size: 1.625rem; }
 
