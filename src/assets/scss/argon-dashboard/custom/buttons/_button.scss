@@ -6,15 +6,22 @@
 
 #custom-btn{
    font-size: 1rem;
+   &:hover{
+      color: $primary;
+   }
 }
 
 .custom-link{
+   color: #b993e6;
+   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
    &:hover {
       @include box-shadow($btn-hover-box-shadow);
       transform: translateY($link-hover-translate-y);
       transition: $transition-base;
       border: none;
       box-shadow: none;
+      color: #cea3ff;
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
    }
 }
 
@@ -23,7 +30,7 @@
 }
 
 #custom-card-border-sales{
-   border-left: 5px solid #cea3ff;
+   border-left: 5px solid #b993e6;
 }
 
 .btn {
