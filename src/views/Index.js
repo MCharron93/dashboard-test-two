@@ -15,11 +15,11 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React, { useState } from "react";
+// import React, { useState } from "react";
 // node.js library that concatenates classes (strings)
 // import classnames from "classnames";
 // javascipt plugin for creating charts
-import Chart from "chart.js";
+// import Chart from "chart.js";
 // react plugin used to create charts
 // import { Line, Bar } from "react-chartjs-2";
 // reactstrap components
@@ -78,7 +78,7 @@ const Index = (props) => {
       <Header />
       {/* Page content */}
       <Container className="mt--7" fluid>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center my-4">
           <Col className="mb-5 mb-xl-0" xl="4">
             <Card className="bg-gradient-default shadow border-0">
               <CardHeader className="text-dark">
@@ -101,7 +101,7 @@ const Index = (props) => {
               </CardBody>
             </Card>
           </Col>
-          <Col className="mb-5 mb-xl-0" xl="4">
+          <Col className="mb-5" xl="4">
             <Card className="shadow">
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
@@ -122,7 +122,7 @@ const Index = (props) => {
               </CardBody>
             </Card>
           </Col>
-          <Col className="mb-5 mb-xl-0" xl="4">
+          <Col className="mb-5" xl="4">
             <Card className="bg-gradient-info shadow border-0">
               <CardHeader className="text-dark">
                 <Row className="align-items-center">
@@ -142,7 +142,7 @@ const Index = (props) => {
             </Card>
           </Col>
         </Row>
-        <Row className="mt-5 my-4">
+        <Row className="my-4">
           <Col className="mb-5 mb-xl-0" xl="8">
             <Card className="shadow mt--6">
               <CardHeader className="border-0">
