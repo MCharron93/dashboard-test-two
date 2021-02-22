@@ -142,26 +142,50 @@ render() {
               </a>
             </div>
             <div className="col-3 d-flex align-items-center">
-              <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/>
+              <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener noreferrer">
+                <img className="w-50" src="https://www.clio.com/wp-content/uploads/2018/07/Calendar-400x267.png" alt="instagram"/>
               <div className="pt-2">
-                  
+                  Calendar
               </div>
               </a>
             </div>
             <div className="col-3 d-flex align-items-center">
-              <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://i.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" alt="gmail"/>
+              <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/>
               <div className="pt-2">
-                  
+                 Asana
               </div>
               </a>
             </div>
             <div className="col-3 d-flex align-items-center">
-              <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="gmail"/>
+              <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">
+                <img className="w-50" src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png" alt="instagram"/>
               <div className="pt-2">
-                  
+                  Drive
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://docs.google.com/document/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/05/Google-Docs-logo.png" alt="gmail"/>
+              <div className="pt-2">
+                  Docs
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="gmail"/>
+              <div className="pt-2">
+                  Sheets
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/>
+              <div className="pt-2">
+                 Slides
               </div>
               </a>
             </div>
