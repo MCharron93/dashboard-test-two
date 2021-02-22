@@ -18,6 +18,8 @@ import {
     Button
   } from "reactstrap";
 import Datepicker from 'variables/DatePicker';
+import LocalAtmIcon from '@material-ui/icons/LocalAtm';
+import AddAlarmIcon from '@material-ui/icons/AddAlarm';
 
   
 
@@ -55,7 +57,7 @@ render() {
                 href="#pablo"
                 role="tab"
               >
-                <i className="ni ni-cloud-upload-96 mr-2" />
+                <i className="ni ni-book-bookmark mr-2" />
                 New Hippo's Guide
               </NavLink>
             </NavItem>
@@ -69,7 +71,7 @@ render() {
                 href="#pablo"
                 role="tab"
               >
-                <i className="ni ni-bell-55 mr-2" />
+                <i className="ni ni-favourite-28 mr-2" />
                 Benefits
               </NavLink>
             </NavItem>
@@ -83,7 +85,7 @@ render() {
                 href="#pablo"
                 role="tab"
               >
-                <i className="ni ni-calendar-grid-58 mr-2" />
+                <AddAlarmIcon className="mr-2"></AddAlarmIcon>
                 Time-Off Request
               </NavLink>
             </NavItem>
@@ -97,7 +99,7 @@ render() {
                 href="#pablo"
                 role="tab"
               >
-                <i className="ni ni-cloud-upload-96 mr-2" />
+                <i className="ni ni-calendar-grid-58 mr-2" />
                 Observed Holidays
               </NavLink>
             </NavItem>
@@ -111,7 +113,7 @@ render() {
                 href="#pablo"
                 role="tab"
               >
-                <i className="ni ni-cloud-upload-96 mr-2" />
+                <LocalAtmIcon className="mr-2"></LocalAtmIcon>
                 Reimbursement
               </NavLink>
             </NavItem>

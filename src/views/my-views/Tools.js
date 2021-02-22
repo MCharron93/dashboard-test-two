@@ -2,6 +2,13 @@ import React from 'react';
 // import ToolsHeader from 'components/Headers/ToolsHeader';
 import classnames from "classnames";
 // import Tab from 'variables/tabs.js'
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
+import CompareIcon from '@material-ui/icons/Compare';
+import EmailIcon from '@material-ui/icons/Email';
+import FaceIcon from '@material-ui/icons/Face';
+import LocalShippingIcon from '@material-ui/icons/LocalShipping';
+import TrendingUpIcon from '@material-ui/icons/TrendingUp';
+import SearchIcon from '@material-ui/icons/Search';
 
 import {
     Card,
@@ -48,7 +55,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-cloud-upload-96 " />
+              <BusinessCenterIcon className="mr-2"></BusinessCenterIcon>
               General Business
             </NavLink>
           </NavItem>
@@ -62,7 +69,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-cloud-upload-96 " />
+              <EmailIcon className="mr-2"></EmailIcon>
               Google Suite
             </NavLink>
           </NavItem>
@@ -76,7 +83,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-bell-55 " />
+              <CompareIcon className="mr-2"></CompareIcon>
               Design
             </NavLink>
           </NavItem>
@@ -90,7 +97,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-calendar-grid-58 " />
+              <FaceIcon className="mr-2"></FaceIcon>
               Customer Service
             </NavLink>
           </NavItem>
@@ -104,7 +111,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-cloud-upload-96" />
+              <LocalShippingIcon className="mr-2"></LocalShippingIcon>
               Fulfillment
             </NavLink>
           </NavItem>
@@ -118,7 +125,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-cloud-upload-96" />
+              <TrendingUpIcon className="mr-2"></TrendingUpIcon>
               Sales
             </NavLink>
           </NavItem>
@@ -132,7 +139,7 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-cloud-upload-96" />
+              <SearchIcon className="mr-2"></SearchIcon>
               Research and Development
             </NavLink>
           </NavItem>
