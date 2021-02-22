@@ -115,7 +115,7 @@ render() {
                 Reimbursement
               </NavLink>
             </NavItem>
-            <NavItem className="shadow-sm">
+            {/* <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 6}
                 className={classnames("btn mb-sm-3 mb-md-0", {
@@ -128,7 +128,7 @@ render() {
                 <i className="ni ni-cloud-upload-96 mr-2" />
                 Company Story
               </NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav> 
         </div>
         </div>
@@ -200,16 +200,17 @@ render() {
               </FormGroup>
             </Col>
             <Col md="6">
-              <FormGroup className="has-danger">
+              <FormGroup className="has-info">
                 <Input
-                  className="is-invalid"
+                  // className="is-valid"
                   placeholder="Enter how many hours of PTO you will be using"
                   type="number"
+                  required 
                 />
               </FormGroup>
             </Col>
             <Col md="6">
-              <FormGroup className="has-danger">
+              <FormGroup className="has-info">
                 <Datepicker></Datepicker>
               </FormGroup>
             </Col>
