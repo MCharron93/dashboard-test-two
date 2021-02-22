@@ -109,11 +109,11 @@ render() {
           </NavItem>
           <NavItem>
             <NavLink
-              aria-selected={this.state.tabs === 5}
+              aria-selected={this.state.tabs === 6}
               className={classnames("btn mb-sm-3 mb-md-0", {
-                active: this.state.tabs === 5
+                active: this.state.tabs === 6
               })}
-              onClick={e => this.toggleNavs(e, "tabs", 5)}
+              onClick={e => this.toggleNavs(e, "tabs", 6)}
               href="#pablo"
               role="tab"
             >
@@ -150,7 +150,7 @@ render() {
               </a>
             </div>
             <div className="col-3 d-flex align-items-center">
-              <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">
+              <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/>
               <div className="pt-2">
                  Asana
@@ -250,6 +250,13 @@ render() {
               <p>
               Some icons and other clickable links will launch applications and other windows for everyone to use for any Analytics needs
               </p>
+            </TabPane>
+            <TabPane tabId="tabs6">
+                <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
+            <p className="description">
+              This would be Analytics tools injected here. Can include logos and other applications used by the team for completing thier jobs.
+              </p>
+            
             </TabPane>
           </TabContent>
         </CardBody>
