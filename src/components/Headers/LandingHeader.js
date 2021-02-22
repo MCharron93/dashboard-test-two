@@ -23,19 +23,19 @@ const LandingHeader = () => {
                         >
                           Users
                         </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">49,65%</span>
+                        <span className="h2 font-weight-bold mb-0">6.6K</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-info text-white rounded-circle shadow">
-                          <i className="ni ni-money-coins" />
+                      <div className="icon icon-shape bg-default text-white rounded-circle shadow">
+                          <i className="fas fa-chart-bar" />
                         </div>
                       </Col>
                     </Row>
                     <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-success mr-2">
-                        <i className="fas fa-arrow-up" /> 12%
+                      <span className="text-secondary mr-2">
+                        <i className="fas fa-arrow-up" /> 0.9%
                       </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
+                      <span className="text-nowrap">Last 7 Days</span>
                     </p>
                   </CardBody>
                 </Card>
@@ -53,19 +53,19 @@ const LandingHeader = () => {
                         >
                           Active Users Now
                         </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">49,65%</span>
+                        <span className="h2 font-weight-bold mb-0">38</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-info text-white rounded-circle shadow">
-                          <i className="ni ni-money-coins" />
+                        <div className="icon icon-shape bg-warning text-white rounded-circle shadow">
+                          <i className="fas fa-users" />
                         </div>
                       </Col>
                     </Row>
                     <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-success mr-2">
-                        <i className="fas fa-arrow-up" /> 12%
+                      <span className="text-secondary mr-2">
+                        <i className="fas fa-arrow-up" /> 8.7%
                       </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
+                      <span className="text-nowrap">Currently Viewing via Mobile</span>
                     </p>
                   </CardBody>
                 </Card>
@@ -83,19 +83,19 @@ const LandingHeader = () => {
                         >
                           Revenue
                         </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">49,65%</span>
+                        <span className="h2 font-weight-bold mb-0">$240k</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-info text-white rounded-circle shadow">
+                        <div className="icon icon-shape bg-indigo text-white rounded-circle shadow">
                           <i className="ni ni-money-coins" />
                         </div>
                       </Col>
                     </Row>
                     <p className="mt-3 mb-0 text-muted text-sm">
-                      <span className="text-success mr-2">
-                        <i className="fas fa-arrow-up" /> 12%
+                      <span className="text-danger mr-2">
+                        <i className="fas fa-arrow-down" /> 6.6%
                       </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
+                      <span className="text-nowrap">Last 7 Days</span>
                     </p>
                   </CardBody>
                 </Card>
@@ -113,19 +113,19 @@ const LandingHeader = () => {
                         >
                           Goal Conversion Rate
                         </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">49,65%</span>
+                        <span className="h2 font-weight-bold mb-0">17.98%</span>
                       </div>
                       <Col className="col-auto">
-                        <div className="icon icon-shape bg-info text-white rounded-circle shadow">
-                          <i className="ni ni-money-coins" />
+                        <div className="icon icon-shape bg-danger text-white rounded-circle shadow">
+                          <i className="ni ni-chart-pie-35" />
                         </div>
                       </Col>
                     </Row>
                     <p className="mt-3 mb-0 text-muted text-sm">
                       <span className="text-success mr-2">
-                        <i className="fas fa-arrow-up" /> 12%
+                        <i className="ni ni-trophy" /> 100%
                       </span>{" "}
-                      <span className="text-nowrap">Since last month</span>
+                      <span className="text-nowrap">Goal Completion</span>
                     </p>
                   </CardBody>
                 </Card>
