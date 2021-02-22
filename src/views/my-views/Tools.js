@@ -195,9 +195,25 @@ render() {
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center">
               <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://lh3.googleusercontent.com/proxy/qmW5fXUZb9dfeZMlwIUIKsZMlh9fBZMY2xpTSu9eHk72pcNdZ_dGKrs60wP3Op2CxNU6WRo6cYwgJEA0sgWQiyGSaL6N2AUuGhKkSWJKf9l7iz3wrOI" alt="stock images"/>
+                <img className="w-50" src="https://lh3.googleusercontent.com/proxy/qmW5fXUZb9dfeZMlwIUIKsZMlh9fBZMY2xpTSu9eHk72pcNdZ_dGKrs60wP3Op2CxNU6WRo6cYwgJEA0sgWQiyGSaL6N2AUuGhKkSWJKf9l7iz3wrOI" alt="stock images"/>
               <div className="pt-2">
                   Adobe Stock Images
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-512.png" alt="gmail"/>
+              <div className="pt-2">
+                  Photoshop
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://logodownload.org/wp-content/uploads/2017/04/adobe-Illustrator-logo-3.png" alt="gmail"/>
+              <div className="pt-2">
+                  Illustrator
               </div>
               </a>
             </div>
@@ -210,18 +226,10 @@ render() {
               </a>
             </div>
             <div className="col-3 d-flex align-items-center">
-              <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://i.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" alt="gmail"/>
+              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://cdn.freebiesupply.com/logos/thumbs/2x/adobe-xd-logo.png" alt="instagram"/>
               <div className="pt-2">
-                  Photoshop
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center">
-              <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/06/Illustrator-Logo.png" alt="gmail"/>
-              <div className="pt-2">
-                  Illustrator
+                  XD
               </div>
               </a>
             </div>
