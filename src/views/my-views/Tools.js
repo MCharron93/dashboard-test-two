@@ -149,6 +149,14 @@ render() {
           <TabPane tabId="tabs1">
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center">
+              <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/>
+              <div className="pt-2">
+                 Asana
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://i0.wp.com/res.cloudinary.com/geoxis/images/f_auto,q_auto/v1609829844/App-logo-opencart-uai-258x258/App-logo-opencart-uai-258x258.png?ssl=1" alt="gmail"/>
               <div className="pt-2">
@@ -224,14 +232,7 @@ render() {
               </div>
               </a>
             </div>
-            <div className="col-3 d-flex align-items-center">
-              <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/>
-              <div className="pt-2">
-                 Asana
-              </div>
-              </a>
-            </div>
+            
             <div className="col-3 d-flex align-items-center">
               <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">
                 <img className="w-50" src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png" alt="instagram"/>
