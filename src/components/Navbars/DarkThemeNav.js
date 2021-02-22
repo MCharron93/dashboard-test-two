@@ -41,12 +41,12 @@ const AdminNavbar = (props) => {
       <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
         <Container fluid>
           <Link
-            className="h4-light mb-0 text-uppercase d-none d-lg-inline-block"
+            className="h4 text-white mb-0 text-uppercase d-none d-lg-inline-block"
             to="/"
           >
             {props.brandText}
           </Link>
-          <Form className="navbar-search navbar-search-light form-inline mr-3 d-none d-md-flex ml-lg-auto">
+          <Form className="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
             <FormGroup className="mb-0">
               <InputGroup className="input-group-alternative">
                 <InputGroupAddon addonType="prepend">
