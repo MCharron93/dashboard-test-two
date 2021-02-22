@@ -4,6 +4,8 @@
 
 // General styles
 
+
+// NOTE custom styled edits for cards and buttons
 #custom-btn{
    font-size: 1rem;
    &:hover{
@@ -11,8 +13,13 @@
    }
 }
 
-.custom-link{
+.custom-header-sales{
    color: #b993e6;
+   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+}
+
+.custom-link{
+   color: #525f7f;
    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
    &:hover {
       @include box-shadow($btn-hover-box-shadow);
@@ -20,13 +27,13 @@
       transition: $transition-base;
       border: none;
       box-shadow: none;
-      color: #cea3ff;
+      color: #b993e6;
       text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
    }
 }
 
 #custom-card-border-blog{
-   border-left: 5px solid green;
+   border-left: 5px solid #35a04a;
 }
 
 #custom-card-border-sales{
@@ -36,6 +43,11 @@
 #custom-card-border-story{
    border-left: 5px solid #fe64a4;
 }
+
+.indent-text{
+   text-indent: 2rem;
+}
+// NOTE end section of custom style edits for buttons and cards
 
 .btn {
    position: relative;

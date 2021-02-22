@@ -79,7 +79,7 @@ const Landing = () => {
                         <h5 className="text-uppercase text-muted ls-1 mb-1">
                             Site Wide News
                         </h5>
-                        <h4 className="display-4">
+                        <h4 className="display-4 custom-header-sales">
                             Happy Hippo Weekly Sales
                         </h4>
                         </div>
@@ -118,7 +118,7 @@ const Landing = () => {
                             <h5 className="text-uppercase text-muted ls-1 mb-1">
                                 From Our Founder
                             </h5>
-                            <h4 className="display-4">
+                            <h4 className="display-4 text-primary">
                                 Welcome to Your New Family
                             </h4>
                         </div>
@@ -131,16 +131,16 @@ const Landing = () => {
                 </CardHeader>
                     <CardBody>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis asperiores nulla voluptas impedit praesentium officia aliquid atque voluptate iste ullam optio sed corrupti, debitis quas, nam iure omnis ut! Quisquam!
+                            <p  className="font-weight-400 indent-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis asperiores nulla voluptas impedit praesentium officia aliquid atque voluptate iste ullam optio sed corrupti, debitis quas, nam iure omnis ut! Quisquam!
                             Laudantium sed excepturi earum ea illo rem voluptas, sequi, ut provident possimus fuga nisi labore reprehenderit tempora laborum deleniti! Consequatur iusto illo assumenda at, officiis enim porro ipsa reprehenderit adipisci.
                             Facere tenetur tempora natus totam eos quibusdam. Rerum quo cumque tenetur porro. Sed quo, quidem perspiciatis iusto ut exercitationem ab! Esse ipsa mollitia asperiores deleniti aliquam natus at nesciunt ex.
                             Enim maxime vitae voluptates impedit alias natus iure veniam aut dolore sint? Nemo, consequatur sint. Ducimus ut sed obcaecati voluptatibus animi totam, minima, accusantium provident eius esse eos eum error.
                             Praesentium aliquid ex minima rem fugit enim modi quisquam, totam tempore perspiciatis animi dolor consectetur? Ad nostrum expedita, voluptas similique inventore, officia odit molestias, praesentium quod veniam ut laudantium sit?</p>
                             
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ducimus et alias fuga corrupti voluptas saepe libero dolorem delectus dolor veniam architecto, nesciunt esse fugiat ipsam, molestias quos illum dolorum.
+                            <p className="font-weight-400 indent-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ducimus et alias fuga corrupti voluptas saepe libero dolorem delectus dolor veniam architecto, nesciunt esse fugiat ipsam, molestias quos illum dolorum.
                             Aliquam libero labore incidunt vitae accusantium obcaecati quibusdam perferendis consequuntur harum iste non praesentium totam doloribus facilis ex odio velit tenetur, laboriosam consequatur eveniet dignissimos earum! Ratione dolorum nam voluptatem.</p>
                             
-                            <p>
+                            <p className="font-weight-400 indent-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius sapiente distinctio rerum animi. Commodi atque possimus accusamus eaque porro optio in ea, praesentium eum adipisci iure autem quibusdam culpa.
                                 Excepturi exercitationem repellat corrupti esse nesciunt. Autem officiis voluptates asperiores harum, temporibus consectetur, consequatur voluptatibus odio, error dolor maiores dolorum! Magni laudantium, dolorem ad provident nam deserunt? Consectetur, libero tempore.
                                 Dolores, obcaecati nisi? Dolore ipsam sint, alias veritatis praesentium, quis consequatur, sequi quam odit debitis perspiciatis. Quas tempore corporis dolores optio. Inventore veniam libero eum perferendis esse dolore rem illo.
@@ -178,7 +178,9 @@ const Landing = () => {
                     </CardBody>
                     <CardFooter>
                         <div className="row justify-content-end">
-                            <Button className="col-1 btn" color="primary">Email Chris</Button>
+                            <a className="col-1" href="https://mail.google.com/mail/u/0/?tab=cm#inbox" target="_blank" rel="noreferrer">
+                            <Button className="btn" color="primary">Email Chris</Button>
+                            </a>
                         </div>
                     </CardFooter>
             </Card>
