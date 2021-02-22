@@ -37,6 +37,7 @@ render() {
           pills
           role="tablist"
           >
+          
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 1}
@@ -48,7 +49,7 @@ render() {
               role="tab"
             >
               <i className="ni ni-cloud-upload-96 mr-2" />
-              Google Suite
+              General Business
             </NavLink>
           </NavItem>
           <NavItem>
@@ -61,8 +62,8 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-bell-55 mr-2" />
-              Design
+              <i className="ni ni-cloud-upload-96 mr-2" />
+              Google Suite
             </NavLink>
           </NavItem>
           <NavItem>
@@ -75,8 +76,8 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-calendar-grid-58 mr-2" />
-              Development
+              <i className="ni ni-bell-55 mr-2" />
+              Design
             </NavLink>
           </NavItem>
           <NavItem>
@@ -89,8 +90,8 @@ render() {
               href="#pablo"
               role="tab"
             >
-              <i className="ni ni-cloud-upload-96 mr-2" />
-              Fulfillment
+              <i className="ni ni-calendar-grid-58 mr-2" />
+              Development
             </NavLink>
           </NavItem>
           <NavItem>
@@ -104,7 +105,7 @@ render() {
               role="tab"
             >
               <i className="ni ni-cloud-upload-96 mr-2" />
-              Sales
+              Fulfillment
             </NavLink>
           </NavItem>
           <NavItem>
@@ -114,6 +115,20 @@ render() {
                 active: this.state.tabs === 6
               })}
               onClick={e => this.toggleNavs(e, "tabs", 6)}
+              href="#pablo"
+              role="tab"
+            >
+              <i className="ni ni-cloud-upload-96 mr-2" />
+              Sales
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              aria-selected={this.state.tabs === 7}
+              className={classnames("btn mb-sm-3 mb-md-0", {
+                active: this.state.tabs === 7
+              })}
+              onClick={e => this.toggleNavs(e, "tabs", 7)}
               href="#pablo"
               role="tab"
             >
@@ -131,7 +146,67 @@ render() {
             {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
             {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
           <TabContent activeTab={"tabs" + this.state.tabs}>
-            <TabPane tabId="tabs1">
+          <TabPane tabId="tabs1">
+            <div className="row justify-content-around text-center px-2">
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://i0.wp.com/res.cloudinary.com/geoxis/images/f_auto,q_auto/v1609829844/App-logo-opencart-uai-258x258/App-logo-opencart-uai-258x258.png?ssl=1" alt="gmail"/>
+              <div className="pt-2">
+                  OpenCart
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://www.semrush.com/dashboard/" target="_blank" rel="noopener noreferrer">
+                <img className="w-50" src="https://financesonline.com/uploads/2020/12/semrush-logo-1.png" alt="instagram"/>
+              <div className="pt-2">
+                  SEMRush
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://app.slack.com/client/TM2S3EWA1/CLRDZAXSP" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://marketing-assets.pinpointhq.com/wp-content/uploads/2020/04/pinpoint-integration-slack-logo-63a5b836f54577f6ad9f3c8a700a30a9.png" alt="instagram"/>
+              <div className="pt-2">
+                 Slack
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noopener noreferrer">
+                <img className="w-50" src="https://speciosa.org/wp-content/uploads/2017/12/Untitled-1-01.png" alt="instagram"/>
+              <div className="pt-2">
+                  Kratom Legality 
+              </div>
+              </a>
+            </div>
+            {/* <div className="col-3 d-flex align-items-center">
+              <a href="https://docs.google.com/document/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/05/Google-Docs-logo.png" alt="gmail"/>
+              <div className="pt-2">
+                  Docs
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="gmail"/>
+              <div className="pt-2">
+                  Sheets
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center">
+              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/>
+              <div className="pt-2">
+                 Slides
+              </div>
+              </a>
+            </div> */}
+              </div>
+            </TabPane>
+            <TabPane tabId="tabs2">
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center">
               <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
@@ -191,7 +266,7 @@ render() {
             </div>
               </div>
             </TabPane>
-            <TabPane tabId="tabs2">
+            <TabPane tabId="tabs3">
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center">
               <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
@@ -235,14 +310,16 @@ render() {
             </div>
               </div>
             </TabPane>
-            <TabPane tabId="tabs3">
+            <TabPane tabId="tabs4">
               <div className="row justify-content-between">
-            <div className="col-4"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a></div>
+            <div className="col-4">
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">Link goes here</a>
+              </div>
             {/* <div className="col-4"><a>Link goes here</a></div>
             <div className="col-4"><a>Link goes here</a></div> */}
               </div>
             </TabPane>
-            <TabPane tabId="tabs4">
+            <TabPane tabId="tabs5">
             <p className="description">
               This would be fulfillment tools injected here. Can include logos and other applications used by the team for completing thier jobs.
               </p>
@@ -250,7 +327,7 @@ render() {
               Some icons and other clickable links will launch applications and other windows for everyone to use for any fulfillment needs
               </p>
             </TabPane>
-            <TabPane tabId="tabs5">
+            <TabPane tabId="tabs6">
                 <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
             <p className="description">
               This would be Analytics tools injected here. Can include logos and other applications used by the team for completing thier jobs.
@@ -259,7 +336,7 @@ render() {
               Some icons and other clickable links will launch applications and other windows for everyone to use for any Analytics needs
               </p>
             </TabPane>
-            <TabPane tabId="tabs6">
+            <TabPane tabId="tabs7">
                 <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
             <p className="description">
               This would be Analytics tools injected here. Can include logos and other applications used by the team for completing thier jobs.

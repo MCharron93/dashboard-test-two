@@ -148,10 +148,10 @@ const Index = (props) => {
               <CardHeader className="bg-gradient-green">
                 <Row className="align-items-center">
                   <div className="col">
-                  <h6 className="text-uppercase text-muted ls-1 mb-1">
+                  <h5 className="text-uppercase text-muted ls-1 mb-1">
                       Customer Recognition
-                    </h6>
-                    <h3 className="mb-0 display-3">Hippo Hype</h3>
+                    </h5>
+                    <h3 className="mb-0 display-4 font-weight-bold">Hippo Hype</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -168,33 +168,32 @@ const Index = (props) => {
               </CardHeader>
               <CardBody>
               <Row>
-  <Col sm="3">Jenny Orlando via TrustPilot</Col>
+  <Col sm="3">Bradley Deal via TrustPilot</Col>
   <Col sm="9">
-    <a href="https://www.trustpilot.com/review/www.happyhippoherbals.com">
-    <p>
-      Vestibulum id ligula porta felis euismod semper eget lacinia
-      odio sem nec elit.
+    <a href="https://www.trustpilot.com/review/www.happyhippoherbals.com" target="_blank" rel="noreferrer">
+    <p className="font-weight-bold">
+    "Happy Hippo Herbals sell the best kratom than any of the other vendors 
+    I've tried!Whatever you get from them is high quality and I never ever 
+    have been dissatisfied with any of the products that I've bought including 
+    the kratom and CBD oil !Customer service is superb!..." Read More?
     </p>
     </a>
   </Col>
   <Col sm="3">Linda Callahan via KratomIQ</Col>
   <Col sm="9">
-    <a href="https://www.kratomiq.com/happy-hippo-herbals-review/">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Dolorum temporibus itaque ratione cum harum distinctio totam esse 
-      aspernatur saepe blanditiis voluptatem, tempore, vel id dignissimos 
-      veritatis eveniet reiciendis nemo qui!
+    <a href="https://www.kratomiq.com/happy-hippo-herbals-review/" target="_blank" rel="noreferrer">
+    <p className="font-weight-bold">
+     "Without doubt Happy Hippo Herbals offers the highest quality Kratom I have tried as of yet. If I find a better alternative, I’ll let you know..." Read More?
     </p>
     </a>
   </Col>
   <Col sm="3">Jennifer Kurtz via kratomguides</Col>
   <Col sm="9">
-    <a href="https://kratomguides.com/happy-hippo-herbal-reviews/">
-    <p>
-      Dolorum temporibus itaque ratione cum harum distinctio totam esse 
-      aspernatur saepe blanditiis voluptatem, tempore, vel id dignissimos 
-      veritatis eveniet reiciendis nemo qui! 
+    <a href="https://kratomguides.com/happy-hippo-herbal-reviews/" target="_blank" rel="noreferrer">
+    <p className="font-weight-bold">
+      "They offer the highest quality kratom strains with various categories such as slow, moderate and fast. 
+      You need to consume less amount of kratom power when compared to other brands.Excellent customer service.
+      They offer you with over delivery of the powder along with free samples..." Read More? 
     </p>
     </a>
   </Col>
