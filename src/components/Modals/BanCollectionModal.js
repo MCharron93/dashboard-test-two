@@ -19,7 +19,7 @@ class BanCollectionModal extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Ban System and Collections</li>
+            <li className="text-left btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Ban System and Collections</li>
             <Modal
               className="modal-dialog-centered"
               isOpen={this.state.defaultModal}

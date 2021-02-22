@@ -29,7 +29,7 @@ class MissingPackageModal extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Missing Packages</li>
+            <li className="text-left btn shadow-none text-white" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Missing Packages</li>
             <Modal
               className="modal-dialog-centered"
               isOpen={this.state.defaultModal}
