@@ -60,9 +60,18 @@
 }
 
 .btn-primary{
-   
+
    &:hover {
-      background-color: #1054ff;
+      border-color: $info;
+      background-color: $info;
+   }
+}
+
+.btn-secondary{
+
+   &:hover {
+      border-color: $success;
+      background-color: $success;
    }
 }
 
