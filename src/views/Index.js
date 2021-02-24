@@ -80,7 +80,7 @@ const Index = (props) => {
       <Container className="mt--8" fluid>
         <Row>
           <Col md={8}>
-            <Row className="justify-content-between p-3 my-4">
+            <Row className="justify-content-between py-3 my-4">
             <Col md={6}>
             <Card className="shadow border-0 my-2" id="custom-card-border-payments">
               <CardHeader className="text-dark">

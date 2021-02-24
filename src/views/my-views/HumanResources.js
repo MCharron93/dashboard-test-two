@@ -224,12 +224,15 @@ render() {
       
               </TabPane>
               <TabPane tabId="tabs4">
-              <p className="description">
-                This would be fulfillment tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-                </p>
-                <p>
-                Some icons and other clickable links will launch applications and other windows for everyone to use for any fulfillment needs
-                </p>
+                <p className="display-4">Observed Holidays are based on our shipping carriers</p>  
+                  <p className="description font-weight-700">
+                    Please follow the links below to view the shipping closures for FedEx, UPS, and USPS. If one of our carriers is open that day, we will typically have all employees on-site. 
+                  </p>
+                  <ul>
+                    <li><p className="text-uppercase">FedEx</p></li>
+                    <li><p className="text-uppercase">UPS</p></li>
+                    <li><p className="text-uppercase">USPS</p></li>
+                  </ul>
               </TabPane>
               <TabPane tabId="tabs5">
               <p className="description">
