@@ -160,7 +160,7 @@ render() {
               </TabPane>
               <TabPane tabId="tabs2">
               <div className="row px-2">
-              <a href="https://www.appletonclinics.com/id-home">
+              <a href="https://www.appletonclinics.com/id-home" target="_blank" rel="noreferrer">
               <p className="display-3">This would lead into Appleton clinics</p></a>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum consequatur facilis eligendi ratione voluptatum ex obcaecati, quasi officia voluptatem, assumenda quidem recusandae quam quod amet, quia sunt? Porro, deserunt.
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae, nesciunt reiciendis alias dolor voluptate incidunt optio hic minima atque deserunt praesentium nihil corporis deleniti beatae maiores sequi ab non.
@@ -229,9 +229,15 @@ render() {
                     Please follow the links below to view the shipping closures for FedEx, UPS, and USPS. If one of our carriers is open that day, we will typically have all employees on-site. 
                   </p>
                   <ul>
-                    <li><p className="text-uppercase">FedEx</p></li>
-                    <li><p className="text-uppercase">UPS</p></li>
-                    <li><p className="text-uppercase">USPS</p></li>
+                    <a href="https://www.fedex.com/content/dam/fedex/us-united-states/shipping/images/FedEx-Holiday-Schedule.pdf" target="_blank" rel="noreferrer">
+                      <li><p className="text-uppercase">FedEx</p></li>
+                    </a>
+                    <a href="https://www.ups.com/assets/resources/media/en_US/US_Days_of_Operation_Schedule.pdf" target="_blank" rel="noreferrer">
+                      <li><p className="text-uppercase">UPS</p></li>
+                    </a>
+                    <a href="https://about.usps.com/newsroom/events/" target="_blank" rel="noreferrer">
+                      <li><p className="text-uppercase">USPS</p></li>
+                    </a>
                   </ul>
               </TabPane>
               <TabPane tabId="tabs5">
