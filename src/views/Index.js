@@ -126,7 +126,7 @@ const Index = (props) => {
             </Col>
             <Col className="my-3">
             <Card className="shadow border-0">
-              <CardHeader className="bg-gradient-green">
+              <CardHeader className="bg-gradient-info">
                 <Row className="align-items-center">
                   <div className="col">
                   <h5 className="text-uppercase text-muted ls-1 mb-1">
@@ -189,14 +189,14 @@ const Index = (props) => {
           <Col className="my-4 p-3">
           <Row>
           <Col className="my-2">
-            <Card className="bg-gradient-default shadow border-0">
+            <Card className="bg-white shadow border-0" id="custom-card-border-errors">
               <CardHeader className="text-dark">
                 <Row className="align-items-center">
                   <div className="col">
                   <h6 className="text-uppercase text-muted ls-1 mb-1">
                       Knowledge Base
                     </h6>
-                    <h2 className="mb-0">Error Handling</h2>
+                    <h2 className="mb-0 text-danger">Error Handling</h2>
                   </div>
                 </Row>
               </CardHeader>

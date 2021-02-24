@@ -9,7 +9,7 @@
 #custom-btn{
    font-size: 1rem;
    &:hover{
-      color: $primary;
+      color: $green;
    }
 }
 
@@ -17,6 +17,13 @@
    font-size: 1rem;
    &:hover{
       color: $indigo !important;
+   }
+}
+
+#custom-btn-3{
+   font-size: 1rem;
+   &:hover{
+      color: $warning !important;
    }
 }
 
@@ -57,6 +64,10 @@
 
 #custom-card-border-shipping{
    border-top: 8px solid $indigo !important;
+}
+
+#custom-card-border-errors{
+   border-right: 8px solid $danger !important;
 }
 
 .btn-primary{
