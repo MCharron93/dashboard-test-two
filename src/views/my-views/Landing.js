@@ -29,7 +29,7 @@ const Landing = () => {
         <LandingHeader/>
         <Container className="mt--7" fluid>
         <Row>
-          <div className="col">
+          <div className="col-8">
             <Card className="shadow border-none p-3" id="custom-card-border-blog">
                 <CardHeader>
                     <div className="row">
@@ -51,7 +51,7 @@ const Landing = () => {
                 <CardBody>
                     
                         <div  className="d-flex"> 
-                            <img className="rounded card-img col-6" src="https://lh3.googleusercontent.com/mX5yY5b-ogMiLXOkE0gxt-MA2juBkbYySJ4OqxWgZq4bovO0bqSxOnzq45fr-CmBc47SbWftbf-_1k4iUnTkLgEd_CJEmR9aLeEe5pr5U2i_9sWqhQkzb1ZiEtGbnoFMeyIEZgA" alt=""/>
+                            <img className="img-fluid col-6" src="https://lh3.googleusercontent.com/mX5yY5b-ogMiLXOkE0gxt-MA2juBkbYySJ4OqxWgZq4bovO0bqSxOnzq45fr-CmBc47SbWftbf-_1k4iUnTkLgEd_CJEmR9aLeEe5pr5U2i_9sWqhQkzb1ZiEtGbnoFMeyIEZgA" alt=""/>
                             <p className="col-6 px-3 indent-text">
                             To all our fellow Hippo Customers - we deeply apologize for the issues and inconveniences you have 
                             experienced with our Credit Card Processors going down. To explain, banks do not enjoy working with 
@@ -94,13 +94,13 @@ const Landing = () => {
                         <div>
                             <ul>
                                 <a href="https://www.happyhippoherbals.com/green-sundanese-kratom" target="_blank" rel="noreferrer">
-                                    <li className="display-4 py-3 custom-link">Jolly Green Hippo(Green Sundanese)</li>
+                                    <li className="h4 py-3 custom-link">Jolly Green Hippo(Green Sundanese)</li>
                                 </a>
                                 <a href="https://www.happyhippoherbals.com/red-hulu-kratom" target="_blank" rel="noreferrer">
-                                    <li className="display-4 py-3 custom-link">Happy Heart Hippo(Red Hulu)</li>
+                                    <li className="h4 py-3 custom-link">Happy Heart Hippo(Red Hulu)</li>
                                 </a>
                                 <a href="https://www.happyhippoherbals.com/hugs-n-kisses-hippo" target="_blank" rel="noreferrer">
-                                    <li className="display-4 py-3 custom-link">Hugs n' Kisses Hippo(Red Malay & White Sumatra)</li>
+                                    <li className="h4 py-3 custom-link">Hugs n' Kisses Hippo(Red Malay & White Sumatra)</li>
                                 </a>
                             </ul>  
                         </div>
@@ -111,7 +111,7 @@ const Landing = () => {
         <Row>
             {/* NOTE margin classes work the same due to boostrap for React */}
         <div className="col my-4">
-            <Card className="shadow border-none p-3" id="custom-card-border-story">
+            <Card className="shadow border-0 p-3" id="custom-card-border-story">
                 <CardHeader>
                     <div className="row">
                         <div className="col">
@@ -176,9 +176,9 @@ const Landing = () => {
                             </p> */}
                         </div>
                     </CardBody>
-                    <CardFooter>
-                        <div className="row justify-content-end">
-                            <a className="col-1" href="https://mail.google.com/mail/u/0/?tab=cm#inbox" target="_blank" rel="noreferrer">
+                    <CardFooter className="row justify-content-end">
+                        <div>
+                            <a className="col" href="https://mail.google.com/mail/u/0/?tab=cm#inbox" target="_blank" rel="noreferrer">
                             <Button className="btn" color="primary">Email Chris</Button>
                             </a>
                         </div>

@@ -80,14 +80,14 @@ const Index = (props) => {
       <Container className="mt--7" fluid>
         <Row className="justify-content-center my-4">
           <Col className="mb-5 mb-xl-0" xl="4">
-            <Card className="shadow border-0">
+            <Card className="shadow border-0" id="custom-card-border-payments">
               <CardHeader className="text-dark">
                 <Row className="align-items-center">
                   <div className="col">
                   <h6 className="text-uppercase text-muted ls-1 mb-1">
                       Knowledge Base
                     </h6>
-                    <h2 className="mb-0">Payment Processing and Financials</h2>
+                    <h2 className="mb-0 text-secondary">Payment Processing and Financials</h2>
                   </div>
                 </Row>
               </CardHeader>
@@ -102,14 +102,14 @@ const Index = (props) => {
             </Card>
           </Col>
           <Col className="mb-5" xl="4">
-            <Card className="shadow">
+            <Card className="shadow border-0" id="custom-card-border-shipping">
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
                   <div className="col">
                     <h6 className="text-uppercase text-muted ls-1 mb-1">
                       Knowledge Base
                     </h6>
-                    <h2 className="mb-0">Shipping Standard and Carriers</h2>
+                    <h2 className="mb-0 text-indigo">Shipping Standard and Carriers</h2>
                   </div>
                 </Row>
               </CardHeader>

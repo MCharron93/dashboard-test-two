@@ -29,7 +29,7 @@ class ShipStationModal extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="btn shadow-none text-dark" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Shipstation</li>
+            <li className="btn shadow-none text-dark" id="custom-btn-2" onClick={() => this.toggleModal("defaultModal")}>Shipstation</li>
             <Modal
               className="modal-dialog-centered"
               size="lg"

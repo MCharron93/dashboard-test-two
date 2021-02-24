@@ -29,7 +29,7 @@ class ShippingModals extends React.Component {
     return (
       <>
           <Col md="6">
-            <li className="text-left btn shadow-none text-dark" id="custom-btn" onClick={() => this.toggleModal("defaultModal")}>Shipping</li>
+            <li className="text-left btn shadow-none text-dark" id="custom-btn-2" onClick={() => this.toggleModal("defaultModal")}>Shipping</li>
             <Modal
               className="modal-dialog-centered"
               isOpen={this.state.defaultModal}
@@ -88,7 +88,7 @@ class ShippingModals extends React.Component {
             </Modal>
           </Col>
           <Col md="6">
-          <h5 className="text-left btn shadow-none text-dark" id="custom-btn" onClick={() => this.toggleModal("ups")}>UPS</h5>
+          <h5 className="text-left btn shadow-none text-dark" id="custom-btn-2" onClick={() => this.toggleModal("ups")}>UPS</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"
@@ -157,7 +157,7 @@ class ShippingModals extends React.Component {
             </Modal>
           </Col>
           <Col md="6">
-          <h5 className="text-left btn shadow-none text-dark" id="custom-btn" onClick={() => this.toggleModal("fedex")}>FedEx</h5>
+          <h5 className="text-left btn shadow-none text-dark" id="custom-btn-2" onClick={() => this.toggleModal("fedex")}>FedEx</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"
@@ -217,7 +217,7 @@ class ShippingModals extends React.Component {
             </Modal>
           </Col>
           <Col md="6">
-          <h5 className="text-left btn shadow-none text-dark" id="custom-btn" onClick={() => this.toggleModal("usps")}>USPS</h5>
+          <h5 className="text-left btn shadow-none text-dark" id="custom-btn-2" onClick={() => this.toggleModal("usps")}>USPS</h5>
             <Modal
               className="modal-dialog-centered"
               size="lg"
