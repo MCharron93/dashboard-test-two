@@ -148,7 +148,7 @@ render() {
       </div>
       <div className="container-fluid mt--7">
 
-      <Card className="shadow my-4 rounded">
+      <Card className="shadow my-4 rounded tools">
         <CardBody>
             {/* NOTE this changes the state of the tabs and sets it to display whatever tab is currently selected */}
             {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
@@ -280,7 +280,7 @@ render() {
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://lh3.googleusercontent.com/proxy/qmW5fXUZb9dfeZMlwIUIKsZMlh9fBZMY2xpTSu9eHk72pcNdZ_dGKrs60wP3Op2CxNU6WRo6cYwgJEA0sgWQiyGSaL6N2AUuGhKkSWJKf9l7iz3wrOI" alt="stock images"/>
+                <img className="w-50" src="https://lh3.googleusercontent.com/proxy/1OP-PsqqHd_zO50lMUe3Ccez8JLK4kI5hU5p2Mix0nW_LrmMnrtGqIJxqQC_ttI0Ub14oFUjAqjjuB38uEglLT60K1tBSPiCbfGQJoschFvXQqQLi7E" alt="stock images"/>
               <div className="pt-2">
                   Adobe Stock Images
               </div>
@@ -312,7 +312,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://cdn.freebiesupply.com/logos/thumbs/2x/adobe-xd-logo.png" alt="instagram"/>
+                <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/>
               <div className="pt-2">
                   XD
               </div>
@@ -321,7 +321,7 @@ render() {
               </div>
             </TabPane>
             <TabPane tabId="tabs4">
-              <div className="row justify-content-between">
+              <div className="row justify-content-around text-center px-2">
               <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.zendesk.com/login/#login" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://images.ctfassets.net/b7g9mrbfayuu/1lOzS4dImMk4mCqMy8sKea/69edfc70289b2dad9f0ca4b13dab4bad/logo-zendesk-300x300.png" alt="instagram"/>

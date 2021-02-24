@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="copyright text-center text-xl-left text-muted">
             {/* {new Date().toDateString()}{" "} */}
             <a
-              className="font-weight-bold ml-1 btn border-0 shadow-none text-secondary"
+              className="font-weight-bold btn border-0 px-3 shadow-none text-secondary"
               href="https://www.happyhippoherbals.com/"
               rel="noopener noreferrer"
               target="_blank"
@@ -40,7 +40,7 @@ const Footer = () => {
         </Col>
 
         <Col xl="6">
-          <Nav className="nav-footer justify-content-center justify-content-xl-end">
+          <Nav className="nav-footer justify-content-center justify-content-xl-end px-3">
             <NavItem>
               <NavLink
                 className="btn border-0 shadow-none"

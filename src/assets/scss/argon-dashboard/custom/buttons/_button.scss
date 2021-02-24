@@ -75,6 +75,16 @@
    }
 }
 
+.tools{
+   min-height: 70vh;
+}
+
+@media (max-height: 1080px){
+   .tools{
+      min-height: 65vh;
+   }
+}
+
 .indent-text{
    text-indent: 2rem;
 }
