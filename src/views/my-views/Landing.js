@@ -111,7 +111,7 @@ const Landing = () => {
         <Row>
             {/* NOTE margin classes work the same due to boostrap for React */}
         <div className="col my-4">
-            <Card className="shadow border-0 p-3" id="custom-card-border-story">
+            <Card className="shadow border-none p-3" id="custom-card-border-story">
                 <CardHeader>
                     <div className="row">
                         <div className="col">

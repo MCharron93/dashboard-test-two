@@ -59,21 +59,11 @@
    border-top: 8px solid $indigo !important;
 }
 
-.btn-secondary{
-   // position: relative;
-   // text-transform: $btn-text-transform;
-   // transition: $transition-base;
-   // letter-spacing: $btn-letter-spacing;
-   // font-size: $input-btn-font-size;
-   // will-change: transform;
-
-   // &:hover {
-   //    @include box-shadow($btn-hover-box-shadow);
-   //    transform: translateY($btn-hover-translate-y);
-   //    background-color: #ade84e;
-   //    color: #525f7f;
-   //    border: #ade84e;
-   // }
+.btn-primary{
+   
+   &:hover {
+      background-color: #1054ff;
+   }
 }
 
 .indent-text{
