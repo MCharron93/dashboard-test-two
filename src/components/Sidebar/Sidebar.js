@@ -123,6 +123,7 @@ const Sidebar = (props) => {
             <img
               alt={logo.imgAlt}
               className="navbar-brand-img"
+              id="custom-display-brand"
               src={logo.imgSrc}
             />
           </NavbarBrand>
