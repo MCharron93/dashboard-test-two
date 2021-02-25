@@ -6,6 +6,45 @@
 
 
 // NOTE custom styled edits for cards and buttons
+.fab.fa-instagram {
+   color: rgba(95,70,201,1);
+   animation-name: insta;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+
+}  
+
+@keyframes insta {
+   0% {color: rgba(245,211,114,1)}
+   25% {color: rgba(198,19,47,1)}
+   50% {color: rgba(95,70,201,1)}
+   75% {color: rgba(198,19,47,1)}
+   100% {color: rgba(245,211,114,1)}
+
+}
+
+.fas.fa-edit{
+   &:hover{
+      color: $pink !important;
+   }
+}
+
+.fab.fa-facebook{
+   color: $facebook;
+
+   &:hover{
+      color: $default;
+   }
+}
+
+.fab.fa-twitter{
+   color: $twitter;
+
+   &:hover{
+      color: $info;
+   }
+}
+
 #custom-btn{
    font-size: 1rem;
    &:hover{

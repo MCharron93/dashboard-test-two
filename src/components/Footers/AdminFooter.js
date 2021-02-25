@@ -59,7 +59,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fas fa-edit fa-2x"></i>
+                <i class="text-primary fas fa-edit fa-2x"></i>
               </NavLink>
             </NavItem>
 
@@ -81,7 +81,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fab fa-twitter fa-2x"></i>
+                <i class=" fab fa-twitter fa-2x"></i>
               </NavLink>
             </NavItem>
           </Nav>
