@@ -35,13 +35,13 @@ var routes = [
   //   component: Index,
   //   layout: "/admin",
   // },
-  {
-    path: "/icons",
-    name: "Icons",
-    icon: "ni ni-planet",
-    component: Icons,
-    layout: "/admin",
-  },
+  // {
+  //   path: "/icons",
+  //   name: "Icons",
+  //   icon: "ni ni-planet",
+  //   component: Icons,
+  //   layout: "/admin",
+  // },
   {
     path: "/dashboard",
     name: "Dashboard",
