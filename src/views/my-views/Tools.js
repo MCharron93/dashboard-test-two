@@ -126,7 +126,7 @@ render() {
               role="tab"
             >
               <TrendingUpIcon className="mr-2"></TrendingUpIcon>
-              Sales
+              Human Resources
             </NavLink>
           </NavItem>
           <NavItem>
@@ -157,7 +157,7 @@ render() {
             <div className="row justify-content-around text-center">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/>
+                {/* <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/> */}
               <div className="pt-2">
                  Asana
               </div>
@@ -165,7 +165,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://i0.wp.com/res.cloudinary.com/geoxis/images/f_auto,q_auto/v1609829844/App-logo-opencart-uai-258x258/App-logo-opencart-uai-258x258.png?ssl=1" alt="OpenCart"/>
+                {/* <img className="w-25" src="https://i0.wp.com/res.cloudinary.com/geoxis/images/f_auto,q_auto/v1609829844/App-logo-opencart-uai-258x258/App-logo-opencart-uai-258x258.png?ssl=1" alt="OpenCart"/> */}
               <div className="pt-2">
                   OpenCart
               </div>
@@ -173,15 +173,15 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.semrush.com/dashboard/" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://financesonline.com/uploads/2020/12/semrush-logo-1.png" alt="SEMRush"/>
+                {/* <img className="w-50" src="https://financesonline.com/uploads/2020/12/semrush-logo-1.png" alt="SEMRush"/> */}
               <div className="pt-2">
-                  SEMRush
+                  Bitwarden
               </div>
               </a>
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://app.slack.com/client/TM2S3EWA1/CLRDZAXSP" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://marketing-assets.pinpointhq.com/wp-content/uploads/2020/04/pinpoint-integration-slack-logo-63a5b836f54577f6ad9f3c8a700a30a9.png" alt="slack"/>
+                {/* <img className="w-25" src="https://marketing-assets.pinpointhq.com/wp-content/uploads/2020/04/pinpoint-integration-slack-logo-63a5b836f54577f6ad9f3c8a700a30a9.png" alt="slack"/> */}
               <div className="pt-2">
                  Slack
               </div>
@@ -189,39 +189,39 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://speciosa.org/wp-content/uploads/2017/12/Untitled-1-01.png" alt="map"/>
+                {/* <img className="w-50" src="https://speciosa.org/wp-content/uploads/2017/12/Untitled-1-01.png" alt="map"/> */}
               <div className="pt-2">
-                  Kratom Legality 
+                  Shopify 
               </div>
               </a>
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src={
+                {/* <img className="w-25" src={
                 require("../../assets/img/brand/happy-hippo-logo-no-text.png").default
-              } alt="happyhippo"/>
+              } alt="happyhippo"/> */}
               <div className="pt-2">
                   Happy Hippo Herbals
               </div>
               </a>
             </div>
-            {/* <div className="col-3 d-flex align-items-center justify-content-center">
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://tsheets.intuit.com/page/login_oii" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 T-Sheets
+              </div>
+              </a>
+            </div>
+              </div>
+            {/* {/* <div className="col-3 d-flex align-items-center justify-content-center">
               <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
                 <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="gmail"/>
               <div className="pt-2">
                   Sheets
               </div>
               </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/>
-              <div className="pt-2">
-                 Slides
-              </div>
-              </a>
             </div> */}
-              </div>
             </TabPane>
             <TabPane tabId="tabs2">
             <div className="row justify-content-around text-center px-2">
@@ -280,7 +280,7 @@ render() {
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://lh3.googleusercontent.com/proxy/1OP-PsqqHd_zO50lMUe3Ccez8JLK4kI5hU5p2Mix0nW_LrmMnrtGqIJxqQC_ttI0Ub14oFUjAqjjuB38uEglLT60K1tBSPiCbfGQJoschFvXQqQLi7E" alt="stock images"/>
+                {/* <img className="w-50" src="https://lh3.googleusercontent.com/proxy/1OP-PsqqHd_zO50lMUe3Ccez8JLK4kI5hU5p2Mix0nW_LrmMnrtGqIJxqQC_ttI0Ub14oFUjAqjjuB38uEglLT60K1tBSPiCbfGQJoschFvXQqQLi7E" alt="stock images"/> */}
               <div className="pt-2">
                   Adobe Stock Images
               </div>
@@ -288,7 +288,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-512.png" alt="gmail"/>
+                {/* <img className="w-25" src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-512.png" alt="gmail"/> */}
               <div className="pt-2">
                   Photoshop
               </div>
@@ -296,7 +296,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://logodownload.org/wp-content/uploads/2017/04/adobe-Illustrator-logo-3.png" alt="gmail"/>
+                {/* <img className="w-25" src="https://logodownload.org/wp-content/uploads/2017/04/adobe-Illustrator-logo-3.png" alt="gmail"/> */}
               <div className="pt-2">
                   Illustrator
               </div>
@@ -304,7 +304,7 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/>
+                {/* <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/> */}
               <div className="pt-2">
                   Instagram
               </div>
@@ -312,9 +312,33 @@ render() {
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/>
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
               <div className="pt-2">
                   XD
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  Coolors
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  Print Runner
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  Moo 
               </div>
               </a>
             </div>
@@ -352,22 +376,81 @@ render() {
             <div className="row justify-content-around text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://ship5.shipstation.com/orders/awaiting-shipment" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://res.cloudinary.com/hdxhd6yxt/image/upload/f_auto,h_200/f_auto/v1526373233/integrations/ShipStation-logo.png" alt="ShipStation"/>
+                {/* <img className="w-25" src="https://res.cloudinary.com/hdxhd6yxt/image/upload/f_auto,h_200/f_auto/v1526373233/integrations/ShipStation-logo.png" alt="ShipStation"/> */}
               <div className="pt-2">
                  ShipStation
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.stamps.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  Stamps
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.usps.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  USPS
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.ups.com/us/en/Home.page" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  UPS
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.fedex.com/en-us/home.html" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  FedEx
               </div>
               </a>
             </div>
             </div>
             </TabPane>
             <TabPane tabId="tabs6">
-                <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
-            <p className="description">
-              This would be Analytics tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-              </p>
-              <p>
-              Some icons and other clickable links will launch applications and other windows for everyone to use for any Analytics needs
-              </p>
+            <div className="row justify-content-around text-center px-2">
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://tsheets.intuit.com/page/login_oii" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 T-Sheets
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.indeed.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Indeed
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.ziprecruiter.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 ZipRecruiter
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 G-Suite Jobs
+              </div>
+              </a>
+            </div>
+            </div>
             </TabPane>
             <TabPane tabId="tabs7">
                 <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
