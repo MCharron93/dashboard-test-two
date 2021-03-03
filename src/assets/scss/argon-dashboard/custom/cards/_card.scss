@@ -10,19 +10,19 @@
 // NOTE custom card edits
 
 #custom-card-border-blog{
-    border-left: 8px solid #35a04a;
+    border-left: 8px solid $success;
  }
  
  #custom-card-border-sales{
-    border-left: 8px solid #b993e6;
+    border-left: 8px solid $purple;
  }
  
  #custom-card-border-story{
-    border-left: 8px solid #fe64a4;
+    border-left: 8px solid $primary;
  }
  
  #custom-card-border-payments{
-    border-left: 8px solid #35a04a !important;
+    border-left: 8px solid $success !important;
  }
  
  #custom-card-border-shipping{

@@ -46,14 +46,14 @@ $enable-print-styles:       true !default;
 $white:    #fff !default;
 $gray-100: #f6f9fc !default;
 $gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #8898aa !default;   // Line footer color
-$gray-700: #525f7f !default;   // Line p color
-$gray-800: #32325d !default;   // Line heading color
-$gray-900: #212529 !default;
-$black:    #000 !default;
+$gray-300: #f6f6f6 !default;
+$gray-400: #ddddde !default;
+$gray-500: #c0c0c0 !default;
+$gray-600: #818181 !default;   // Line footer color
+$gray-700: #666666 !default;   // Line p color
+$gray-800: #404040 !default;   // Line heading color
+$gray-900: #3d3d3d !default;
+$black:    #1f1f1f !default;
 
 $grays: () !default;
 $grays: map-merge((
@@ -68,14 +68,14 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #519ef7 !default;
+$blue:    #67d0e5 !default;
 $indigo:  #8a37e0 !default;
 $purple:  #cea3ff !default;
-$pink:    #ffb6c1 !default;
-$red:     #ff393c !default;
-$orange:  #fb6240 !default;
-$yellow:  #ffff63 !default;
-$green:   #ade84e !default;
+$pink:    #ffc1da !default;
+$red:     #ff393d !default;
+$orange:  #fc876d !default;
+$yellow:  #ffff85 !default;
+$green:   #72bd81 !default;
 $teal:    #3cf2cb !default;
 $cyan:    #7bdef2 !default;
 
@@ -98,10 +98,10 @@ $colors: map-merge((
   "gray-dark":  $gray-900
 ), $colors);
 
-$default:       #519ef7 !default;
-$primary:       #fe64a4 !default;
-$secondary:     #35a04a !default;
-$success:       $green !default;
+$default:       $blue !default;
+$primary:       #fe64a3 !default;
+$secondary:     #ade84e !default;
+$success:       #35a04b !default;
 $info:          $teal !default;
 $warning:       $orange !default;
 $danger:        $red !default;
@@ -742,8 +742,8 @@ $navbar-dark-bg:                    transparent !default;
 $navbar-dark-hover-bg:              rgba(255, 255, 255, .1) !default;
 $navbar-dark-active-bg:             rgba(255, 255, 255, .1) !default;
 $navbar-dark-color:                 rgba($white, .95) !default;
-$navbar-dark-hover-color:           rgba($white, .65) !default;
-$navbar-dark-active-color:          rgba($white, .65) !default;
+$navbar-dark-hover-color:           $primary !default;
+$navbar-dark-active-color:          $primary !default;
 $navbar-dark-disabled-color:        rgba($white, .25) !default;
 $navbar-dark-toggler-border-color:  transparent !default;
 
@@ -762,10 +762,10 @@ $navbar-light-active-color:         $primary !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;
 $navbar-light-toggler-border-color: transparent !default;
 
-$navbar-search-light-border-color:  #525f7f !default;
-$navbar-search-light-color:          #525f7f !default !default;
-$navbar-search-light-focus-border-color: #525f7f !default !default;
-$navbar-search-light-focus-color:    #525f7f !default;
+$navbar-search-light-border-color:  $gray-700 !default;
+$navbar-search-light-color:          $gray-700 !default !default;
+$navbar-search-light-focus-border-color: $gray-700 !default !default;
+$navbar-search-light-focus-color:    $gray-700 !default;
 
 
 

@@ -67,7 +67,7 @@
 }
 
 .custom-header-sales{
-   color: #b993e6;
+   color: $purple;
    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
 }
 
@@ -80,7 +80,7 @@
       transition: $transition-base;
       border: none;
       box-shadow: none;
-      color: #b993e6;
+      color: $purple;
       text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
    }
 }
