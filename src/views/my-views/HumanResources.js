@@ -117,20 +117,6 @@ render() {
                 Reimbursement
               </NavLink>
             </NavItem>
-            {/* <NavItem className="shadow-sm">
-              <NavLink
-                aria-selected={this.state.tabs === 6}
-                className={classnames("btn mb-sm-3 mb-md-0", {
-                  active: this.state.tabs === 6
-                })}
-                onClick={e => this.toggleNavs(e, "tabs", 6)}
-                href="#pablo"
-                role="tab"
-              >
-                <i className="ni ni-cloud-upload-96 mr-2" />
-                Company Story
-              </NavLink>
-            </NavItem> */}
           </Nav> 
         </div>
         </div>
@@ -224,7 +210,16 @@ render() {
       
               </TabPane>
               <TabPane tabId="tabs4">
-                <p className="display-4">Observed Holidays are based on our shipping carriers</p>  
+                <p className="display-4">Observed Holidays are based on our typically based on shipping carriers, our official holidays are listed below:</p>  
+                  <ul>
+                    <li>New Year's Day -- Friday, January 1st</li>
+                    <li>Memorial Day -- Monday, May 31st</li>
+                    <li>Independence Day -- Observed Friday, July 2nd</li>
+                    <li>Labor Day -- Monday, September 6th</li>
+                    <li>Thanksgiving Day -- Thursday, November 25th</li>
+                    <li>Christmas Eve -- Friday December 24th</li>
+                  </ul>
+                  <br/>
                   <p className="description font-weight-700">
                     Please follow the links below to view the shipping closures for FedEx, UPS, and USPS. If one of our carriers is open that day, we will typically have all employees on-site. 
                   </p>

@@ -37,12 +37,12 @@ const Landing = () => {
                         <h5 className="text-uppercase text-muted ls-1 mb-1">
                             Updated Blog Posts
                         </h5>
-                        <h4 className="display-4 text-secondary">
+                        <h4 className="display-4 text-success">
                             Using Bitcoin Payment
                         </h4>
                         </div>
                         <Col className="col-auto d-flex align-items-center">
-                        <div className="icon icon-shape bg-secondary text-white rounded-circle">
+                        <div className="icon icon-shape bg-success text-white rounded-circle">
                           <AttachMoneyIcon></AttachMoneyIcon>
                         </div>
                       </Col>
@@ -178,9 +178,7 @@ const Landing = () => {
                     </CardBody>
                     <CardFooter className="row justify-content-end">
                         <div>
-                            <a className="col" href="https://mail.google.com/mail/u/0/?tab=cm#inbox" target="_blank" rel="noreferrer">
-                            <Button className="btn" color="primary">Email Chris</Button>
-                            </a>
+                            <Button className="btn" color="primary">See Full Story</Button>
                         </div>
                     </CardFooter>
             </Card>
