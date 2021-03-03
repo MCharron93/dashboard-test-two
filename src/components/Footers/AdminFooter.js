@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="copyright text-center text-xl-left text-muted">
             {/* {new Date().toDateString()}{" "} */}
             <a
-              className="font-weight-bold btn border-0 px-3 shadow-none text-secondary"
+              className="font-weight-bold btn border-0 px-3 shadow-none text-success"
               href="https://www.happyhippoherbals.com/"
               rel="noopener noreferrer"
               target="_blank"
