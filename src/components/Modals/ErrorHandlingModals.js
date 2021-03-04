@@ -67,14 +67,14 @@ class ErrorModals extends React.Component {
                   </ul>
                       <p>Use your discretion on if you to replace or refund the ½ Kilo (are they a good customer, are they being compliant and answering questions, etc).</p>
                       <br/>
-                <p className="alert-warning p-1 rounded">
+                <p className="alert-danger p-1 rounded">
                 ON all orders that make people sick, have them send back for batch testing and submit a report or Josh. 
                 </p>
               </div>
               <div className="modal-footer">
                 <Button
                   className="ml-auto"
-                  color="default"
+                  color="warning"
                   data-dismiss="modal"
                   type="button"
                   onClick={() => this.toggleModal("defaultModal")}

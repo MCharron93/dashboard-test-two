@@ -54,7 +54,7 @@ class ShippingModals extends React.Component {
                       Where do we ship?
                   </h4>
                 <p>
-                This is the legality map showing where kratom is legal. If it’s legal in the US we can ship <a href="http://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noreferrer">there</a>. Puerto Rico, APO
+                This is the legality map showing where kratom is legal. If it’s legal in the US we can ship <a href="http://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noreferrer" className="font-weight-700 border-0 text-success">there</a>. Puerto Rico, APO
                  and FPO International Military Bases - refer to UPS guide.
                 </p>
                 <h4>
@@ -70,7 +70,7 @@ class ShippingModals extends React.Component {
                 </h4>
                 <p>
                 If you are unable to see your State - there is a chance that Kratom is not legal in your area yet. Here is a handy dandy&nbsp; 
-                <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noreferrer">Kratom legality map</a> to help you out. 
+                <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noreferrer" className="font-weight-700 border-0 text-success">Kratom legality map</a> to help you out. 
                 We do not ship internationally at this time.
                 </p>
               </div>
@@ -239,8 +239,8 @@ class ShippingModals extends React.Component {
                 </button>
               </div>
               <div className="modal-body">
-                <p>We are currently only using USPS for PO Box Deliveries.</p>
-
+                <h3>We are currently only using USPS for PO Box Deliveries.</h3>
+                <br/>
                 <h5>
                 How do you submit a claim through USPS? 
                 </h5>
