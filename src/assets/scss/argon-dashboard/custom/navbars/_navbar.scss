@@ -3,6 +3,13 @@
 //
 
 
+// NOTE custom navbar link edits
+#custom-nav-hover{
+    &:hover{
+        color: $primary !important;
+    }
+}
+
 // Navbar links
 
 .navbar-horizontal {

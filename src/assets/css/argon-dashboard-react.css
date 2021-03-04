@@ -10399,13 +10399,13 @@ a.text-default:hover, a.text-default:focus {
   color: #fff !important; }
 
 a.text-white:hover, a.text-white:focus {
-  color: #d9d9d9 !important; }
+  color: #fe1876 !important; }
 
 .text-neutral {
   color: #fff !important; }
 
 a.text-neutral:hover, a.text-neutral:focus {
-  color: #d9d9d9 !important; }
+  color: #fe1876 !important; }
 
 .text-darker {
   color: black !important; }
@@ -11498,7 +11498,7 @@ a.text-cyan:hover, a.text-cyan:focus {
   color: #fff !important; }
 
 a.text-white:hover, a.text-white:focus {
-  color: #d9d9d9 !important; }
+  color: #fe1876 !important; }
 
 .text-gray {
   color: #8898aa !important; }

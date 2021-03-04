@@ -43,6 +43,7 @@ const AdminNavbar = (props) => {
           <Link
             className="h4 text-white mb-0 text-uppercase d-none d-lg-inline-block"
             to="/"
+            id="custom-nav-hover"
           >
             {props.brandText}
           </Link>
