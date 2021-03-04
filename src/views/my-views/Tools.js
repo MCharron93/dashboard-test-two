@@ -115,6 +115,20 @@ render() {
               Fulfillment
             </NavLink>
           </NavItem>
+              <NavItem>
+                <NavLink
+                  aria-selected={this.state.tabs === 7}
+                  className={classnames("btn mb-sm-3 mb-md-0", {
+                    active: this.state.tabs === 7
+                  })}
+                  onClick={e => this.toggleNavs(e, "tabs", 7)}
+                  href="#pablo"
+                  role="tab"
+                >
+                  <SearchIcon className="mr-2"></SearchIcon>
+                    Production 
+                </NavLink>
+              </NavItem>
           <NavItem>
             <NavLink
               aria-selected={this.state.tabs === 6}
@@ -140,7 +154,7 @@ render() {
               role="tab"
             >
               <SearchIcon className="mr-2"></SearchIcon>
-              Research and Development
+                Marketing 
             </NavLink>
           </NavItem>
         </Nav> 
@@ -414,6 +428,30 @@ render() {
               </div>
               </a>
             </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.uline.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  ULine
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://www.gs1.org/standards/barcodes" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  GS1 Barcodes
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
+              <a href="https://wcponline.wcpsolutions.com/login" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
+              <div className="pt-2">
+                  WCP Solutions
+              </div>
+              </a>
+            </div>
             </div>
             </TabPane>
             <TabPane tabId="tabs6">
@@ -453,11 +491,112 @@ render() {
             </div>
             </TabPane>
             <TabPane tabId="tabs7">
-                <h4>This section might not be needed in the future due to pulling in Google Analytics onto the Dashboard </h4>
-            <p className="description">
-              This would be Analytics tools injected here. Can include logos and other applications used by the team for completing thier jobs.
-              </p>
-            
+            <div className="row justify-content-around text-center px-2">
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://login.mailchimp.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Mailchimp
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.facebook.com/login" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Facebook
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://twitter.com/login" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Twitter
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Instagram
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              {/* <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer"> */}
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 SnapChat
+              </div>
+              {/* </a> */}
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 YouTube
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.reddit.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Reddit
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://hootsuite.com/login?redirect=%2Fauth%2Fauthorize%3Fstate%3Db57c8d1cb0baf0a257f9e2ff1ab60ea0%26response_type%3Dcode%26approval_prompt%3Dauto%26redirect_uri%3Dhttps%253A%252F%252Fhootsuite.com%252Flogin%252Foauth2complete%26client_id%3DNJ583PzkwibvhraAZGyz%26startExternalMethod%3D&oauth2Authorize=1&method=" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 HootSuite
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.semrush.com/dashboard/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 SEMRush
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.ilk.co" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 ILK Kratom Forum
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://kratomgeek.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 KratomGeek
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              {/* <a> */}
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 KratomNerd
+              </div>
+              {/* </a> */}
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+            <a href="https://fiverr.com" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 Fiverr
+              </div>
+              </a>
+            </div>
+            </div>            
             </TabPane>
           </TabContent>
         </CardBody>
