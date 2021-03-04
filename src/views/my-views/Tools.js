@@ -117,11 +117,11 @@ render() {
           </NavItem>
               <NavItem>
                 <NavLink
-                  aria-selected={this.state.tabs === 7}
+                  aria-selected={this.state.tabs === 6}
                   className={classnames("btn mb-sm-3 mb-md-0", {
-                    active: this.state.tabs === 7
+                    active: this.state.tabs === 6
                   })}
-                  onClick={e => this.toggleNavs(e, "tabs", 7)}
+                  onClick={e => this.toggleNavs(e, "tabs", 6)}
                   href="#pablo"
                   role="tab"
                 >
@@ -131,11 +131,11 @@ render() {
               </NavItem>
           <NavItem>
             <NavLink
-              aria-selected={this.state.tabs === 6}
+              aria-selected={this.state.tabs === 7}
               className={classnames("btn mb-sm-3 mb-md-0", {
-                active: this.state.tabs === 6
+                active: this.state.tabs === 7
               })}
-              onClick={e => this.toggleNavs(e, "tabs", 6)}
+              onClick={e => this.toggleNavs(e, "tabs", 7)}
               href="#pablo"
               role="tab"
             >
@@ -145,11 +145,11 @@ render() {
           </NavItem>
           <NavItem>
             <NavLink
-              aria-selected={this.state.tabs === 7}
+              aria-selected={this.state.tabs === 8}
               className={classnames("btn mb-sm-3 mb-md-0", {
-                active: this.state.tabs === 7
+                active: this.state.tabs === 8
               })}
-              onClick={e => this.toggleNavs(e, "tabs", 7)}
+              onClick={e => this.toggleNavs(e, "tabs", 8)}
               href="#pablo"
               role="tab"
             >
@@ -168,7 +168,7 @@ render() {
             {/* NOTE consider creating the tab content as a child that passes props up to parent component. This file will get too large soon with all of the data for each department */}
           <TabContent activeTab={"tabs" + this.state.tabs}>
           <TabPane tabId="tabs1">
-            <div className="row justify-content-around text-center">
+            <div className="row text-center">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer">
                 {/* <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/> */}
@@ -238,7 +238,7 @@ render() {
             </div> */}
             </TabPane>
             <TabPane tabId="tabs2">
-            <div className="row justify-content-around text-center px-2">
+            <div className="row text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="Gmail"/>
@@ -291,7 +291,7 @@ render() {
               </div>
             </TabPane>
             <TabPane tabId="tabs3">
-            <div className="row justify-content-around text-center px-2">
+            <div className="row text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
                 {/* <img className="w-50" src="https://lh3.googleusercontent.com/proxy/1OP-PsqqHd_zO50lMUe3Ccez8JLK4kI5hU5p2Mix0nW_LrmMnrtGqIJxqQC_ttI0Ub14oFUjAqjjuB38uEglLT60K1tBSPiCbfGQJoschFvXQqQLi7E" alt="stock images"/> */}
@@ -359,7 +359,7 @@ render() {
               </div>
             </TabPane>
             <TabPane tabId="tabs4">
-              <div className="row justify-content-around text-center px-2">
+              <div className="row text-center px-2">
               <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.zendesk.com/login/#login" target="_blank" rel="noopener noreferrer">
                 <img className="w-25" src="https://images.ctfassets.net/b7g9mrbfayuu/1lOzS4dImMk4mCqMy8sKea/69edfc70289b2dad9f0ca4b13dab4bad/logo-zendesk-300x300.png" alt="instagram"/>
@@ -387,7 +387,7 @@ render() {
               </div>
             </TabPane>
             <TabPane tabId="tabs5">
-            <div className="row justify-content-around text-center px-2">
+            <div className="row text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://ship5.shipstation.com/orders/awaiting-shipment" target="_blank" rel="noopener noreferrer">
                 {/* <img className="w-25" src="https://res.cloudinary.com/hdxhd6yxt/image/upload/f_auto,h_200/f_auto/v1526373233/integrations/ShipStation-logo.png" alt="ShipStation"/> */}
@@ -455,7 +455,43 @@ render() {
             </div>
             </TabPane>
             <TabPane tabId="tabs6">
-            <div className="row justify-content-around text-center px-2">
+            <div className="row text-center px-2">
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://tsheets.intuit.com/page/login_oii" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.indeed.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://www.ziprecruiter.com/" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 
+              </div>
+              </a>
+            </div>
+            <div className="col-3 d-flex align-items-center justify-content-center">
+              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
+                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
+              <div className="pt-2">
+                 
+              </div>
+              </a>
+            </div>
+            </div>
+            </TabPane>
+            <TabPane tabId="tabs7">
+            <div className="row text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center">
               <a href="https://tsheets.intuit.com/page/login_oii" target="_blank" rel="noopener noreferrer">
                 {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
@@ -490,8 +526,8 @@ render() {
             </div>
             </div>
             </TabPane>
-            <TabPane tabId="tabs7">
-            <div className="row justify-content-around text-center px-2">
+            <TabPane tabId="tabs8">
+            <div className="row text-center px-2">
             <div className="col-3 d-flex align-items-center justify-content-center">
               <a href="https://login.mailchimp.com/" target="_blank" rel="noopener noreferrer">
                 {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
