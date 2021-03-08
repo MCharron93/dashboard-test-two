@@ -42,7 +42,7 @@ render() {
       <div className="header container-fluid bg-gradient-secondary pb-8 pt-4 pt-md-8">
         <div className="nav-wrapper">
           <Nav
-            className="nav-fill flex-column flex-md-row mx-4"
+            className="nav-fill flex-column flex-md-row justify-content-between"
             id="tabs-icons-text"
             pills
             role="tablist"
@@ -50,7 +50,7 @@ render() {
             <NavItem>
               <NavLink
                 aria-selected={this.state.tabs === 1}
-                className={classnames("btn mb-sm-3 mb-md-0", {
+                className={classnames("btn mb-sm-3 mb-md-0 btn-primary", {
                   active: this.state.tabs === 1
                 })}
                 onClick={e => this.toggleNavs(e, "tabs", 1)}
@@ -64,7 +64,7 @@ render() {
             <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 2}
-                className={classnames("btn b-sm-3 mb-md-0", {
+                className={classnames("btn mb-sm-3 mb-md-0 btn-primary", {
                   active: this.state.tabs === 2
                 })}
                 onClick={e => this.toggleNavs(e, "tabs", 2)}
@@ -92,7 +92,7 @@ render() {
             <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 4}
-                className={classnames("btn mb-sm-3 mb-md-0", {
+                className={classnames("btn mb-sm-3 mb-md-0 btn-primary", {
                   active: this.state.tabs === 4
                 })}
                 onClick={e => this.toggleNavs(e, "tabs", 4)}
@@ -106,7 +106,7 @@ render() {
             <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 5}
-                className={classnames("btn mb-sm-3 mb-md-0", {
+                className={classnames("btn mb-sm-3 mb-md-0 btn-primary", {
                   active: this.state.tabs === 5
                 })}
                 onClick={e => this.toggleNavs(e, "tabs", 5)}
