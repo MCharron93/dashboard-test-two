@@ -85,12 +85,24 @@
    }
 }
 
+.btn{
+   border-radius: 1.5rem !important;
+}
 
 .btn-primary{
 
+      height: 44px;
+      min-width: 130px;
+      font-size: 14px;
+      width: fit-content;
+      text-transform: uppercase !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
    &:hover {
-      border-color: $info;
-      background-color: $info;
+      border-color: $pink;
+      background-color: $pink;
    }
 }
 
@@ -114,6 +126,10 @@
 
 .indent-text{
    text-indent: 2rem;
+}
+
+.rounded{
+   border-radius: 0.90rem !important;
 }
 // NOTE end section of custom style edits for buttons and cards
 

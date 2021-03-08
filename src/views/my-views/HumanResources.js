@@ -78,7 +78,7 @@ render() {
             <NavItem className="shadow-sm">
               <NavLink
                 aria-selected={this.state.tabs === 3}
-                className={classnames("btn mb-sm-3 mb-md-0", {
+                className={classnames("btn mb-sm-3 mb-md-0 btn-primary", {
                   active: this.state.tabs === 3
                 })}
                 onClick={e => this.toggleNavs(e, "tabs", 3)}
