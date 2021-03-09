@@ -19,12 +19,14 @@ import {
     TabContent,
     TabPane
   } from "reactstrap";
+import Icontiles from 'variables/Tile';
 
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
     state = {
-      tabs: 1
+      tabs: 1,
+      tiles: ["Hello from tiles"]
     };
   //   NOTE prevents the page from reloading while toggling through tabs as the state changes
     toggleNavs = (e, state, index) => {
@@ -170,12 +172,13 @@ render() {
           <TabPane tabId="tabs1">
             <div className="row text-center">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer"> */}
                 {/* <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/> */}
-              <div className="pt-2">
+              {/* <div className="pt-2">
                  Asana
               </div>
-              </a>
+              </a> */}
+              <Icontiles></Icontiles>
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
