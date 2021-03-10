@@ -21,12 +21,25 @@ import {
   } from "reactstrap";
 import Icontiles from 'variables/Tile';
 
+import asana from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/assets/img/Icon Tiles/asana-logo.png'
+
+// const devTools = {
+//   tiles: [
+//       {
+//           name: "Asana",
+//           img: "../assets/img/Icon Tiles/asana-logo.png"
+//       },
+//       {   
+//           name: "Instagram",
+//           img: "../assets/img/Icon Tiles/instagram-logo.png"
+//       }
+//   ]
+// } 
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
     state = {
       tabs: 1,
-      tiles: ["Hello from tiles"]
     };
   //   NOTE prevents the page from reloading while toggling through tabs as the state changes
     toggleNavs = (e, state, index) => {
@@ -178,7 +191,7 @@ render() {
                  Asana
               </div>
               </a> */}
-              <Icontiles></Icontiles>
+              <Icontiles name={"Hello"} imgUrl={asana}></Icontiles>
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
