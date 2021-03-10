@@ -2,12 +2,12 @@ const devTools = {
   tiles: [
       {
           name: "Asana",
-          img: "../assets/img/Icon Tiles/asana-logo.png"
+          img: "/Users/michellecharron/Documents/Work/dashboard-test-two/src/assets/img/Icon Tiles/asana-logo.png"
       },
-      {   
-          name: "Instagram",
-          img: "../assets/img/Icon Tiles/instagram-logo.png"
-      }
+    //   {   
+    //       name: "Instagram",
+    //       img: "../assets/img/Icon Tiles/instagram-logo.png"
+    //   }
   ]
 } 
 

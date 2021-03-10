@@ -21,7 +21,6 @@ import {
   } from "reactstrap";
 import Icontiles from 'variables/Tile';
 
-import asana from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/assets/img/Icon Tiles/asana-logo.png'
 import devTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js'
 
 class Tools extends React.Component {
@@ -173,14 +172,8 @@ render() {
           <TabContent activeTab={"tabs" + this.state.tabs}>
           <TabPane tabId="tabs1">
             <div className="row text-center">
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              {/* <a href="https://app.asana.com/0/home/1199896929625869" target="_blank" rel="noopener noreferrer"> */}
-                {/* <img className="w-25" src="https://static.wixstatic.com/media/2d437d_951ac25396fc43e5932dfe54f6556bc3~mv2.png/v1/fill/w_500,h_370,al_c,q_85,usm_0.66_1.00_0.01/asana-logo-logo.webp" alt="instagram"/> */}
-              {/* <div className="pt-2">
-                 Asana
-              </div>
-              </a> */}
-              <Icontiles name={"Hello"} imgUrl={asana}></Icontiles>
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4" >
+              <Icontiles name={devTools.tiles[0].name} imgUrl={devTools.tiles[0].img}></Icontiles>
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
