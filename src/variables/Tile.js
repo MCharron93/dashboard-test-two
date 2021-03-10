@@ -7,13 +7,14 @@ import { CardBody, CardHeader } from 'reactstrap'
 
 class Icontiles extends React.Component{
     render(){
+        console.log(this.props.imgUrl)
         return(
             <Card>
                 <CardHeader>
                     <h2>{this.props.name}</h2>
                 </CardHeader>
                     <CardBody>
-                        <img src={this.props.imgUrl} alt="Some Text here"/>
+                        <img className="img-fluid" src={this.props.imgUrl} alt="This oddly doesn't work"/>
                     </CardBody>
             </Card>
         )
