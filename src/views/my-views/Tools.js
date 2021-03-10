@@ -173,7 +173,9 @@ render() {
           <TabPane tabId="tabs1">
             <div className="row text-center">
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4" >
-              <Icontiles name={devTools.tiles[0].name} imgUrl={devTools.tiles[0].img}></Icontiles>
+                {devTools.tiles.map(tile => (
+                <Icontiles name={tile.name} imgUrl={tile.img}></Icontiles>
+                ))}
             </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
