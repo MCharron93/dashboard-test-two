@@ -10,14 +10,16 @@ class Icontiles extends React.Component{
         console.log(this.props.imgUrl)
         return(
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4" >
-            <Card>
-                <CardHeader>
-                    <h2>{this.props.name}</h2>
-                </CardHeader>
-                    <CardBody>
-                        <img className="img-fluid" src={this.props.imgUrl} alt="This oddly doesn't work"/>
-                    </CardBody>
-            </Card>
+            <a href={this.props.link}>
+                <Card>
+                    <CardHeader>
+                        <h2>{this.props.name}</h2>
+                    </CardHeader>
+                        <CardBody>
+                            <img className="img-fluid" src={this.props.imgUrl} alt="This oddly doesn't work"/>
+                        </CardBody>
+                </Card>
+            </a>
             </div>
         )
     }
