@@ -23,7 +23,9 @@ const hrTools = {
         {
             name: "G-Suite Jobs",
             img: gsuitejobs,
-            link: "https://gmail.com"
+            link: "https://gmail.com/mail"
         },
     ]
 }
+
+export default hrTools;

@@ -26,6 +26,7 @@ import designTools from '../../variables/designtooldata.js';
 import generalTools from 'variables/generaltooldata.js';
 import gSuiteTools from 'variables/gsuitetooldata.js';
 import fulfillmentTools from 'variables/fulfillmenttooldata.js';
+import hrTools from 'variables/hrtooldata.js';
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -246,38 +247,9 @@ render() {
             </TabPane>
             <TabPane tabId="tabs7">
             <div className="row text-center px-2">
-            <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://tsheets.intuit.com/page/login_oii" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
-              <div className="pt-2">
-                 T-Sheets
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://www.indeed.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
-              <div className="pt-2">
-                 Indeed
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://www.ziprecruiter.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
-              <div className="pt-2">
-                 ZipRecruiter
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
-              <div className="pt-2">
-                 G-Suite Jobs
-              </div>
-              </a>
-            </div>
+              {hrTools.tiles.map((tile, index) => (
+                <Icontiles key={index}  name={tile.name} imgUrl={tile.img}></Icontiles>
+              ))}
             </div>
             </TabPane>
             <TabPane tabId="tabs8">

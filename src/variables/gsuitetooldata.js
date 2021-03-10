@@ -10,7 +10,7 @@ const gSuiteTools = {
         {
             name: "Gmail",
             img: gmail,
-            link: "https://mail.google.com/mail/u/0/#inbox"
+            link: "https://mail.google.com/mail"
         },
         {
             name: "Calendar",
