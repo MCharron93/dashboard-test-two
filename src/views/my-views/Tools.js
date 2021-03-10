@@ -297,30 +297,9 @@ render() {
             </TabPane>
             <TabPane tabId="tabs4">
               <div className="row text-center px-2">
-              <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.zendesk.com/login/#login" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://images.ctfassets.net/b7g9mrbfayuu/1lOzS4dImMk4mCqMy8sKea/69edfc70289b2dad9f0ca4b13dab4bad/logo-zendesk-300x300.png" alt="instagram"/>
-              <div className="pt-2">
-                 Zendesk
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://login.blockchain.com/#/login" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://walletscrutiny.com/images/wallet_icons/android/piuk.blockchain.android.png" alt="instagram"/>
-              <div className="">
-                 Blockchain
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://accounts.zoho.com/signin?servicename=ZohoBooks&signupurl=https://www.zoho.com/us/books/signup/" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://www.zoho.com/branding/images/zoho-logo-512px.png" alt="instagram"/>
-              <div className="pt-4">
-                 Zoho
-              </div>
-              </a>
-            </div>
+              {custServTools.tiles.map((tile, index) => (
+                <Icontiles key={index} name={tile.name} imgUrl={tile.img}></Icontiles>
+                ))}
               </div>
             </TabPane>
             <TabPane tabId="tabs5">
