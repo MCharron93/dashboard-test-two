@@ -22,19 +22,7 @@ import {
 import Icontiles from 'variables/Tile';
 
 import asana from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/assets/img/Icon Tiles/asana-logo.png'
-
-// const devTools = {
-//   tiles: [
-//       {
-//           name: "Asana",
-//           img: "../assets/img/Icon Tiles/asana-logo.png"
-//       },
-//       {   
-//           name: "Instagram",
-//           img: "../assets/img/Icon Tiles/instagram-logo.png"
-//       }
-//   ]
-// } 
+import devTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js'
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -49,6 +37,7 @@ class Tools extends React.Component {
       });
     };
 render() {
+  console.log(devTools)
   return (
       <React.Fragment>
     <div className="header container-fluid bg-gradient-default pb-8 pt-4 pt-md-8">
