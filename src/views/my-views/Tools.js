@@ -21,7 +21,8 @@ import {
   } from "reactstrap";
 import Icontiles from 'variables/Tile';
 
-import devTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js'
+import devTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js';
+import designTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js';
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -36,7 +37,6 @@ class Tools extends React.Component {
       });
     };
 render() {
-  console.log(devTools)
   return (
       <React.Fragment>
     <div className="header container-fluid bg-gradient-default pb-8 pt-4 pt-md-8">
@@ -290,71 +290,10 @@ render() {
             </TabPane>
             <TabPane tabId="tabs3">
             <div className="row text-center px-2">
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://stock.adobe.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://lh3.googleusercontent.com/proxy/1OP-PsqqHd_zO50lMUe3Ccez8JLK4kI5hU5p2Mix0nW_LrmMnrtGqIJxqQC_ttI0Ub14oFUjAqjjuB38uEglLT60K1tBSPiCbfGQJoschFvXQqQLi7E" alt="stock images"/> */}
-              <div className="pt-2">
-                  Adobe Stock Images
-              </div>
-              </a>
+            {designTools.tiles.map(tile => (
+                <Icontiles name={tile.name} imgUrl={tile.img} link={tile.link}></Icontiles>
+                ))}
             </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_adobe_photoshop-512.png" alt="gmail"/> */}
-              <div className="pt-2">
-                  Photoshop
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://logodownload.org/wp-content/uploads/2017/04/adobe-Illustrator-logo-3.png" alt="gmail"/> */}
-              <div className="pt-2">
-                  Illustrator
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.instagram.com/realhappyhippoherbals/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=00" alt="instagram"/> */}
-              <div className="pt-2">
-                  Instagram
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  XD
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  Coolors
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  Print Runner
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  Moo 
-              </div>
-              </a>
-            </div>
-              </div>
             </TabPane>
             <TabPane tabId="tabs4">
               <div className="row text-center px-2">

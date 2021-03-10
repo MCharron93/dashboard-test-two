@@ -11,22 +11,6 @@ import moo from "../assets/img/Icon Tiles/moo-logo.png"
 // End Design Icon section
 
 
-// import asanaImg from '../assets/img/Icon Tiles/asana-logo.png'
-
-
-// const devTools = {
-//   tiles: [
-//       {
-//           name: "Asana",
-//           img: asanaImg
-//       },
-//       {   
-//           name: "Instagram",
-//           img: instaImg
-//       }
-//   ]
-// } 
-
 const designTools = {
     tiles: [
         {

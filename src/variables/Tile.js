@@ -7,10 +7,9 @@ import { CardBody, CardHeader } from 'reactstrap'
 
 class Icontiles extends React.Component{
     render(){
-        console.log(this.props.imgUrl)
         return(
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4" >
-            <a href={this.props.link}>
+            <a href={this.props.link} rel="noreferrer" target="_blank">
                 <Card>
                     <CardHeader>
                         <h2>{this.props.name}</h2>
