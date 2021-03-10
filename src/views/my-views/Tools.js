@@ -21,8 +21,8 @@ import {
   } from "reactstrap";
 import Icontiles from 'variables/Tile';
 
-import devTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js';
-import designTools from '/Users/michellecharron/Documents/Work/dashboard-test-two/src/variables/tiledata.js';
+import custServTools from '../../variables/custservtooldata.js';
+import designTools from '../../variables/designtooldata.js';
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -172,8 +172,8 @@ render() {
           <TabContent activeTab={"tabs" + this.state.tabs}>
           <TabPane tabId="tabs1">
             <div className="row text-center">
-                {devTools.tiles.map(tile => (
-                <Icontiles name={tile.name} imgUrl={tile.img}></Icontiles>
+                {custServTools.tiles.map((tile, index) => (
+                <Icontiles key={index} name={tile.name} imgUrl={tile.img}></Icontiles>
                 ))}
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
@@ -290,8 +290,8 @@ render() {
             </TabPane>
             <TabPane tabId="tabs3">
             <div className="row text-center px-2">
-            {designTools.tiles.map(tile => (
-                <Icontiles name={tile.name} imgUrl={tile.img} link={tile.link}></Icontiles>
+            {designTools.tiles.map((tile, index) => (
+                <Icontiles key={index} name={tile.name} imgUrl={tile.img} link={tile.link}></Icontiles>
                 ))}
             </div>
             </TabPane>
