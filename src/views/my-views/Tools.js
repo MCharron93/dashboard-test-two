@@ -25,6 +25,7 @@ import custServTools from '../../variables/custservtooldata.js';
 import designTools from '../../variables/designtooldata.js';
 import generalTools from 'variables/generaltooldata.js';
 import gSuiteTools from 'variables/gsuitetooldata.js';
+import fulfillmentTools from 'variables/fulfillmenttooldata.js';
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -202,70 +203,9 @@ render() {
             </TabPane>
             <TabPane tabId="tabs5">
             <div className="row text-center px-2">
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://ship5.shipstation.com/orders/awaiting-shipment" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://res.cloudinary.com/hdxhd6yxt/image/upload/f_auto,h_200/f_auto/v1526373233/integrations/ShipStation-logo.png" alt="ShipStation"/> */}
-              <div className="pt-2">
-                 ShipStation
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.stamps.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  Stamps
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.usps.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  USPS
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.ups.com/us/en/Home.page" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  UPS
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.fedex.com/en-us/home.html" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  FedEx
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.uline.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  ULine
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.gs1.org/standards/barcodes" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  GS1 Barcodes
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://wcponline.wcpsolutions.com/login" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://www.pngkey.com/png/detail/442-4428075_xd-logo-adobe-experience-design-logo.png" alt="instagram"/> */}
-              <div className="pt-2">
-                  WCP Solutions
-              </div>
-              </a>
-            </div>
+              {fulfillmentTools.tiles.map((tile, index) => (
+                <Icontiles key={index} name={tile.name} imgUrl={tile.img}></Icontiles>
+              ))}
             </div>
             </TabPane>
             <TabPane tabId="tabs6">
