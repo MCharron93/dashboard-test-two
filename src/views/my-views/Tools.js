@@ -23,6 +23,7 @@ import Icontiles from 'variables/Tile';
 
 import custServTools from '../../variables/custservtooldata.js';
 import designTools from '../../variables/designtooldata.js';
+import generalTools from 'variables/generaltooldata.js';
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -172,68 +173,10 @@ render() {
           <TabContent activeTab={"tabs" + this.state.tabs}>
           <TabPane tabId="tabs1">
             <div className="row text-center">
-                {custServTools.tiles.map((tile, index) => (
+                {generalTools.tiles.map((tile, index) => (
                 <Icontiles key={index} name={tile.name} imgUrl={tile.img}></Icontiles>
                 ))}
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://i0.wp.com/res.cloudinary.com/geoxis/images/f_auto,q_auto/v1609829844/App-logo-opencart-uai-258x258/App-logo-opencart-uai-258x258.png?ssl=1" alt="OpenCart"/> */}
-              <div className="pt-2">
-                  OpenCart
-              </div>
-              </a>
             </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.semrush.com/dashboard/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://financesonline.com/uploads/2020/12/semrush-logo-1.png" alt="SEMRush"/> */}
-              <div className="pt-2">
-                  Bitwarden
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://app.slack.com/client/TM2S3EWA1/CLRDZAXSP" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://marketing-assets.pinpointhq.com/wp-content/uploads/2020/04/pinpoint-integration-slack-logo-63a5b836f54577f6ad9f3c8a700a30a9.png" alt="slack"/> */}
-              <div className="pt-2">
-                 Slack
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://speciosa.org/home/kratom-legality-map/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-50" src="https://speciosa.org/wp-content/uploads/2017/12/Untitled-1-01.png" alt="map"/> */}
-              <div className="pt-2">
-                  Shopify 
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://www.happyhippoherbals.com/" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src={
-                require("../../assets/img/brand/happy-hippo-logo-no-text.png").default
-              } alt="happyhippo"/> */}
-              <div className="pt-2">
-                  Happy Hippo Herbals
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://tsheets.intuit.com/page/login_oii" target="_blank" rel="noopener noreferrer">
-                {/* <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="instagram"/> */}
-              <div className="pt-2">
-                 T-Sheets
-              </div>
-              </a>
-            </div>
-              </div>
-            {/* {/* <div className="col-3 d-flex align-items-center justify-content-center">
-              <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="gmail"/>
-              <div className="pt-2">
-                  Sheets
-              </div>
-              </a>
-            </div> */}
             </TabPane>
             <TabPane tabId="tabs2">
             <div className="row text-center px-2">
