@@ -24,6 +24,7 @@ import Icontiles from 'variables/Tile';
 import custServTools from '../../variables/custservtooldata.js';
 import designTools from '../../variables/designtooldata.js';
 import generalTools from 'variables/generaltooldata.js';
+import gSuiteTools from 'variables/gsuitetooldata.js';
 
 class Tools extends React.Component {
     // NOTE the tab state begins at 1 for default setting
@@ -180,56 +181,10 @@ render() {
             </TabPane>
             <TabPane tabId="tabs2">
             <div className="row text-center px-2">
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" alt="Gmail"/>
-              <div className="pt-2">
-                  Gmail
-              </div>
-              </a>
+            {gSuiteTools.tiles.map((tile, index) => (
+                <Icontiles key={index} name={tile.name} imgUrl={tile.img}></Icontiles>
+                ))}
             </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://www.clio.com/wp-content/uploads/2018/07/Calendar-400x267.png" alt="Google Calendar"/>
-              <div className="pt-2">
-                  Calendar
-              </div>
-              </a>
-            </div>
-            
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png" alt="Google Drive"/>
-              <div className="pt-2">
-                  Drive
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://docs.google.com/document/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://1000logos.net/wp-content/uploads/2020/05/Google-Docs-logo.png" alt="Documents"/>
-              <div className="pt-2">
-                  Docs
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://docs.google.com/spreadsheets/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-50" src="https://cdn.buttercms.com/SMsY0FLvTlm0TRINX6WH" alt="Sheets"/>
-              <div className="pt-2">
-                  Sheets
-              </div>
-              </a>
-            </div>
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
-              <a href="https://docs.google.com/presentation/u/0/?tgif=d" target="_blank" rel="noopener noreferrer">
-                <img className="w-25" src="https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png" alt="Slides"/>
-              <div className="pt-2">
-                 Slides
-              </div>
-              </a>
-            </div>
-              </div>
             </TabPane>
             <TabPane tabId="tabs3">
             <div className="row text-center px-2">

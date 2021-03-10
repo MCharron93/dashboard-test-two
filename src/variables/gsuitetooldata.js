@@ -39,3 +39,5 @@ const gSuiteTools = {
         },
     ]
 }
+
+export default gSuiteTools;
