@@ -172,11 +172,9 @@ render() {
           <TabContent activeTab={"tabs" + this.state.tabs}>
           <TabPane tabId="tabs1">
             <div className="row text-center">
-            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4" >
                 {devTools.tiles.map(tile => (
                 <Icontiles name={tile.name} imgUrl={tile.img}></Icontiles>
                 ))}
-            </div>
             <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4">
               <a href="https://www.happyhippoherbals.com/admin" target="_blank" rel="noopener noreferrer">
                 {/* <img className="w-25" src="https://i0.wp.com/res.cloudinary.com/geoxis/images/f_auto,q_auto/v1609829844/App-logo-opencart-uai-258x258/App-logo-opencart-uai-258x258.png?ssl=1" alt="OpenCart"/> */}

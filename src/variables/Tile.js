@@ -9,6 +9,7 @@ class Icontiles extends React.Component{
     render(){
         console.log(this.props.imgUrl)
         return(
+            <div className="col-3 d-flex align-items-center justify-content-center justify-content-center py-4" >
             <Card>
                 <CardHeader>
                     <h2>{this.props.name}</h2>
@@ -17,6 +18,7 @@ class Icontiles extends React.Component{
                         <img className="img-fluid" src={this.props.imgUrl} alt="This oddly doesn't work"/>
                     </CardBody>
             </Card>
+            </div>
         )
     }
 }
